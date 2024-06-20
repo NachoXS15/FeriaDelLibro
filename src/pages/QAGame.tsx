@@ -1,6 +1,12 @@
+import Header from "../components/ui/Header";
+
 export default function Game() {
     return (
-      <div>Game</div>
+      <>
+        <Header />
+        <div>Game</div>
+
+      </>
     )
   }
   
