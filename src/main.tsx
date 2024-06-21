@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/buttons.css'
-import './styles/main.css'
+import './styles/buttons.scss'
+import './styles/main.scss'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Inicio from './pages/index'
 import Biblioteca from './pages/Bibiloteca'
