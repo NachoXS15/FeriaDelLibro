@@ -1,16 +1,15 @@
-import { initializeApp } from "firebase/app";
+import { initializeApp } from 'firebase/app';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC7OnSc7dJVU6cASwE7IDZm22sf85abNEU",
-  authDomain: "feriadellibro-23820.firebaseapp.com",
-  projectId: "feriadellibro-23820",
-  storageBucket: "feriadellibro-23820.appspot.com",
-  messagingSenderId: "128625577866",
-  appId: "1:128625577866:web:17e7349e199a7b49c78273",
-  measurementId: "G-8X5DL7H1QX"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+const firebaseApp = initializeApp(firebaseConfig);
 
-export {app}
+export default firebaseApp;

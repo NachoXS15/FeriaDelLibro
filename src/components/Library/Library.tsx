@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import BookCard from './BookCard'
-import { app } from '../../config/firebase.config';
+import firebaseApp from '../../config/firebase.config';
 import { getDocs, getFirestore, collection } from "firebase/firestore"
 
 export default function Library() {
     const [books, setBooks] = useState<Book[]>([]);
-    const db = getFirestore(app);
+    const db = getFirestore(firebaseApp);
     
     useEffect(() => {
         const fetchData = async () => {

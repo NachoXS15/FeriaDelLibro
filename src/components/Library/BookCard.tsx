@@ -1,5 +1,3 @@
-
-
 export default function BookCard(props: Book){
     return(
         <>
