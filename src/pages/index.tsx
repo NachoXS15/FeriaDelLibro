@@ -1,9 +1,12 @@
+import '../styles/buttons.scss'
+import '../styles/index.scss'
 import { NavLink } from "react-router-dom";
 import Header from "../components/ui/Header";
 import CategoryCard from "../components/ui/CategoryCard";
 export default function Inicio() {
   return (
     <>
+    <main>
       <Header />
       <section className="library-index">
         <div id="library-left">
@@ -16,7 +19,7 @@ export default function Inicio() {
         </div>
       </section>
       <section id="categories">
-        <h3>Categorias</h3>
+        <h3 className='blue-title'>Categorias</h3>
         <div>
           <CategoryCard bg_color={"#ffc800"} title1={"Autores"} title2={"Riojanos"} />
           <CategoryCard bg_color={"#004b7b"} title1={"Autores"} title2={"Clásicos"} />
@@ -38,6 +41,8 @@ export default function Inicio() {
         </div>
         <div id="qagame-index-right"></div>
       </section>
+
+    </main>
     </>
   )
 }
