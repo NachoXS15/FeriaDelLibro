@@ -1,4 +1,5 @@
 const Categories = [
+    "Todos",
     "Clásicos",
     "Literatura Argentina y Latinoamericana",
     "Infantil/Juvenil",

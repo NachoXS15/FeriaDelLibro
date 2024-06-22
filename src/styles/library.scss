@@ -13,11 +13,11 @@ aside{
 
     button{
         background: none;
+        width: 80%;
         border: none;
         display: block;
         font-size: 30px;
         background-color: var(--white);
-        width: fit-content;
         margin: auto;
         font-weight: 600;
         margin-top: 10px;
@@ -26,6 +26,10 @@ aside{
     }
 
     button:hover{
+        background-color: var(--darkblue);
+    }
+
+    button.active{
         background-color: var(--darkblue);
     }
 }
@@ -39,6 +43,29 @@ aside{
     padding: 0 30px;
     h3{
         font-size: 20px;
+    }
+}
+
+#book-info{
+    width: 90%;
+    height: 80vh;
+    border: 1px solid red;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+
+    #book-info:nth-child(1){
+        width: 30%;
+        height: 80%;
+
+        .info-img{
+            width: 100px;
+        }
+    }
+    #book-info:nth-child(2){
+        width: 70%;
     }
 }
 

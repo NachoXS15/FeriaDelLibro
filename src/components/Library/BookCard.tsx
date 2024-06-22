@@ -16,7 +16,7 @@ export default function BookCard({id, titulo, autor, year_release, imgUrl}: Book
         <>
             <div>
                 <NavLink to={`/library/${id}`}><img src={imgUrl} alt="no-disponible" width={300} /></NavLink>
-                <h3>{titulo}</h3>
+                <h2>{titulo}</h2>
                 <h3>{autor}</h3>
                 <h4>{year_release}</h4>
             </div>
