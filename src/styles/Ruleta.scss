@@ -1,0 +1,16 @@
+#ruleta-main{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+}
+
+#title{
+    width: fit-content;
+    background-color: var(--violet);
+    border: 5px solid var(--yellow);
+}
+

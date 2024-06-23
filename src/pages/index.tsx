@@ -21,9 +21,9 @@ export default function Inicio() {
       <section id="categories">
         <h3 className='blue-title'>Categorias</h3>
         <div>
-          <CategoryCard bg_color={"#ffc800"} title1={"Autores"} title2={"Riojanos"} />
-          <CategoryCard bg_color={"#004b7b"} title1={"Autores"} title2={"Clásicos"} />
-          <CategoryCard bg_color={"#f36b77"} title1={"Libros"} title2={"Infantiles"}  />
+          <CategoryCard bg_img='assets/imgs/category1' bg_color={"#ffc800"} title1={"Autores"} title2={"Riojanos"} />
+          <CategoryCard bg_img='assets/imgs/category2' bg_color={"#004b7b"} title1={"Autores"} title2={"Clásicos"} />
+          <CategoryCard bg_img='assets/imgs/category3' bg_color={"#f36b77"} title1={"Libros"} title2={"Infantiles"}  />
         </div>
       </section>
       <section id="ruleta-index">

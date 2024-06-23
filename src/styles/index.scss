@@ -124,9 +124,9 @@ main{
 #qagame-index{
     width: 95%;
     height: 600px;
-    background-image: url('../assets/imgs/qa_bg.webp');
+    background-image: url('/assets/imgs/qa_bg.webp');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -159,7 +159,6 @@ main{
         width: 50%;
         height: 100%;
         aspect-ratio: 16/9;
-        background-image: url('../assets/imgs/books2.webp');
         background-size: cover;
         background-position: center;
         align-self: flex-end;

@@ -2,10 +2,12 @@ type CategoryCard = {
   title1: string
   title2: string
   bg_color: string
+  bg_img: string
 }
 
-export default function CategoryCard({title1, title2, bg_color}: CategoryCard) {
+export default function CategoryCard({title1, title2, bg_color, bg_img}: CategoryCard) {
   const style = {
+    backgroundImage: `url(${bg_img})`,
     backgroundColor: `${bg_color}`
   }
   

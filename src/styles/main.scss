@@ -14,6 +14,7 @@
     --white: #e3e0e0;
     --blue: #3582b6;
     --blue-title: #114c76;
+    --violet: #65529b;
 }
 
 header {
@@ -37,5 +38,13 @@ header {
     font-size: 3em;
     background-color: var(--darkblue);
     font-weight: 700;
-    
+
+}
+
+.yellow-dot{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 15px;
+    background-color: var(--yellow);
 }
