@@ -8,6 +8,7 @@ import { ArrowBack } from '../components/ui/svgs';
 
 export default function Biblioteca() {
   const [categorySelected, setCategorySelected] = useState<string>("Todos")
+  console.log("categoria: ", categorySelected);
 
   const handleCategorySelected = (c: string) => {
     setCategorySelected(c)
