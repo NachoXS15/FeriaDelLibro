@@ -27,7 +27,11 @@ export default function Inicio() {
         </div>
       </section>
       <section id="ruleta-index">
-        <h1>Ruleta de la Literatura</h1>
+        <div style={{display: 'flex', alignItems: 'center'}}>
+          <div className="yellow-dot"></div>
+          <h1>Ruleta de la Literatura</h1>
+          <div className="yellow-dot"></div>
+        </div>
         <div id="bottom">
           <div id="book1"></div>
           <NavLink to={'/ruleta'} className="red">Juega Ahora</NavLink>
