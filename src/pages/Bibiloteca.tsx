@@ -7,6 +7,7 @@ import { NavLink } from 'react-router-dom';
 import { ArrowBack } from '../components/ui/svgs';
 import { BookCardProps } from '../config/BookCardProps';
 import BookModal from '../components/Library/BookModal';
+import QRCodeEx from '/assets/imgs/qr.webp'
 
 export default function Biblioteca() {
   const [isOpenModal, setIsOpenModal] = useState<boolean>(false)
@@ -18,7 +19,6 @@ export default function Biblioteca() {
     setCategorySelected(c)
     console.log("categoria: ", categorySelected);
   }
-
 
   const handleBookClick = (book: BookCardProps) => {
     setSelectedBook(book);
@@ -49,10 +49,16 @@ export default function Biblioteca() {
       </section>
       {isOpenModal && selectedBook && (
         <BookModal onClose={closeModal}>
-          <h2>{selectedBook.titulo}</h2>
-          <h3>{selectedBook.autor}</h3>
-          <p>{selectedBook.desc}</p>
-          {/* Aquí puedes agregar más detalles del libro */}
+          <div style={{backgroundImage: `url(${selectedBook.imgUrl})`}} className='modal-img'></div>
+          <div className='modal-info'>
+            <h2>{selectedBook.titulo}</h2>
+            <h3>Autor: {selectedBook.autor}</h3>
+            <p>{selectedBook.desc}</p>
+          </div>
+          <div className='modal-download'>
+            <h4>Descargar este libro aquí</h4>
+            <img src={QRCodeEx} alt="" width={250} />
+          </div>
         </BookModal>
       )}
     </>
