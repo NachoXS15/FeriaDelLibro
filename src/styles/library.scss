@@ -1,4 +1,4 @@
-#library-container{
+#library-container {
     width: 100%;
     height: max-content;
     display: flex;
@@ -7,13 +7,13 @@
     margin: 0 auto;
 }
 
-aside{
+aside {
     width: 20%;
     background-color: var(--yellow);
     text-align: center;
     padding: 5px;
 
-    button{
+    button {
         background: none;
         width: 80%;
         border: none;
@@ -27,16 +27,14 @@ aside{
         border-radius: 40px;
     }
 
-    button:hover{
+    button:hover,
+    button.active {
         background-color: var(--darkblue);
-    }
-
-    button.active{
-        background-color: var(--darkblue);
+        color: white;
     }
 }
 
-#book-section{
+#book-section {
     width: 80%;
     display: flex;
     justify-content: space-around;
@@ -44,18 +42,18 @@ aside{
     flex-wrap: wrap;
     padding: 0 30px;
 
-    h2{
+    h2 {
         font-weight: 700;
         margin-top: 10px;
 
     }
 
-    h3{
+    h3 {
         font-size: 20px;
     }
 }
 
-#book-info{
+#book-info {
     width: 90%;
     height: 80vh;
     border: 1px solid red;
@@ -65,16 +63,96 @@ aside{
     align-items: center;
     margin: 0 auto;
 
-    #book-info:nth-child(1){
+    #book-info:nth-child(1) {
         width: 30%;
         height: 80%;
 
-        .info-img{
+        .info-img {
             width: 100px;
         }
     }
-    #book-info:nth-child(2){
+
+    #book-info:nth-child(2) {
         width: 70%;
     }
 }
 
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+
+    .modal-box {
+        max-width: 85%;
+        height: 600px;
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        width: 100%;
+        display: flex;
+
+        .modal-content{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+
+        .modal-img{
+            width: 27%;
+            height: 100%;
+            aspect-ratio: 16/9;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .modal-info{
+            padding: 20px;
+            width: 50%;
+            h2{
+                font-weight: 700;
+                font-size: 4em;
+            }
+
+            h3{
+                font-size: 2.5em;
+            }
+
+            p{
+                font-size: 1.4em;
+            }
+        }
+
+        .modal-download{
+            width: 20%;
+            align-self: flex-end;
+            text-align: center;
+            h4{
+                width: fit-content;
+                width: 100%;
+                padding: 5px 40px;
+                background-color: var(--darkblue);
+                color: white;
+            }
+        }
+    }
+
+    .modal-close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+}

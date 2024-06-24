@@ -1,21 +1,14 @@
-import { NavLink } from "react-router-dom"
+import { BookCardProps } from "../../config/BookCardProps"
 
-export interface BookCardProps {
-    id: number
-    titulo: string
-    autor: string
-    year_release: string
-    desc: string
-    category: string
-    imgUrl: string
-    qr: string
+interface BookModalProps extends BookCardProps{
+    onBookClick: (book: BookCardProps) => void;
 }
 
-export default function BookCard({id, titulo, autor, year_release, imgUrl}: BookCardProps){
+export default function BookCard({id, titulo, autor, desc, qr, category, year_release, imgUrl, onBookClick}: BookModalProps){
     return(
         <>
-            <div>
-                <NavLink to={`/library/${id}`}><img src={imgUrl} alt="no-disponible" width={300} /></NavLink>
+            <div onClick={() => onBookClick({id, titulo, year_release, autor, desc, imgUrl, qr, category})}>
+                <img src={imgUrl} alt="no-disponible" width={300} />
                 <h2>{titulo}</h2>
                 <h3>{autor}</h3>
                 <h4>{year_release}</h4>
