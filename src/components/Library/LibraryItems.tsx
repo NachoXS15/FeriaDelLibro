@@ -5,7 +5,7 @@ type LibraryProps = {
     categorySelected: string
 }
 export default function Library({ categorySelected }: LibraryProps) {
-
+    
     const [count, setCount] = useState(0)
     const filteredBooks = categorySelected === "Todos" ? Books : Books.filter(book => book.category === categorySelected)
     
