@@ -9,8 +9,6 @@ import Inicio from './pages/index'
 import Biblioteca from './pages/Bibiloteca'
 import Ruleta from './pages/Ruleta';
 import Game from './pages/QAGame';
-import InfoBookCard from './pages/InfoCard';
-
 const router = createBrowserRouter([
   {
     path: '/',
@@ -19,10 +17,6 @@ const router = createBrowserRouter([
   {
     path: '/library',
     element: <Biblioteca />
-  },
-  {
-    path: '/library/:id',
-    element: <InfoBookCard />
   },
   {
     path: '/ruleta',

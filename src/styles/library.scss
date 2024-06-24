@@ -27,12 +27,9 @@ aside{
         border-radius: 40px;
     }
 
-    button:hover{
+    button:hover, button.active{
         background-color: var(--darkblue);
-    }
-
-    button.active{
-        background-color: var(--darkblue);
+        color: white;
     }
 }
 
