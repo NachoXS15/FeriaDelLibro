@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Phrases from "../../config/Phrases";
-import ruletaWheel from '/assets/imgs/arrow_shape.webp';
 import PhraseModal from "./PhraseModal";
+import Ruleta from "./Ruleta";
 
 type Book = {
     titulo: string;
@@ -23,7 +23,7 @@ export default function SpinRuleta() {
         const randomCategoryIndex = Math.floor(Math.random() * categories.length);
         const randomCategory = categories[randomCategoryIndex];
         setSelectedCategory(randomCategory);
-        
+
         const booksCategory = Phrases.filter(book => book.category === randomCategory);
         const randomBookIndex = Math.floor(Math.random() * booksCategory.length);
         const bookSelected = booksCategory[randomBookIndex];
@@ -44,7 +44,7 @@ export default function SpinRuleta() {
 
     return (
         <>
-            <img src={ruletaWheel} alt="" width={500} />
+            <Ruleta />
             <button className='violet' onClick={handleSpin}>GIRAR</button>
             <PhraseModal
                 isOpen={isModalOpen}
@@ -61,7 +61,7 @@ export default function SpinRuleta() {
                         </div>
                     </>
                 }
-            />
+            ></PhraseModal>
         </>
     );
 }
