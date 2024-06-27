@@ -1,6 +1,7 @@
 const Questiones = [
     {
         id: "1",
+        block: 1,
         question: "¿Cuál es el término para una narración corta que generalmente contiene una lección moral?",
         answers: {
             1: "Ensayo",
@@ -12,6 +13,7 @@ const Questiones = [
     },
     {
         id: "2",
+        block: 1,        
         question: "¿Quién es el autor de la novela 'Cien años de soledad'?",
         answers: {
             1: "Pablo Neruda",
@@ -23,6 +25,7 @@ const Questiones = [
     },
     {
         id: "3",
+        block: 1,        
         question: "¿Qué es una 'paradoja'?",
         answers: {
             1: "Una exageración extrema",
@@ -34,6 +37,7 @@ const Questiones = [
     },
     {
         id: "4",
+        block: 1,        
         question: "¿Qué famosa frase pronuncia Hamlet en su soliloquio más conocido?",
         answers: {
             1: "Ser o no ser, esa es la cuestión",
@@ -45,6 +49,7 @@ const Questiones = [
     },
     {
         id: "5",
+        block: 1,        
         question: "¿Cuál es el principal enemigo de Martín Fierro en la historia?",
         answers: {
             1: "El ejército",
@@ -56,6 +61,7 @@ const Questiones = [
     },
     {
         id: "6",
+        block: 1,        
         question: "En el libro 'El Fantasma de Canterville' ¿Qué objeto sigue apareciendo manchado de sangre en la mansión?",
         answers: {
             1: "Una estatua",
@@ -67,6 +73,7 @@ const Questiones = [
     },
     {
         id: "7",
+        block: 2,        
         question: "¿En qué año se publicó 'Don Quijote de la Mancha' de Miguel de Cervantes?",
         answers: {
             1: "1492",
@@ -78,6 +85,7 @@ const Questiones = [
     },
     {
         id: "8",
+        block: 2,        
         question: "¿Qué recurso literario se utiliza cuando el autor interrumpe la narración para dirigirse directamente al lector?",
         answers: {
             1: "Flashback",
@@ -89,6 +97,7 @@ const Questiones = [
     },
     {
         id: "9",
+        block: 2,        
         question: "¿Cómo se llama el protagonista principal de 'Los Miserables'?",
         answers: {
             1: "Cosette",
@@ -100,6 +109,7 @@ const Questiones = [
     },
     {
         id: "10",
+        block: 2,
         question: "¿Qué satiriza Swift en 'Los viajes de Gulliver'?",
         answers: {
             1: "La religión",
@@ -111,6 +121,7 @@ const Questiones = [
     },
     {
         id: "11",
+        block: 2,
         question: "En el Libro 'De la tierra a la luna' de Julio Verne, ¿Quién es el presidente del Gun Club que propone la misión a la luna?",
         answers: {
             1: "Michel Ardan",
@@ -122,6 +133,7 @@ const Questiones = [
     },
     {
         id: "12",
+        block: 2,
         question: "¿Qué es un 'narrador omnisciente'?",
         answers: {
             1: "Un narrador que participa activamente en la historia",
@@ -133,6 +145,7 @@ const Questiones = [
     },
     {
         id: "13",
+        block: 3,
         question: "¿Qué género literario se caracteriza por relatar eventos que ocurren en un mundo imaginario con elementos mágicos?",
         answers: {
             1: "Realismo mágico",
@@ -144,6 +157,7 @@ const Questiones = [
     },
     {
         id: "14",
+        block: 3,
         question: "¿Qué es un 'protagonista'?",
         answers: {
             1: "El autor del libro",
@@ -155,6 +169,7 @@ const Questiones = [
     },
     {
         id: "15",
+        block: 3,
         question: "¿A qué género literario pertenece 'Drácula' de Bram Stoker?",
         answers: {
             1: "Ciencia ficción",
@@ -166,6 +181,7 @@ const Questiones = [
     },
     {
         id: "16",
+        block: 3,
         question: "¿En cuántas partes se divide 'La Divina Comedia' y cómo se llaman?",
         answers: {
             1: "Dos partes: Infierno y Paraíso",
@@ -177,6 +193,7 @@ const Questiones = [
     },
     {
         id: "17",
+        block: 3,
         question: "¿Quién es 'El Chacho' a quien se refiere Domingo Sarmiento en su libro?",
         answers: {
             1: "Un caudillo argentino llamado Ángel Vicente Peñaloza",
@@ -188,6 +205,7 @@ const Questiones = [
     },
     {
         id: "18",
+        block: 3,
         question: "¿Qué busca el Espantapájaros en 'El Mago de Oz'?",
         answers: {
             1: "Un corazón",

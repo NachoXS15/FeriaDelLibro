@@ -9,6 +9,7 @@ import Inicio from './pages/index'
 import Biblioteca from './pages/Bibiloteca'
 import Ruleta from './pages/Ruleta';
 import Game from './pages/QAGame';
+import QAGamePlay from './pages/QAGame_play';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: '/qagame',
     element: <Game />
+  },
+  {
+    path: '/qagame/play',
+    element: <QAGamePlay />
   }
 ]) 
 

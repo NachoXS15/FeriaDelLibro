@@ -1,14 +1,9 @@
-type CategoryCard = {
-  title1: string
-  title2: string
-  bg_color: string
-  bg_img: string
-}
+import { CategoryCardProps } from "../../config/types/CategoryCardProps"
 
-export default function CategoryCard({title1, title2, bg_color, bg_img}: CategoryCard) {
+export default function CategoryCard({title1, title2, bg_color, bg_img}: CategoryCardProps) {
   const style = {
     backgroundImage: `url(${bg_img})`,
-    backgroundColor: `${bg_color}`
+    backgroundColor: `${bg_color}`,
   }
   
   return (
