@@ -13,6 +13,7 @@ export default function PhraseModal({ isOpen, onClose, content }: Modal) {
         <div className="modal-content" onClick={e => e.stopPropagation()}>
           <div className="modal-info">
             {content}
+            <button onClick={onClose} className="violet-modal">Volver a Girar</button>
           </div>
         </div>
       </div>
