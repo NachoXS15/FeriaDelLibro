@@ -1,4 +1,4 @@
-import { BookCardProps } from "./BookCardProps";
+import { BookCardProps } from "./types/BookCardProps";
 
 const Books: BookCardProps[] = [
     {

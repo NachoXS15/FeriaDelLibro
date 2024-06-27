@@ -5,7 +5,7 @@ import Header from "../components/ui/Header";
 import Categories from "../config/Categories";
 import { NavLink } from 'react-router-dom';
 import { ArrowBack } from '../components/ui/svgs';
-import { BookCardProps } from '../config/BookCardProps';
+import { BookCardProps } from '../config/types/BookCardProps';
 import BookModal from '../components/Library/BookModal';
 import QRCodeEx from '/assets/imgs/qr.webp'
 

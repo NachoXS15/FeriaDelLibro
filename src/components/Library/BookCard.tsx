@@ -1,4 +1,4 @@
-import { BookCardProps } from "../../config/BookCardProps"
+import { BookCardProps } from "../../config/types/BookCardProps"
 
 interface BookModalProps extends BookCardProps{
     onBookClick: (book: BookCardProps) => void;

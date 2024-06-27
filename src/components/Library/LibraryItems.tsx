@@ -1,7 +1,7 @@
 import BookCard from './BookCard'
 import Books from '../../config/Books'
 import { useEffect, useState } from 'react'
-import { BookCardProps } from '../../config/BookCardProps'
+import { BookCardProps } from '../../config/types/BookCardProps'
 type LibraryProps = {
     categorySelected: string
     onBookClick: (book: BookCardProps) => void;

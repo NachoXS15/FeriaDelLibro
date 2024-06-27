@@ -2,18 +2,12 @@ import { useState } from "react";
 import Phrases from "../../config/Phrases";
 import PhraseModal from "./PhraseModal";
 import Ruleta from "./Ruleta";
+import { RuletaProps } from "../../config/types/RuletaProps";
 
-type Book = {
-    titulo: string;
-    autor: string;
-    category: string;
-    phrases: Record<number, string | undefined>;
-    qr: string;
-};
 
 export default function SpinRuleta() {
     const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-    const [selectedBook, setSelectedBook] = useState<Book | null>(null);
+    const [selectedBook, setSelectedBook] = useState<RuletaProps | null>(null);
     const [selectedPhrase, setSelectedPhrase] = useState<string | null>(null);
     const [isModalOpen, setModalOpen] = useState<boolean>(false)
 
