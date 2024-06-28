@@ -46,7 +46,7 @@ export default function SpinRuleta() {
                 content={
                     <>
                         <h1>¡Excelente!</h1>
-                        <h3>Tu Giro en la Ruleta de la Literatura te ha llevado a un gran libro. ¡Felicidaes!</h3>
+                        <h3>Tu Giro en la Ruleta de la Literatura te ha llevado a un gran libro. ¡Felicidades!</h3>
                         <hr />
                         <div className="modal-phrase-info">
                             {selectedCategory && <h4>Categoría: <span>{selectedCategory}</span></h4>}

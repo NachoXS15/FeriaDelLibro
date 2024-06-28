@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+import "../../styles/qagame.scss"
 
 type GameOverProps = {
     content: React.ReactNode
@@ -12,10 +12,9 @@ export default function GameOver({ isOpen, content }: GameOverProps) {
     return (
         <>
             <div className="modal-backdrop">
-                <div className="modal-content" onClick={e => e.stopPropagation()}>
+                <div className="modal-content-qa" onClick={e => e.stopPropagation()}>
                     <div className="modal-info">
                         {content}
-                        <NavLink to={'/qagame'}>Volver a empezar</NavLink>
                     </div>
                 </div>
             </div>

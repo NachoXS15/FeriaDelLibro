@@ -1,7 +1,10 @@
+import '../styles/qagame.scss'
 import Header from '../components/ui/Header'
 import Questiones from '../config/Questions'
 import { useState } from 'react'
 import GameOver from '../components/QAGame/GameOver';
+import { NavLink } from 'react-router-dom';
+import TimerBar from '../components/QAGame/Timer';
 
 
 export default function QAGamePlay() {
@@ -22,12 +25,14 @@ export default function QAGamePlay() {
             target.classList.add(isCorrect ? "correct" : "incorrect");
         }
 
-        if (currentQuestion === qaBlock.length - 1) {
-            setIsFinished(true);
-            setIsOpen(true)
-        } else {
-            setcurrentQuestion(currentQuestion + 1)
-        }
+        setTimeout(() => {
+            if (currentQuestion === qaBlock.length - 1) {
+                setIsFinished(true);
+                setIsOpen(true)
+            } else {
+                setcurrentQuestion(currentQuestion + 1)
+            }
+        }, 1500);
 
     };
 
@@ -41,7 +46,7 @@ export default function QAGamePlay() {
                         <h2>{qaBlock[currentQuestion].question}</h2>
                     </div>
                 </div>
-                <div id='time'></div>
+                <TimerBar key={currentQuestion} />
                 <div id='buttons'>
                     {qaBlock[currentQuestion].answers.map((answer) => (
                         <button
@@ -59,6 +64,7 @@ export default function QAGamePlay() {
                     <>
                         <span>Has conseguido responder correctamente: {score} de 6 preguntas</span>
                         <p>Sos un nazardo</p>
+                        <NavLink to={'/qagame'} className="green">Volver a empezar</NavLink>
                     </>
                 }
             ></GameOver>}
