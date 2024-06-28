@@ -7,7 +7,7 @@ function Header() {
     <>
       <header>
         <img src={sol} alt="" width={250} />
-        <h2>Feria del Libro</h2>
+        <h2 style={{fontFamily: 'Gotham'}}>Feria del Libro - 2024</h2>
         <img src={logo} alt="" width={250} />
       </header>
     </>

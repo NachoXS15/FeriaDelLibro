@@ -3,7 +3,7 @@ import Header from '../components/ui/Header'
 import Questiones from '../config/Questions'
 import { useState } from 'react'
 import GameOver from '../components/QAGame/GameOver';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import TimerBar from '../components/QAGame/Timer';
 import getPhrase from '../components/QAGame/getPhrase';
 
@@ -14,7 +14,7 @@ export default function QAGamePlay() {
     const [isOpen, setIsOpen] = useState(false);
     const [isFinished, setIsFinished] = useState(false);
     const [phrase, setPhrase] = useState({title: '', desc: ''})
-
+    const navigate = useNavigate();
 
     const blocks = [1, 2, 3];
     const blockIndex = blocks[Math.floor(Math.random() * blocks.length)];
@@ -37,6 +37,11 @@ export default function QAGamePlay() {
             setcurrentQuestion(currentQuestion + 1)
         }
     };
+
+    const closeModal = () => {
+        setIsOpen(false)
+        navigate('/qagame')
+    }
 
     return (
         <>
@@ -62,6 +67,7 @@ export default function QAGamePlay() {
             </main>
             {isFinished && <GameOver
                 isOpen={isOpen}
+                onClose={closeModal}
                 content={
                     <>
                         <h2>Has conseguido responder correctamente: {score} de 6 preguntas</h2>

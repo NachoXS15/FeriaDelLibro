@@ -1,5 +1,4 @@
 const Categories = [
-    "Todos",
     "Clásicos",
     "Literatura Argentina y Latinoamericana",
     "Infantil/Juvenil",
@@ -10,7 +9,8 @@ const Categories = [
     "Cuentos",
     "Poesia",
     "Policial",
-    "Ensayo/Filosofia"
+    "Ensayo/Filosofia",
+    "Todos"
 ]
 
 export default Categories

@@ -11,7 +11,7 @@ import QRCodeEx from '/assets/imgs/qr.webp'
 
 export default function Biblioteca() {
   const [isOpenModal, setIsOpenModal] = useState<boolean>(false)
-  const [categorySelected, setCategorySelected] = useState<string>("Todos")
+  const [categorySelected, setCategorySelected] = useState<string>("Clásicos")
   const [selectedBook, setSelectedBook] = useState<BookCardProps | null>(null);
   console.log("categoria: ", categorySelected);
 
