@@ -45,13 +45,12 @@ export default function SpinRuleta() {
                 onClose={closeModal}
                 content={
                     <>
-                        <h1>¡Excelente!</h1>
-                        <h3>Tu Giro en la Ruleta de la Literatura te ha llevado a un gran libro. ¡Felicidades!</h3>
+                        <h2 style={{fontSize: '0.7em'}}>¡Excelente!</h2>
+                        <h4>Tu Giro en la Ruleta de la Literatura te ha llevado a un gran libro. ¡Felicidades!</h4>
                         <hr />
                         <div className="modal-phrase-info">
-                            {selectedCategory && <h4>Categoría: <span>{selectedCategory}</span></h4>}
-                            {selectedBook && <h4>Libro: <span>{selectedBook.titulo}</span></h4>}
-                            {selectedPhrase && <h4>Frase: <span>"{selectedPhrase}"</span></h4>}
+                            {selectedCategory && selectedBook && <h5><strong>Libro:</strong> <span>{selectedBook.titulo}<strong> | Categoría:</strong> <span>{selectedCategory}</span></span></h5>}
+                            {selectedPhrase && <h3 className={selectedPhrase.length < 140 ? 'phrase-small' : 'phrase-big'}><span>"{selectedPhrase}"</span></h3>}
                         </div>
                     </>
                 }
