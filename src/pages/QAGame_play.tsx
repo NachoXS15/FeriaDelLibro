@@ -5,13 +5,16 @@ import { useState } from 'react'
 import GameOver from '../components/QAGame/GameOver';
 import { NavLink } from 'react-router-dom';
 import TimerBar from '../components/QAGame/Timer';
+import getPhrase from '../components/QAGame/getPhrase';
 
 
 export default function QAGamePlay() {
     const [currentQuestion, setcurrentQuestion] = useState(0);
     const [score, setScore] = useState(0);
-    const [isOpen, setIsOpen] = useState(false)
-    const [isFinished, setIsFinished] = useState(false)
+    const [isOpen, setIsOpen] = useState(false);
+    const [isFinished, setIsFinished] = useState(false);
+    const [phrase, setPhrase] = useState({title: '', desc: ''})
+
 
     const blocks = [1, 2, 3];
     const blockIndex = blocks[Math.floor(Math.random() * blocks.length)];
@@ -23,17 +26,16 @@ export default function QAGamePlay() {
         const target = e.target as HTMLButtonElement | null;
         if (target) {
             target.classList.add(isCorrect ? "correct" : "incorrect");
+        } 
+
+        if (currentQuestion === qaBlock.length - 1) {
+            const finalPhrase = getPhrase(score);
+            setPhrase(finalPhrase)
+            setIsFinished(true);
+            setIsOpen(true)
+        } else {
+            setcurrentQuestion(currentQuestion + 1)
         }
-
-        setTimeout(() => {
-            if (currentQuestion === qaBlock.length - 1) {
-                setIsFinished(true);
-                setIsOpen(true)
-            } else {
-                setcurrentQuestion(currentQuestion + 1)
-            }
-        }, 1500);
-
     };
 
     return (
@@ -62,8 +64,9 @@ export default function QAGamePlay() {
                 isOpen={isOpen}
                 content={
                     <>
-                        <span>Has conseguido responder correctamente: {score} de 6 preguntas</span>
-                        <p>Sos un nazardo</p>
+                        <h2>Has conseguido responder correctamente: {score} de 6 preguntas</h2>
+                        <h3>{phrase.title}</h3>
+                        <p>{phrase.desc}</p>
                         <NavLink to={'/qagame'} className="green">Volver a empezar</NavLink>
                     </>
                 }

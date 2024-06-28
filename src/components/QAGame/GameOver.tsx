@@ -11,9 +11,9 @@ export default function GameOver({ isOpen, content }: GameOverProps) {
 
     return (
         <>
-            <div className="modal-backdrop">
+            <div className="modal-backdrop-qa">
                 <div className="modal-content-qa" onClick={e => e.stopPropagation()}>
-                    <div className="modal-info">
+                    <div className="modal-info-qa">
                         {content}
                     </div>
                 </div>

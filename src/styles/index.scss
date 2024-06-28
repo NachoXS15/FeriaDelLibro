@@ -91,11 +91,18 @@ main{
     background-position: center;
     background-size: 100%;
 
-    h1{
-        margin-top: 50px;
-        text-decoration: underline var(--yellow);
-        
+    #title-ruleta{
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        h1{
+            text-decoration: underline var(--yellow);
+        }
+
     }
+    
 
     #bottom{
         width: inherit;
