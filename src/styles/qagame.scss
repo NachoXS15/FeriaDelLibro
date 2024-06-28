@@ -1,20 +1,31 @@
 @import url('../styles/main.scss');
 
+main{
+    width: 100%;
+    position: relative;
+    .back{
+        position: absolute;
+        left: 60px;
+        top: 0;
+    }
+}
+
 #qa-game{
     width: 85%;
     height: 750px;
     margin: 0 auto;
     margin-top: 40px;
-    background-image: url('../../public/assets/imgs/qa_paga_bg.webp');
+    background-image: url('/assets/imgs/qa_paga_bg.webp');
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
 
+    
+
     div{
         width: 45%;
         height: 500px;
-        border: 1px solid red;
         position: absolute;
         top: 100px;
         right: 100px;
@@ -50,7 +61,7 @@
 
         #question-display{
             width: 80%;
-            height: 50%;
+            height: 70%;
             border: 1px solid #000;
             text-align: center;
             border-radius: 80px;
@@ -58,24 +69,40 @@
             justify-content: center;
             align-items: center;
             box-shadow: 1px 1px 5px;
+
+            h2{
+                font-size: 2em;
+            }
         }
+    }
+
+    #time{
+        width: 70%;
+        height: 30px;
+        margin: 0 auto;
+        margin-top: 30px;
+        border: 1px solid #000;
+        background-color: var(--dark-green);
+        border-radius: 50px;
     }
 
     #buttons{
         width: 100%;
         height: 70%;
+        margin-top: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+
         button{
-            width: 40%;
+            width: 45%;
             height: 70px;
             border: none;
             background: none;
             border: 3px solid #000;
             border-radius: 40px;
-            font-size: 1.6em;
+            font-size: 2em;
         }
 
         button:hover{
@@ -83,7 +110,7 @@
             color: white;
         }
 
-        button.active{
+        button.correct{
             background-color: var(--green);
             color: white;
         }

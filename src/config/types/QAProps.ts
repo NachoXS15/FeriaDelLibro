@@ -1,6 +1,7 @@
 export interface QAProps {
     id: number
     question: string
-    answers: [key: number, string]
+    block: number
+    answers: [string, boolean]
     correctAnswer: number
 }

@@ -1,36 +1,67 @@
 import Header from '../components/ui/Header'
-import { QAProps } from '../config/types/QAProps'
 import Questiones from '../config/Questions'
 import { useState } from 'react'
+import GameOver from '../components/QAGame/GameOver';
+
+
 export default function QAGamePlay() {
-    const [score, setScore] = useState(0);
     const [currentQuestion, setcurrentQuestion] = useState(0);
-    const [isCorrect, setIsCorrect] = useState(false);
+    const [score, setScore] = useState(0);
+    const [isOpen, setIsOpen] = useState(false)
+    const [isFinished, setIsFinished] = useState(false)
 
     const blocks = [1, 2, 3];
     const blockIndex = blocks[Math.floor(Math.random() * blocks.length)];
     const qaBlock = Questiones.filter(question => question.block === blockIndex);
-    console.log(qaBlock);
+    console.log(qaBlock[currentQuestion]);
 
+    const handleAnswer = (isCorrect: boolean, e: React.MouseEvent<HTMLButtonElement>) => {
+        if (isCorrect) setScore(score + 1)
+        const target = e.target as HTMLButtonElement | null;
+        if (target) {
+            target.classList.add(isCorrect ? "correct" : "incorrect");
+        }
+
+        if (currentQuestion === qaBlock.length - 1) {
+            setIsFinished(true);
+            setIsOpen(true)
+        } else {
+            setcurrentQuestion(currentQuestion + 1)
+        }
+
+    };
 
     return (
         <>
             <Header />
             <main id='game-screen'>
                 <div id="top">
-                    <h4>Pregunta 1 de 6</h4>
+                    <h4>Pregunta {currentQuestion + 1} de {qaBlock.length}</h4>
                     <div id='question-display'>
-                        <h2>Caca?</h2>
+                        <h2>{qaBlock[currentQuestion].question}</h2>
                     </div>
                 </div>
-                <span id='Timer'></span>
+                <div id='time'></div>
                 <div id='buttons'>
-                    <button>asd</button>
-                    <button>asd</button>
-                    <button>asd</button>
-                    <button>asd</button>
-                </div>  
+                    {qaBlock[currentQuestion].answers.map((answer) => (
+                        <button
+                            key={answer.answer}
+                            onClick={(e) => handleAnswer(answer.isCorrect, e)}
+                        >
+                            {answer.answer}
+                        </button>
+                    ))}
+                </div>
             </main>
+            {isFinished && <GameOver
+                isOpen={isOpen}
+                content={
+                    <>
+                        <span>Has conseguido responder correctamente: {score} de 6 preguntas</span>
+                        <p>Sos un nazardo</p>
+                    </>
+                }
+            ></GameOver>}
         </>
     )
 }
