@@ -3,15 +3,17 @@ import { useState } from 'react';
 import Library from "../components/Library/LibraryItems";
 import Header from "../components/ui/Header";
 import Categories from "../config/Categories";
-import { NavLink } from 'react-router-dom';
+import { NavLink, useParams} from 'react-router-dom';
 import { ArrowBack } from '../components/ui/svgs';
 import { BookCardProps } from '../config/types/BookCardProps';
 import BookModal from '../components/Library/BookModal';
 import QRCodeEx from '/assets/imgs/qr.webp'
+import LibraryProp from '../config/types/LibraryProp';
 
-export default function Biblioteca() {
+export default function Biblioteca({categoryProp}: LibraryProp) {
+  const {id} = useParams()
   const [isOpenModal, setIsOpenModal] = useState<boolean>(false)
-  const [categorySelected, setCategorySelected] = useState<string>("Clásicos")
+  const [categorySelected, setCategorySelected] = useState<string>(id || categoryProp || "Clásicos")
   const [selectedBook, setSelectedBook] = useState<BookCardProps | null>(null);
   console.log("categoria: ", categorySelected);
 

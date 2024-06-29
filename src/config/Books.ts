@@ -191,6 +191,16 @@ const Books: BookCardProps[] = [
         imgUrl: "/assets/books/estudio_en_escarlata.jpeg",
         qr: "caca"
     },
+    {
+        id: 20,
+        titulo: "Estudio En Escarlata",
+        autor: "Arthur Conan Doyle",
+        year_release: "1887",
+        category: "Infantil-Juvenil",
+        desc: "Un cadáver hallado en extrañas circunstancias pone en marcha los reflejos deductivos de Holmes, mientras la policía oficial se pierde en divagaciones equivocadas o arresta a inocentes ciudadanos. Un nuevo asesinato parece complicar la historia, pero a Holmes se la aclara.",
+        imgUrl: "/assets/books/estudio_en_escarlata.jpeg",
+        qr: "caca"
+    },
 ]
 
 export default Books

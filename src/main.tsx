@@ -20,6 +20,10 @@ const router = createBrowserRouter([
     element: <Biblioteca />
   },
   {
+    path: '/library/:id',
+    element: <Biblioteca />
+  },
+  {
     path: '/ruleta',
     element: <Ruleta />
   },

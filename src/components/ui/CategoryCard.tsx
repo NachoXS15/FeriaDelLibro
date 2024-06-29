@@ -1,19 +1,18 @@
 import { CategoryCardProps } from "../../config/types/CategoryCardProps"
+import { NavLink } from "react-router-dom"
 
-export default function CategoryCard({title1, title2, bg_color, bg_img}: CategoryCardProps) {
+export default function CategoryCard({ title1, title2, bg_img, categoryLink }: CategoryCardProps) {
   const style = {
     backgroundImage: `url(${bg_img})`,
-    // backgroundColor: `${bg_color}`,
+    color: 'white'
   }
-  
+
   return (
-    <>
-        <div className="category-card">
-          <div className="shape" style={style}>
-            <h4>{title1}</h4>
-            <h1>{title2}</h1>
-          </div>
-        </div>
-    </>
+    <div className="category-card">
+      <NavLink className="shape" style={style} to={`/library/${categoryLink}`}>
+        <h4>{title1}</h4>
+        <h1>{title2}</h1>
+      </NavLink>
+    </div>
   )
 }

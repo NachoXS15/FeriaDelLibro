@@ -7,7 +7,7 @@ type LibraryProps = {
     onBookClick: (book: BookCardProps) => void;
 }
 export default function Library({ categorySelected, onBookClick }: LibraryProps) {
-
+    
     const [count, setCount] = useState(0)
     const filteredBooks = categorySelected === "Todos" ? Books : Books.filter(book => book.category === categorySelected)
     

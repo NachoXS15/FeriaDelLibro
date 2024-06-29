@@ -1,7 +1,7 @@
 const Categories = [
     "Clásicos",
     "Literatura Argentina y Latinoamericana",
-    "Infantil/Juvenil",
+    "Infantil y Juvenil",
     "Riojanos",
     "Fantástico",
     "Teatro",
