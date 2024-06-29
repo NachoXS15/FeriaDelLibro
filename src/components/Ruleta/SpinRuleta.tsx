@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Phrases from "../../config/Phrases";
 import PhraseModal from "./PhraseModal";
-import Ruleta from "./Ruleta";
 import { RuletaProps } from "../../config/types/RuletaProps";
 
 
