@@ -1,20 +1,20 @@
-import '../styles/qagame.scss'
-import Header from '../components/ui/Header'
-import Questiones from '../config/Questions'
-import { useState } from 'react'
+import '../styles/qagame.scss';
+import Header from '../components/ui/Header';
+import Questiones from '../config/Questions';
+import { useState } from 'react';
 import GameOver from '../components/QAGame/GameOver';
 import { NavLink, useNavigate } from 'react-router-dom';
 import TimerBar from '../components/QAGame/Timer';
 import getPhrase from '../components/QAGame/getPhrase';
 
-
 export default function QAGamePlay() {
-    const [currentQuestion, setcurrentQuestion] = useState(0);
+    const [currentQuestion, setCurrentQuestion] = useState(0);
     const [score, setScore] = useState(0);
     const [isOpen, setIsOpen] = useState(false);
     const [isFinished, setIsFinished] = useState(false);
-    const [phrase, setPhrase] = useState({title: '', desc: ''})
-    const navigate = useNavigate();
+    const [phrase, setPhrase] = useState({ title: '', desc: '' });
+    const [showAnswers, setShowAnswers] = useState(false);
+    const navigate = useNavigate()
 
     const blocks = [1, 2, 3];
     const blockIndex = blocks[Math.floor(Math.random() * blocks.length)];
@@ -22,19 +22,20 @@ export default function QAGamePlay() {
     console.log(qaBlock[currentQuestion]);
 
     const handleAnswer = (isCorrect: boolean, e: React.MouseEvent<HTMLButtonElement>) => {
-        if (isCorrect) setScore(score + 1)
+        if (isCorrect) setScore(score + 1);
         const target = e.target as HTMLButtonElement | null;
         if (target) {
             target.classList.add(isCorrect ? "correct" : "incorrect");
-        } 
-
+        }
+        setShowAnswers(true);
         if (currentQuestion === qaBlock.length - 1) {
             const finalPhrase = getPhrase(score);
-            setPhrase(finalPhrase)
+            setPhrase(finalPhrase);
             setIsFinished(true);
-            setIsOpen(true)
+            setIsOpen(true);
         } else {
-            setcurrentQuestion(currentQuestion + 1)
+            setShowAnswers(false);
+            setCurrentQuestion(prev => prev + 1);
         }
     };
 
@@ -59,6 +60,8 @@ export default function QAGamePlay() {
                         <button
                             key={answer.answer}
                             onClick={(e) => handleAnswer(answer.isCorrect, e)}
+                            className={showAnswers ? (answer.isCorrect ? 'correct' : 'incorrect') : ''}
+                            disabled={showAnswers}
                         >
                             {answer.answer}
                         </button>
@@ -70,13 +73,13 @@ export default function QAGamePlay() {
                 onClose={closeModal}
                 content={
                     <>
-                        <h2>Has conseguido responder correctamente: {score} de 6 preguntas</h2>
-                        <h3>{phrase.title}</h3>
+                        <span>Has conseguido responder correctamente: {score} de 6 preguntas</span>
+                        <h2>{phrase.title}</h2>
                         <p>{phrase.desc}</p>
                         <NavLink to={'/qagame'} className="green">Volver a empezar</NavLink>
                     </>
                 }
             ></GameOver>}
         </>
-    )
+    );
 }
