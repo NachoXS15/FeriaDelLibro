@@ -38,7 +38,7 @@ export default function SpinRuleta() {
 
     return (
         <>
-            <Ruleta />
+            <img src="/assets/imgs/arrow_wheel.webp" alt="" width={500} />
             <button className='violet' onClick={handleSpin}>GIRAR</button>
             <PhraseModal
                 isOpen={isModalOpen}

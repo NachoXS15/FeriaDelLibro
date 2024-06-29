@@ -18,7 +18,7 @@ const Books: BookCardProps[] = [
         year_release: "1307",
         category: "Clásicos",
         desc: "La Odisea narra la historia del héroe griego Odiseo, Ulises, el viaje de regreso a su reino de Ítaca donde le esperan su esposa Penélope, rodeada de pretendiente, y su hijo Telémaco",
-        imgUrl: "/assets/books/estudio_en_escarlata.jpeg",
+        imgUrl: "/assets/books/3.jpeg",
         qr: "caca"
     },
     {
@@ -28,7 +28,7 @@ const Books: BookCardProps[] = [
         year_release: "1887",
         category: "Literatura Argentina y Latinoamericana",
         desc: "Un cadáver hallado en extrañas circunstancias pone en marcha los reflejos deductivos de Holmes, mientras la policía oficial se pierde en divagaciones equivocadas o arresta a inocentes ciudadanos. Un nuevo asesinato parece complicar la historia, pero a Holmes se la aclara.",
-        imgUrl: "/assets/books/estudio_en_escarlata.jpeg",
+        imgUrl: "/assets/books/2.png",
         qr: "caca"
     },
     {
@@ -38,7 +38,7 @@ const Books: BookCardProps[] = [
         year_release: "1887",
         category: "Literatura Argentina y Latinoamericana",
         desc: "Un cadáver hallado en extrañas circunstancias pone en marcha los reflejos deductivos de Holmes, mientras la policía oficial se pierde en divagaciones equivocadas o arresta a inocentes ciudadanos. Un nuevo asesinato parece complicar la historia, pero a Holmes se la aclara.",
-        imgUrl: "/assets/books/estudio_en_escarlata.jpeg",
+        imgUrl: "/assets/books/4.png",
         qr: "caca"
     },
     {
@@ -48,7 +48,7 @@ const Books: BookCardProps[] = [
         year_release: "1887",
         category: "Literatura Argentina y Latinoamericana",
         desc: "Un cadáver hallado en extrañas circunstancias pone en marcha los reflejos deductivos de Holmes, mientras la policía oficial se pierde en divagaciones equivocadas o arresta a inocentes ciudadanos. Un nuevo asesinato parece complicar la historia, pero a Holmes se la aclara.",
-        imgUrl: "/assets/books/estudio_en_escarlata.jpeg",
+        imgUrl: "/assets/books/5.jpg",
         qr: "caca"
     },
     {
@@ -58,7 +58,7 @@ const Books: BookCardProps[] = [
         year_release: "1887",
         category: "Literatura Argentina y Latinoamericana",
         desc: "Un cadáver hallado en extrañas circunstancias pone en marcha los reflejos deductivos de Holmes, mientras la policía oficial se pierde en divagaciones equivocadas o arresta a inocentes ciudadanos. Un nuevo asesinato parece complicar la historia, pero a Holmes se la aclara.",
-        imgUrl: "/assets/books/estudio_en_escarlata.jpeg",
+        imgUrl: "/assets/books/6.jpg",
         qr: "caca"
     },
     {
@@ -68,7 +68,7 @@ const Books: BookCardProps[] = [
         year_release: "1887",
         category: "Riojanos",
         desc: "Un cadáver hallado en extrañas circunstancias pone en marcha los reflejos deductivos de Holmes, mientras la policía oficial se pierde en divagaciones equivocadas o arresta a inocentes ciudadanos. Un nuevo asesinato parece complicar la historia, pero a Holmes se la aclara.",
-        imgUrl: "/assets/books/estudio_en_escarlata.jpeg",
+        imgUrl: "/assets/books/7.png",
         qr: "caca"
     },
     {
@@ -78,7 +78,7 @@ const Books: BookCardProps[] = [
         year_release: "1887",
         category: "Riojanos",
         desc: "Un cadáver hallado en extrañas circunstancias pone en marcha los reflejos deductivos de Holmes, mientras la policía oficial se pierde en divagaciones equivocadas o arresta a inocentes ciudadanos. Un nuevo asesinato parece complicar la historia, pero a Holmes se la aclara.",
-        imgUrl: "/assets/books/estudio_en_escarlata.jpeg",
+        imgUrl: "/assets/books/9.png",
         qr: "caca"
     },
     {
