@@ -473,14 +473,65 @@ const Books: BookCardProps[] = [
     },
     {
         id: 43,
-        titulo: "En la Sangre",
-        autor: "Eugenio Cambaceres",
-        year_release: "1887",
+        titulo: "El Angel de la Sombra",
+        autor: "Leopoldo Lugones",
+        year_release: "1926",
         category: "Literatura Argentina y Latinoamericana",
-        desc: "En la sangre es una novela escrita por el autor argentino Eugenio Cambaceres, publicada en 1887. Fue la cuarta y última novela de Cambaceres. En el texto, se narra la historia de Genaro, un hijo de inmigrantes italianos en Buenos Aires durante el siglo XIX.",
-        imgUrl: "/assets/books/lit_arg_latam/sangre/sangre.jpg",
-        qr: "/assets/books/lit_arg_latam/sangre/sangre_qr.png"
+        desc: "Luisa, hija de una familia acomodada, trata de ocultar su romance con Suárez Vallejo, profesor de francés de origen incierto, mientras su salud se deteriora de la mano de su médico. Una historia de amor y drama, rodeada de hechos extraordinarios. El ángel de la sombra (1926) única novela escrita por Leopoldo Lugones, mantuvo la línea de misterio, enigma y ocultismo expuesta en sus Cuentos fatales. En la sangre es una novela escrita por el autor argentino Eugenio Cambaceres, publicada en 1887. Fue la cuarta y última novela de Cambaceres. En el texto, se narra la historia de Genaro, un hijo de inmigrantes italianos en Buenos Aires durante el siglo XIX.",
+        imgUrl: "/assets/books/lit_arg_latam/angel_sombra/angel_sombra.webp",
+        qr: "/assets/books/lit_arg_latam/angel_sombra/angel_sombra_qr.png"
     },
+    {
+        id: 44,
+        titulo: "Los Siete Locos",
+        autor: "Roberto Arlt",
+        year_release: "1926",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "Los siete locos es una novela del escritor argentino Roberto Arlt editada en el mes de octubre de 1929. En ella se desarrollan algunos de los problemas planteados por el existencialismo filosófico. Las cuestiones morales, la soledad, la angustia ante el sin sentido de la vida y la desolación de la muerte son temas recurrentes en la arquitectura metafísica de sus protagonistas. Es una obra de lúcida crítica social a la Argentina de los años veinte. Los siete locos culmina con Los lanzallamas, novela que Arlt editaría en 1931.",
+        imgUrl: "/assets/books/lit_arg_latam/siete_locos/siete_locos.webp",
+        qr: "/assets/books/lit_arg_latam/siete_locos/siete_locos_qr.png"
+    },
+    {
+        id: 45,
+        titulo: "Los Lanzallamas",
+        autor: "Roberto Arlt",
+        year_release: "1931",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "Los lanzallamas fue la tercera novela del escritor, periodista y dramaturgo argentino Roberto Arlt, aunque en realidad es la continuación de su anterior obra, Los siete locos, constituyendo ambas una sola novela. La primera edición fue lanzada en noviembre de 1931 por la Editorial Claridad, la misma que había publicado ya tres ediciones de Los siete locos (1929, 1930 y 1931) y dos de El juguete rabioso. En esta segunda parte se retoma la historia y se repiten los mismos conflictos: la ansiada revolución del Astrólogo, Erdosain y su atormentada alma. El personaje de Haffner, el Rufián Melancólico, es asesinado y Elsa, exmujer de Erdosain, ha abandonado al capitán con quien había huido y se refugia en un convento. En ese lugar, Elsa les relata a las monjas su historia.",
+        imgUrl: "/assets/books/lit_arg_latam/lanzallamas/lanzallamas.jpg",
+        qr: "/assets/books/lit_arg_latam/lanzallamas/lanzallamas_qr.png"
+    },
+    {
+        id: 42,
+        titulo: "El Médico de San Luis",
+        autor: "Eduarda Mansilla",
+        year_release: "1860",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "El médico de San Luís, es la primera obra literaria, editada en Buenos Aires en 1860 y firmada bajo el seudónimo de Daniel. Así se convierte en la primera novelista argentina. Con esta obra de trama natural y costmbrista, comienza a mostrarnos a una sagaz literata que describe ambientes con maestría –vida provinciana hacia 1860.",
+        imgUrl: "/assets/books/lit_arg_latam/san_luis/san_luis.jpg",
+        qr: "/assets/books/lit_arg_latam/san_luis/san_luis_qr.png"
+    },
+    {
+        id: 43,
+        titulo: "El Angel de la Sombra",
+        autor: "Leopoldo Lugones",
+        year_release: "1926",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "Luisa, hija de una familia acomodada, trata de ocultar su romance con Suárez Vallejo, profesor de francés de origen incierto, mientras su salud se deteriora de la mano de su médico. Una historia de amor y drama, rodeada de hechos extraordinarios. El ángel de la sombra (1926) única novela escrita por Leopoldo Lugones, mantuvo la línea de misterio, enigma y ocultismo expuesta en sus Cuentos fatales. En la sangre es una novela escrita por el autor argentino Eugenio Cambaceres, publicada en 1887. Fue la cuarta y última novela de Cambaceres. En el texto, se narra la historia de Genaro, un hijo de inmigrantes italianos en Buenos Aires durante el siglo XIX.",
+        imgUrl: "/assets/books/lit_arg_latam/angel_sombra/angel_sombra.webp",
+        qr: "/assets/books/lit_arg_latam/angel_sombra/angel_sombra_qr.png"
+    },
+    {
+        id: 44,
+        titulo: "Los Siete Locos",
+        autor: "Roberto Arlt",
+        year_release: "1926",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "Luisa, hija de una familia acomodada, trata de ocultar su romance con Suárez Vallejo, profesor de francés de origen incierto, mientras su salud se deteriora de la mano de su médico. Una historia de amor y drama, rodeada de hechos extraordinarios. El ángel de la sombra (1926) única novela escrita por Leopoldo Lugones, mantuvo la línea de misterio, enigma y ocultismo expuesta en sus Cuentos fatales. En la sangre es una novela escrita por el autor argentino Eugenio Cambaceres, publicada en 1887. Fue la cuarta y última novela de Cambaceres. En el texto, se narra la historia de Genaro, un hijo de inmigrantes italianos en Buenos Aires durante el siglo XIX.",
+        imgUrl: "/assets/books/lit_arg_latam/siete_locos/siete_locos.webp",
+        qr: "/assets/books/lit_arg_latam/siete_locos/siete_locos_qr.png"
+    },
+    
     
 ]
 
