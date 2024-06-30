@@ -1,6 +1,6 @@
 #library-container {
     width: 100%;
-    height: max-content;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -9,48 +9,65 @@
 
 aside {
     width: 20%;
+    height: 1000dvh;
     background-color: var(--yellow);
     text-align: center;
-    padding: 5px;
+    
+    div{
+        // position: fixed;
+        // left: -30px;
+        text-align: center;
+        button {
+            background: none;
+            width: 80%;
+            border: none;
+            display: block;
+            font-size: 30px;
+            background-color: var(--white);
+            margin: auto;
+            font-weight: 600;
+            margin-top: 10px;
+            padding: 5px 10px;
+            border-radius: 40px;
+        }
+    
+        button:hover,
+        button.active {
+            background-color: var(--darkblue);
+            color: white;
+        }
 
-    button {
-        background: none;
-        width: 80%;
-        border: none;
-        display: block;
-        font-size: 30px;
-        background-color: var(--white);
-        margin: auto;
-        font-weight: 600;
-        margin-top: 10px;
-        padding: 5px 10px;
-        border-radius: 40px;
-    }
+    };
 
-    button:hover,
-    button.active {
-        background-color: var(--darkblue);
-        color: white;
-    }
 }
 
 #book-section {
     width: 80%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
-    padding: 0 30px;
+    padding: 0 0px;
 
-    h2 {
-        font-weight: 700;
-        margin-top: 10px;
-
+    .book-card{
+        width: 20%;
+        margin: 10px 10px;
+        img{
+            width: 100%;
+            aspect-ratio: 9/14;
+            box-shadow: 1px 1px 10px 1px;
+        }
+        h2 {
+            font-weight: 700;
+            margin-top: 10px;
+    
+        }
+    
+        h3 {
+            font-size: 25px;
+        }
     }
 
-    h3 {
-        font-size: 20px;
-    }
 }
 
 #book-info {

@@ -43,9 +43,11 @@ export default function Biblioteca({categoryProp}: LibraryProp) {
       </div>
       <section id="library-container">
         <aside>
-          {Categories.map((c, i) => (
-            <button key={i} onClick={() => handleCategorySelected(c)} className={categorySelected === c ? 'active' : ''}>{c}</button>
-          ))}
+          <div>
+            {Categories.map((c, i) => (
+              <button key={i} onClick={() => handleCategorySelected(c)} className={categorySelected === c ? 'active' : ''}>{c}</button>
+            ))}
+          </div>
         </aside>
         <Library categorySelected={categorySelected} onBookClick={handleBookClick} />
       </section>

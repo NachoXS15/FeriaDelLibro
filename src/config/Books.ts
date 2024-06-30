@@ -23,7 +23,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 3,
-        titulo: "Don quijote de la mancha",
+        titulo: "Don Quijote de La Mancha",
         autor: "Miguel de Cervantes",
         year_release: "1605",
         category: "Clásicos",
@@ -33,7 +33,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 4,
-        titulo: "La divina comedia",
+        titulo: "La Divina Comedia",
         autor: "Dante Alighieri",
         year_release: "1472",
         category: "Clásicos",
@@ -93,7 +93,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 10,
-        titulo: "Cuentos de canterbury",
+        titulo: "Cuentos de Canterbury",
         autor: "Geoffrey Chaucer",
         year_release: "1387",
         category: "Clásicos",
@@ -103,7 +103,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 11,
-        titulo: "Paraiso perdido",
+        titulo: "Paraiso Perdido",
         autor: "John Milton",
         year_release: "1667",
         category: "Clásicos",
@@ -123,7 +123,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 13,
-        titulo: "Guerra y paz tomo 1",
+        titulo: "Guerra y Paz, tomo 1",
         autor: "León Tolstói",
         year_release: "1867",
         category: "Poesia",
@@ -133,7 +133,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 14,
-        titulo: "Guerra y paz tomo 2",
+        titulo: "Guerra y Paz, tomo 2",
         autor: "León Tolstói",
         year_release: "1867",
         category: "Clásicos",
@@ -153,7 +153,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 16,
-        titulo: "Crimen y castigo",
+        titulo: "Crimen y Castigo",
         autor: "Fiódor Dostoyevski",
         year_release: "1866",
         category: "Clásicos",
@@ -163,7 +163,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 17,
-        titulo: "El conde de Montecristo",
+        titulo: "El Conde de Montecristo",
         autor: "Alexandre Dumas y Auguste Maquet",
         year_release: "1846",
         category: "Clásicos",
@@ -173,7 +173,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 18,
-        titulo: "Los novios",
+        titulo: "Los Novios",
         autor: "Alessandro Manzoni",
         year_release: "1827",
         category: "Clásicos",
@@ -213,7 +213,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 22,
-        titulo: "La sombra",
+        titulo: "La Sombra",
         autor: "Hans Christian Andersen",
         year_release: "1847",
         category: "Infantil-Juvenil",
@@ -223,7 +223,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 23,
-        titulo: "Alicia en el país de las maravillas",
+        titulo: "Alicia en el País de las Maravillas",
         autor: "Lewis Carroll",
         year_release: "1865",
         category: "Infantil-Juvenil",
@@ -243,7 +243,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 24,
-        titulo: "El mago de OZ",
+        titulo: "El Mago de OZ",
         autor: "Lyman Frank Baum",
         year_release: "1900",
         category: "Infantil-Juvenil",
@@ -253,7 +253,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 26,
-        titulo: "El viento de los sauces",
+        titulo: "El Viento de los Sauces",
         autor: "Kenneth Grahame",
         year_release: "1908",
         category: "Infantil-Juvenil",
@@ -263,7 +263,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 26,
-        titulo: "Tres hombres en una barca",
+        titulo: "Tres Hombres en una Barca",
         autor: "Jerome K. Jerome",
         year_release: "1889",
         category: "Infantil-Juvenil",
@@ -273,7 +273,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 27,
-        titulo: "El libro de la selva",
+        titulo: "El Libro de la Selva",
         autor: "Rudyard Kipling",
         year_release: "1894",
         category: "Infantil-Juvenil",
@@ -283,7 +283,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 28,
-        titulo: "El baron de muchausen",
+        titulo: "El Baron de Muchausen",
         autor: "Rudolf Erich Raspe",
         year_release: "1785",
         category: "Infantil-Juvenil",
@@ -293,7 +293,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 28,
-        titulo: "El baron de muchausen",
+        titulo: "El Baron de Muchausen",
         autor: "Rudolf Erich Raspe",
         year_release: "1785",
         category: "Infantil-Juvenil",
@@ -303,7 +303,7 @@ const Books: BookCardProps[] = [
     },
     {
         id: 29,
-        titulo: "Frankenstein o el moderno prometeo",
+        titulo: "Frankenstein o el Moderno Prometeo",
         autor: "Mary Shelley",
         year_release: "1818",
         category: "Fantástico",
@@ -322,25 +322,166 @@ const Books: BookCardProps[] = [
         qr: "caca"
     },
     {
-        id: 32,
-        titulo: "La caida de la casa usher",
+        id: 31,
+        titulo: "La Caida de la Casa Usher",
         autor: "Bram Stoker",
         year_release: "1897",
         category: "Fantástico",
         desc: "Drácula es una novela epistolar que narra la historia del Conde Drácula, un vampiro antiguo que deja su castillo en Transilvania para viajar a Londres en busca de nuevas víctimas y extender su influencia maligna. La historia se desarrolla a través de los diarios personales, cartas y registros de varios personajes, incluyendo al abogado Jonathan Harker, su prometida Mina Murray, el profesor Abraham Van Helsing y otros. A medida que los personajes descubren la verdad sobre Drácula y sus poderes sobrenaturales, se unen en una desesperada lucha para proteger a sus seres queridos y a la sociedad de la amenaza vampírica.",
-        imgUrl: "/assets/books/Fantástico/Dracula/Dracula.jpg",
+        imgUrl: "/assets/books/Fantástico/La_caida_de_la_casa_usher/La_caida_de_la_casa_usher.jpg",
         qr: "caca"
     },
     {
-        id: 31,
-        titulo: "Dracula",
-        autor: "Bram Stoker",
-        year_release: "1897",
-        category: "Fantástico",
-        desc: "Drácula es una novela epistolar que narra la historia del Conde Drácula, un vampiro antiguo que deja su castillo en Transilvania para viajar a Londres en busca de nuevas víctimas y extender su influencia maligna. La historia se desarrolla a través de los diarios personales, cartas y registros de varios personajes, incluyendo al abogado Jonathan Harker, su prometida Mina Murray, el profesor Abraham Van Helsing y otros. A medida que los personajes descubren la verdad sobre Drácula y sus poderes sobrenaturales, se unen en una desesperada lucha para proteger a sus seres queridos y a la sociedad de la amenaza vampírica.",
-        imgUrl: "/assets/books/Infanto_juvenil/Dracula/Dracula.jpg",
-        qr: "caca"
+        id: 32,
+        titulo: "Vida del Chacho",
+        autor: "José Hernandez",
+        year_release: "1885",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "En 1863 las tropas de Irrázabal, cumpliendo órdenes de Sarmiento y con la aquiescencia activa de Mitre. asesinan al general Peñaloza, caudillo de La Rioja y Cuyo, heredero de Facundo y defensor de los intereses del Norte. Cuando Hernández conoce el crimen escribe esta “Vida del Chacho”, breve y ardiente biografia que le dieta su pasión militante y que es publicada por “El Argentino” de Paraná. El cantor genial del gauchaje escribe con este libro su “AntiFacundo”.",
+        imgUrl: "/assets/books/lit_arg_latam/vida_del_chacho/vida_del_chacho.jpg",
+        qr: "/assets/books/lit_arg_latam/vida_del_chacho/vida_del_chacho_qr.png"
     },
+    {
+        id: 33,
+        titulo: "El Chacho, Vol 1",
+        autor: "Eduardo Gutierrez",
+        year_release: "1886",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "El Chacho, escrito por Eduardo Gutiérrez, es una crónica sobre la vida de Ángel Vicente El Chacho Peñaloza, una figura significativa de la historia argentina del siglo XIX. Peñaloza, conocido como el último caudillo de la montonera de los Llanos, fue un líder político y militar que resistió al centralismo de Buenos Aires durante las guerras civiles argentinas. Peñaloza nació en La Rioja y lideró varias insurrecciones en las provincias del interior en un intento de resistir la creciente influencia de Buenos Aires. Fue un defensor de los derechos de los gauchos y las clases bajas, y buscaba un federalismo más inclusivo que otorgara mayor autonomía a las provincias.",
+        imgUrl: "/assets/books/lit_arg_latam/chacho1/chacho1.jpg",
+        qr: "/assets/books/lit_arg_latam/chacho1/chacho1_qr.png"
+    },
+    {
+        id: 34,
+        titulo: "Los Montoneros",
+        autor: "Eduardo Gutierrez",
+        year_release: "1884",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "«Los montoneros» (1884) es la continuación de la novela biográfica «El Chacho», sobre el líder federal Ángel «Chacho» Peñaloza. En la secuela de esta crónica militar se suceden los acontecimientos enmarcados en las guerras civiles argentinas.",
+        imgUrl: "/assets/books/lit_arg_latam/montoneros/montoneros.jpg",
+        qr: "/assets/books/lit_arg_latam/montoneros/montoneros_qr.jpg"
+    },
+    {
+        id: 35,
+        titulo: "El Rastreador",
+        autor: "Eduardo Gutierrez",
+        year_release: "1884",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "En 1863 las tropas de Irrázabal, cumpliendo órdenes de Sarmiento y con la aquiescencia activa de Mitre. asesinan al general Peñaloza, caudillo de La Rioja y Cuyo, heredero de Facundo y defensor de los intereses del Norte. Cuando Hernández conoce el crimen escribe esta “Vida del Chacho”, breve y ardiente biografia que le dieta su pasión militante y que es publicada por “El Argentino” de Paraná. El cantor genial del gauchaje escribe con este libro su “AntiFacundo”.",
+        imgUrl: "/assets/books/lit_arg_latam/elrastreador/elrastreador.jpg",
+        qr: "/assets/books/lit_arg_latam/elrastreador/elrastreador_qr.png"
+    },
+    {
+        id: 36,
+        titulo: "La Muerte de un Heroe",
+        autor: "Eduardo Gutierrez",
+        year_release: "1871",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "«La muerte de un héroe» (1871) es la continuación y parte final de la serie de novelas biográficas sobre el líder federal Ángel «Chacho» Peñaloza. En la secuela de esta crónica militar se suceden los acontecimientos enmarcados en las guerras civiles argentinas",
+        imgUrl: "/assets/books/lit_arg_latam/muerteheroe/muerteheroe.jpg",
+        qr: "/assets/books/lit_arg_latam/muerteheroe/muerteheroe_qr.png"
+    },
+    {
+        id: 37,
+        titulo: "El Chacho",
+        autor: "Domingo F. Sarmiento",
+        year_release: "1863",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "Biografía de Vicente Peñaloza, más conocido como El Chacho, que Sarmiento escribió con el propósito de incluirlo en el mismo volumen de la 3ª edición del Facundo.",
+        imgUrl: "/assets/books/lit_arg_latam/chacho2/chacho2.webp",
+        qr: "/assets/books/lit_arg_latam/chacho2/chacho2_qr.png"
+    },
+    {
+        id: 38,
+        titulo: "Facundo",
+        autor: "Domingo F. Sarmiento",
+        year_release: "1845",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "Facundo muestra la vida de Juan Facundo Quiroga, militar y político gaucho miembro del Partido Federal, que se desempeñó como gobernador y caudillo de la provincia de La Rioja durante las guerras civiles argentinas en las décadas 20 y 30 del siglo xix.",
+        imgUrl: "/assets/books/lit_arg_latam/facundo/facundo.jpg",
+        qr: "/assets/books/lit_arg_latam/facundo/facundo_qr.png"
+    },
+    {
+        id: 39,
+        titulo: "Martin Fierro",
+        autor: "José Hernandez",
+        year_release: "1872",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "Con el habla típica de los gauchos de la Provincia de Buenos Aires, el protagonista canta su lucha por la libertad, contra las adversidades y la injusticia. «El gaucho Martín Fierro» recorre la felicidad inicial de su vida familiar en las planicies hasta que es obligado a alistarse en el ejército.",
+        imgUrl: "/assets/books/lit_arg_latam/martin_fierro/martin_fierro.jpg",
+        qr: "/assets/books/lit_arg_latam/martin_fierro/martin_fierro_qr.png"
+    },
+    {
+        id: 40,
+        titulo: "El Chacho",
+        autor: "Domingo F. Sarmiento",
+        year_release: "1863",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "Biografía de Vicente Peñaloza, más conocido como El Chacho, que Sarmiento escribió con el propósito de incluirlo en el mismo volumen de la 3ª edición del Facundo.",
+        imgUrl: "/assets/books/lit_arg_latam/juan_moreira/juan_moreira.jpg",
+        qr: "/assets/books/lit_arg_latam/juan_moreira/juan_moreira_qr.png"
+    },
+    {
+        id: 41,
+        titulo: "Aniceto el Gallo",
+        autor: "Hilario Ascasubi",
+        year_release: "1872",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "Aniceto el Gallo es el seudónimo del escritor argentino Hilario Ascasubi, pero también se desenvuelve como personaje, como el gacetero prosista y gauchi-poeta argentino protagonista de esta recopilación de poemas y diálogos que hará las delicias de los amantes de la literatura gauchesca. Hilario Ascasubi (1807-1875) fue un poeta, diplomático y político argentino. Se le considera representante de la literatura gauchesca, discípulo del uruguayo Bartolomé Hidalgo. Fue un ferviente antirrosista y participó en la lucha armada contra el gobierno de Juan Manuel de Rosas.",
+        imgUrl: "/assets/books/lit_arg_latam/gallo/gallo.jpg",
+        qr: "/assets/books/lit_arg_latam/gallo/gallo_qr.png"
+    },
+    {
+        id: 42,
+        titulo: "Don Segundo Sombra",
+        autor: "Ricardo Güiraldes",
+        year_release: "1926",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "Don Segundo Sombra es una novela de aprendizaje en la que se narran las vicisitudes de la vida del campo y las particularidades de ese ámbito rural amenazado de extinción por la expansión del progreso.",
+        imgUrl: "/assets/books/lit_arg_latam/segundo_sombra/segunda_sombra.png",
+        qr: "/assets/books/lit_arg_latam/segundo_sombra/segunda_sombra_qr.png"
+    },
+    {
+        id: 43,
+        titulo: "En la Sangre",
+        autor: "Eugenio Cambaceres",
+        year_release: "1887",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "En la sangre es una novela escrita por el autor argentino Eugenio Cambaceres, publicada en 1887. Fue la cuarta y última novela de Cambaceres. En el texto, se narra la historia de Genaro, un hijo de inmigrantes italianos en Buenos Aires durante el siglo XIX.",
+        imgUrl: "/assets/books/lit_arg_latam/sangre/sangre.jpg",
+        qr: "/assets/books/lit_arg_latam/sangre/sangre_qr.png"
+    },
+    {
+        id: 41,
+        titulo: "Los Misterios del Plata",
+        autor: "Juana Manso",
+        year_release: "1852",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "En Los misterios del Plata, Manso crea una ficción política que documenta y da testimonio de la realidad histórica argentina del momento histórico presente a la narración, interpreta dicha circunstancia histórica y presenta un proyecto de formación nacional.",
+        imgUrl: "/assets/books/lit_arg_latam/misterio_plata/misterio_plata.jpg",
+        qr: "/assets/books/lit_arg_latam/misterio_plata/misterio_plata_qr.png"
+    },
+    {
+        id: 42,
+        titulo: "El Pozo de Yocci",
+        autor: "Juana Manuela Gorriti",
+        year_release: "1814",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "Don Segundo Sombra es una novela de aprendizaje en la que se narran las vicisitudes de la vida del campo y las particularidades de ese ámbito rural amenazado de extinción por la expansión del progreso.",
+        imgUrl: "/assets/books/lit_arg_latam/yocci/yocci.jpg",
+        qr: "/assets/books/lit_arg_latam/yocci/yocci_qr.png"
+    },
+    {
+        id: 43,
+        titulo: "En la Sangre",
+        autor: "Eugenio Cambaceres",
+        year_release: "1887",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "En la sangre es una novela escrita por el autor argentino Eugenio Cambaceres, publicada en 1887. Fue la cuarta y última novela de Cambaceres. En el texto, se narra la historia de Genaro, un hijo de inmigrantes italianos en Buenos Aires durante el siglo XIX.",
+        imgUrl: "/assets/books/lit_arg_latam/sangre/sangre.jpg",
+        qr: "/assets/books/lit_arg_latam/sangre/sangre_qr.png"
+    },
+    
 ]
 
 export default Books
