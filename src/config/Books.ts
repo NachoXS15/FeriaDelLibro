@@ -3,12 +3,12 @@ import { BookCardProps } from "./types/BookCardProps";
 const Books: BookCardProps[] = [
     {
         id: 1,
-        titulo: "La Líada",
+        titulo: "La Iliada",
         autor: "Homero",
         year_release: "1892",
         category: "Clásicos",
         desc: "Este poema épico narra la cólera de Aquiles, hijo del rey Peleo y de la nereida Tetis, su causa, su larga duración, sus consecuencias y su posterior cambio de actitud. La ira del pélida Aquiles termina junto con el poema, cuando se reconcilia con Príamo, padre de su enemigo Héctor, momento en que se celebran los funerales de este",
-        imgUrl: "/assets/books/Clasicos/La_Iliada/La_Iliada.webp",
+        imgUrl: "/assets/books/Clásicos/La_Iliada/La_Iliada.webp",
         qr: "caca"
     },
     {
@@ -108,7 +108,7 @@ const Books: BookCardProps[] = [
         year_release: "1667",
         category: "Clásicos",
         desc: "El paraíso perdido es un poema épico escrito por John Milton que narra la caída de Adán y Eva del Jardín del Edén y la rebelión de Lucifer y los ángeles caídos contra Dios en el cielo. Milton explora temas de libre albedrío, la tentación, el pecado y la redención a través de un lenguaje poético rico y evocador. La obra presenta una visión épica y teológica de la historia de la humanidad, reflexionando sobre el papel de la humanidad en el universo y la naturaleza del bien y el mal.",
-        imgUrl: "/assets/books/Clásicos/Paraiso_perdido/Paraiso_perdido.jpg",
+        imgUrl: "/assets/books/Clásicos/Paraiso_perdido/Paraiso_perdido.jpeg",
         qr: "caca"
     },
     {
@@ -118,7 +118,7 @@ const Books: BookCardProps[] = [
         year_release: "1831",
         category: "Clásicos",
         desc: "Nuestra Señora de París es una novela histórica escrita por Victor Hugo que se desarrolla en el París medieval del siglo XV. La historia gira en torno a varios personajes, incluido el jorobado Quasimodo, el archidiácono Claude Frollo y la hermosa gitana Esmeralda. Ambientada principalmente en la majestuosa catedral de Notre Dame, la novela explora temas de amor y pasión, superstición y religión, así como la lucha entre el bien y el mal. A través de su narrativa vívida y su descripción detallada de la arquitectura gótica de París, Hugo ofrece una reflexión profunda sobre la sociedad medieval y los dilemas morales de sus personajes.",
-        imgUrl: "/assets/books/Clásicos/Nuestra_señora_de_parís/Nuestra_señora_de_parís.webp",
+        imgUrl: "/assets/books/Clásicos/Nuestra_señora_de_paris/Nuestra_señora_de_paris.webp",
         qr: "caca"
     },
     {
@@ -218,7 +218,7 @@ const Books: BookCardProps[] = [
         year_release: "1847",
         category: "Infantil-Juvenil",
         desc: "La sombra es un cuento escrito por Hans Christian Andersen que narra la historia de un erudito que descubre que su sombra ha cobrado vida propia y se ha separado de él. A medida que la sombra adquiere independencia, comienza a vivir su propia vida, volviéndose cada vez más poderosa y siniestra",
-        imgUrl: "/assets/books/estudio_en_escarlata.jpeg",
+        imgUrl: "/assets/books/Infanto_juvenil/La_sombra/La_sombra.jpg",
         qr: "caca"
     },
     {
@@ -279,7 +279,7 @@ const Books: BookCardProps[] = [
         category: "Infantil-Juvenil",
         desc: "El libro de la selva es una colección de cuentos que narran las aventuras de Mowgli, un niño humano que es criado por lobos en la selva india. Bajo la tutela de animales como Baloo el oso, Bagheera la pantera y Kaa la serpiente, Mowgli aprende las leyes de la selva y cómo sobrevivir en su entorno salvaje. Cada cuento presenta diferentes desafíos y lecciones para Mowgli, mientras se enfrenta a peligros como el temido tigre Shere Khan y otros animales de la selva. Además de las historias de Mowgli, la colección incluye cuentos sobre otros animales, explorando temas de naturaleza, amistad, y la lucha entre el bien y el mal.",
         imgUrl: "/assets/books/Infanto_juvenil/El_libro_de_la_selva/El_libro_de_la_selva.jpg",
-        qr: "caca"
+        qr: "/assets/books/Infanto_juvenil/El_libro_de_la_selva/El_libro_de_la_selva_qr.jpg"
     },
     {
         id: 28,

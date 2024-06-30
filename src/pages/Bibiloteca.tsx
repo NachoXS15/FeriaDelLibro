@@ -59,7 +59,7 @@ export default function Biblioteca({categoryProp}: LibraryProp) {
           </div>
           <div className='modal-download'>
             <h4>Descargar este libro aquí</h4>
-            <img src={QRCodeEx} alt="" width={250} />
+            <img src={selectedBook.qr} alt="" width={250} />
           </div>
         </BookModal>
       )}
