@@ -720,10 +720,7 @@ const Books: BookCardProps[] = [
         desc: "El documento presenta información sobre Saturnina Quiroga, hija de José Prudencio Quiroga y hermana mayor de Facundo Quiroga. Al recibir su herencia en 1825, Saturnina incrementó considerablemente su patrimonio, recibiendo 500 pesos, joyas de oro y plata, y catorce trajes finos. Saturnina era la mujer más rica de los Llanos riojanos gracias a las herencias recibidas por ambos lados de su familia.",
         imgUrl: "/assets/books/riojanos/llanistos/llanistos.webp",
         qr: "/assets/books/riojanos/llanistos/llanistos_qr.png"
-    },
-    
-    
-    
+    },  
 ]
 
 export default Books
