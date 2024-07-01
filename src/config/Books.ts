@@ -712,15 +712,325 @@ const Books: BookCardProps[] = [
         qr: "/assets/books/riojanos/chacho_urquiza/chacho_urquiza_qr.png"
     },
     {
-        id: 70,
-        titulo: "Los Llanistos",
-        autor: "Miguel Bravo Terdín",
-        year_release: "1885",
-        category: "Riojanos",
-        desc: "El documento presenta información sobre Saturnina Quiroga, hija de José Prudencio Quiroga y hermana mayor de Facundo Quiroga. Al recibir su herencia en 1825, Saturnina incrementó considerablemente su patrimonio, recibiendo 500 pesos, joyas de oro y plata, y catorce trajes finos. Saturnina era la mujer más rica de los Llanos riojanos gracias a las herencias recibidas por ambos lados de su familia.",
-        imgUrl: "/assets/books/riojanos/llanistos/llanistos.webp",
-        qr: "/assets/books/riojanos/llanistos/llanistos_qr.png"
-    },  
+        id: 71,
+        titulo: "La piel de zapa",
+        autor: "Honoré de Balzac",
+        year_release: "1831",
+        category: "Literatura Universal",
+        desc: "La piel de zapa cuenta la historia de Raphaël de Valentin, un joven aristócrata que, tras perder su fortuna y encontrarse al borde de la desesperación, descubre una curiosa y misteriosa piel de zapa (un tipo de cuero). Esta piel tiene la capacidad de conceder todos los deseos de su poseedor, pero con una trágica condición: cada vez que se cumple un deseo, la piel se encoge, reduciendo proporcionalmente la vida de su dueño. A medida que Raphaël hace uso de la piel y ve cómo se cumplen sus deseos, comienza a darse cuenta del alto precio que está pagando por ellos.",
+        imgUrl: "/assets/books/Lit_universal/La_piel_zapa/La_piel_zapa.jpg",
+        qr: "/assets/books/Lit_universal/La_piel_zapa/La_piel_zapa_qr.jpg"
+    },
+    {
+        id: 72,
+        titulo: "candido o el optimismo voltaire",
+        autor: "Voltaire",
+        year_release: "1759",
+        category: "Literatura Universal",
+        desc: "Cándido narra las aventuras de su protagonista homónimo, un joven ingenuo y optimista que ha sido influenciado por las enseñanzas de su mentor, el filósofo Pangloss, quien sostiene que vivimos en el mejor de los mundos posibles. Sin embargo, esta visión optimista es puesta a prueba cuando Cándido es expulsado del castillo donde creció y se embarca en una serie de viajes alrededor del mundo. A lo largo de su odisea, Cándido enfrenta una serie de desastres y desgracias que van desde guerras y terremotos hasta naufragios y persecuciones",
+        imgUrl: "/assets/books/Lit_universal/candido_o_el_optimismo_voltaire.jpg",
+        qr: "/assets/books/Lit_universal/candido_o_el_optimismo_voltaire/candido_o_el_optimismo_voltaire_qr.jpg"
+    },
+    {
+        id: 73,
+        titulo: "La rebelión de los ángeles",
+        autor: "Anatole France",
+        year_release: "1914",
+        category: "Literatura Universal",
+        desc: "La rebelión de los ángeles es una novela que explora temas de teología, filosofía y política a través de una narrativa satírica y alegórica. La historia se centra en Arcade, un ángel que ha descendido a la Tierra y se ha infiltrado en la sociedad humana. Arcade descubre una biblioteca en París donde lee libros de ciencia, filosofía y teología, lo que lo lleva a cuestionar la autoridad divina y el orden establecido por Dios.",
+        imgUrl: "/assets/books/Lit_universal/La_rebelión_de_los_ángeles/La_rebelión_de_los_ángeles.jpg",
+        qr: "/assets/books/Lit_universal/La_rebelión_de_los_ángeles/La_rebelión_de_los_ángeles_qr.jpg"
+    },
+    {
+        id: 74,
+        titulo: "Sin novedad en el frente",
+        autor: "Erich Maria Remarque",
+        year_release: "1928",
+        category: "Literatura Universal",
+        desc: "Sin novedad en el frente es una poderosa y desgarradora novela que narra las experiencias de Paul Bäumer, un joven soldado alemán que combate en el frente occidental durante la Primera Guerra Mundial. La historia, contada desde la perspectiva de Paul, ofrece una visión íntima y realista de los horrores y la brutalidad de la guerra.",
+        imgUrl: "/assets/books/Lit_universal/Sin_novedad_en_el_frente/Sin_novedad_en_el_frente.jpg",
+        qr: "/assets/books/Lit_universal/Sin_novedad_en_el_frente/Sin_novedad_en_el_frente_qr.jpg"
+    },
+    {
+        id: 75,
+        titulo: "Almas muertas",
+        autor: "Nikolái Gógol",
+        year_release: "1842",
+        category: "Literatura Universal",
+        desc: "Almas muertas es una novela satírica que sigue las aventuras de Pável Ivánovich Chíchikov, un funcionario de mediana edad que viaja por la Rusia rural con un plan bastante peculiar. Chíchikov se dedica a comprar almas muertas, es decir, siervos fallecidos que aún figuran en los registros del censo, para utilizarlos en un elaborado fraude destinado a mejorar su estatus social y económico.",
+        imgUrl: "/assets/books/Lit_universal/Las_almas_muertas/Las_almas_muertas.png",
+        qr: "/assets/books/Lit_universal/Las_almas_muertas/Las_almas_muertas_qr.jpg"
+    },
+    {
+        id: 76,
+        titulo: "De Profundis",
+        autor: "Oscar Wilde",
+        year_release: "1905",
+        category: "Literatura Universal",
+        desc: "De Profundis es una extensa carta escrita por Oscar Wilde durante su encarcelamiento en la prisión de Reading, dirigida a su amante Lord Alfred Douglas, también conocido como Bosie. La obra, cuyo título en latín significa Desde las profundidades, es una reflexión profunda y emotiva sobre la relación de Wilde con Bosie, su caída en desgracia, y su transformación personal y espiritual durante su tiempo en prisión.",
+        imgUrl: "/assets/books/Lit_universal/De_profundis/De_profundis.jpg",
+        qr: "/assets/books/Lit_universal/De_profundis/De_profundis_qr.jpg"
+    },
+    {
+        id: 77,
+        titulo: "Otra vuelta de tuerca",
+        autor: "Henry James",
+        year_release: "1898",
+        category: "Literatura Universal",
+        desc: "Es una novela corta que sigue la historia de una joven institutriz que es contratada para cuidar a dos niños huérfanos, Flora y Miles, en una remota mansión inglesa llamada Bly. Poco después de su llegada, la institutriz comienza a presenciar apariciones fantasmales y a sospechar que los niños están siendo influidos por las siniestras presencias de los antiguos empleados de la casa, Peter Quint y Miss Jessel, quienes murieron en circunstancias misteriosas.",
+        imgUrl: "/assets/books/Lit_universal/Otra_vuelta_de_tuerca/Otra_vuelta_de_tuerca.jpg",
+        qr: "/assets/books/Lit_universal/Otra_vuelta_de_tuerca/Otra_vuelta_de_tuerca_qr.jpg"
+    }, 
+    {
+        id: 78,
+        titulo: "La madre",
+        autor: "Máximo Gorki",
+        year_release: "1906",
+        category: "Literatura Universal",
+        desc: "La madre es una novela que narra la transformación de Pelagia Nilovna Vlasova, una mujer trabajadora de origen humilde, quien se convierte en una activista política revolucionaria en la Rusia prerrevolucionaria. La historia se centra en la vida de Pelagia y su hijo Pavel, un joven obrero que se une al movimiento socialista para luchar contra las injusticias del régimen zarista.",
+        imgUrl: "/assets/books/Lit_universal/La_madre/La_madre.jpg",
+        qr: "/assets/books/Lit_universal/La_madre/La_madre_qr.jpg"
+    },
+    {
+        id: 79,
+        titulo: "El rojo emblema del valor",
+        autor: "Stephen Crane",
+        year_release: "1895",
+        category: "Literatura Universal",
+        desc: "El rojo emblema del valor es una novela que narra la experiencia de Henry Fleming, un joven soldado de la Unión durante la Guerra Civil estadounidense. Motivado por ideales de gloria y heroísmo, Henry se alista en el ejército, pero pronto se enfrenta a las realidades brutales del combate.",
+        imgUrl: "/assets/books/Lit_universal/Rojo_emblema_del_valor/Rojo_emblema_del_valor.jpg",
+        qr: "/assets/books/Lit_universal/Rojo_emblema_del_valor/Rojo_emblema_del_valor_qr.jpg"
+    },
+    {
+        id: 80,
+        titulo: "Middlemarch",
+        autor: "George Eliot",
+        year_release: "1871",
+        category: "Literatura Universal",
+        desc: "Middlemarch es una novela que se desarrolla en la ficticia ciudad de Middlemarch, en Inglaterra, durante la década de 1830. La historia se centra en varias familias y personajes que interactúan entre sí dentro de la comunidad. La trama principal sigue la vida de Dorothea Brooke, una joven idealista y altruista que se casa con el teólogo pedante Edward Casaubon, en busca de una vida de significado y propósito.",
+        imgUrl: "/assets/books/Lit_universal/Middlemarch/Middlemarch.jpg",
+        qr: "/assets/books/Lit_universal/Middlemarch/Middlemarch_qr.jpg"
+    },
+    {
+        id: 81,
+        titulo: "Ethan Frome",
+        autor: "Edith Wharton",
+        year_release: "1911",
+        category: "Literatura Universal",
+        desc: "Ethan Frome es una novela ambientada en un pequeño pueblo rural de Nueva Inglaterra a finales del siglo XIX. La historia gira en torno a Ethan Frome, un hombre joven atrapado en un matrimonio infeliz y en una existencia monótona y desolada. Vive con su esposa Zeena, una mujer enfermiza y amargada, y su prima Mattie Silver, quien llega para ayudar en los quehaceres domésticos. A medida que Ethan y Mattie pasan tiempo juntos, surgen sentimientos profundos entre ellos, complicando aún más la situación emocional y moral de Ethan. La novela explora temas de soledad, deseo, sacrificio y la lucha contra las expectativas sociales y personales.",
+        imgUrl: "/assets/books/Lit_universal/Ethan_frome/Ethan_frome.jpg",
+        qr: "/assets/books/Lit_universal/Ethan_frome/Ethan_frome_qr.jpg"
+    },
+    {
+        id: 82,
+        titulo: "Dublineses",
+        autor: "James Joyce",
+        year_release: "1914",
+        category: "Literatura Universal",
+        desc: "Dublineses es una colección de quince cuentos que retratan la vida de los habitantes de Dublín a principios del siglo XX. Cada cuento ofrece una mirada penetrante y a menudo desencantada de la vida cotidiana de la clase media y trabajadora en la capital irlandesa. Joyce utiliza un estilo narrativo realista y detallado para explorar temas como la alienación, la rutina, la frustración y la falta de comunicación entre las personas.",
+        imgUrl: "/assets/books/Lit_universal/Dublineses/Dublineses.jpg",
+        qr: "/assets/books/Lit_universal/Dublineses/Dublineses_qr.jpg"
+    }, 
+    {
+        id: 83,
+        titulo: "Orlando",
+        autor: "Virginia Woolf",
+        year_release: "1928",
+        category: "Literatura Universal",
+        desc: "Orlando es una novela que narra la historia de un joven aristócrata inglés llamado Orlando, quien vive en la época isabelina y se convierte en embajador de la Reina Isabel I. A través de un giro fantástico, Orlando experimenta un cambio repentino de género y continúa viviendo durante siglos, presenciando y participando en diversos eventos históricos y sociales.",
+        imgUrl: "/assets/books/Lit_universal/Orlando/Orlando.jpg",
+        qr: "/assets/books/Lit_universal/Orlando/Orlando_qr.jpg"
+    },
+    {
+        id: 84,
+        titulo: "El proceso",
+        autor: "Franz Kafka",
+        year_release: "1925",
+        category: "Literatura Universal",
+        desc: "El proceso cuenta la historia de Josef K., un hombre que es arrestado y sometido a un proceso judicial sin ser informado de los cargos en su contra ni de las razones de su detención. A lo largo de la novela, Josef K. se enfrenta a un laberinto burocrático y judicial absurdo, tratando desesperadamente de comprender y defenderse de un sistema legal opresivo y desconcertante.",
+        imgUrl: "/assets/books/Lit_universal/El_proceso/El_proceso.jpg",
+        qr: "/assets/books/Lit_universal/El_proceso/El_proceso_qr.jpg"
+    },
+    {
+        id: 85,
+        titulo: "El corazón de las tinieblas",
+        autor: "Joseph Conrad",
+        year_release: "1899",
+        category: "Literatura Universal",
+        desc: "El corazón de las tinieblas sigue la travesía del protagonista, Charles Marlow, un marinero y comerciante de marfil, que es contratado para navegar por el río Congo en busca de Kurtz, un enigmático agente comercial europeo que ha establecido un poderoso dominio sobre los habitantes locales y ha sumergido en la locura.",
+        imgUrl: "/assets/books/Lit_universal/El_corazon_de_las_tinieblas/El_corazon_de_las_tinieblas.jpg",
+        qr: "/assets/books/Lit_universal/El_corazon_de_las_tinieblas/El_corazon_de_las_tinieblas_qr.jpg"
+    }, 
+    {
+        id: 86,
+        titulo: "El caminante",
+        autor: "Natsume Sōseki",
+        year_release: "1913",
+        category: "Literatura Universal",
+        desc: "Obra de madurez de Soseki, El caminante narra la historia de un peculiar y sutil triángulo cuyos vértices conforman Jiro, su hermano Ichiro y la esposa de éste, Nao. Atrapados entre tradición y modernidad, los personajes deambulan por un Japón hambriento de cambio y de progreso que se enfrenta a una metamorfosis demasiado rápida. La angustia vital que atormenta al protagonista, Ichiro, es la de la soledad del hombre inmerso en una sociedad que avanza sin tregua, sin otorgar nunca un respiro. Su mujer, Nao, escoge el camino de la pasividad y del desafío silencioso y frío. Finalmente Jiro, cuyos gestos son imperceptibles susurros de amor velado hacia su cuñada, es testigo del desplome del frágil estado mental de su hermano.",
+        imgUrl: "/assets/books/Lit_universal/El_caminante/El_caminante.jpg",
+        qr: "/assets/books/Lit_universal/El_caminante/El_caminante_qr.jpg"
+    },
+    {
+        id: 87,
+        titulo: "Colmillo Blanco",
+        autor: "Jack London",
+        year_release: "1906",
+        category: "Literatura Universal",
+        desc: "Colmillo Blanco narra la historia de un lobo salvaje que es domesticado gradualmente por los humanos en el territorio de Yukón, Canadá, durante la fiebre del oro a finales del siglo XIX. La novela explora la dualidad de la naturaleza humana y animal a través de los ojos del protagonista, Colmillo Blanco, quien experimenta tanto la brutalidad como la bondad de los seres humanos a lo largo de su vida.",
+        imgUrl: "/assets/books/Lit_universal/Colmillo_blanco/Colmillo_blanco.png",
+        qr: "/assets/books/Lit_universal/Colmillo_blanco/Colmillo_blanco_qr.jpg"
+    }, 
+    {
+        id: 88,
+        titulo: "Viaje a la luna",
+        autor: "Cyrano de Bergerac",
+        year_release: "1906",
+        category: "Literatura Universal",
+        desc: "En ella se relatan varias formas de llegar a la Luna, gotas de rocío envasadas, cohetes, pájaros y extrañas máquinas. El comienzo del viaje recuerda el viaje de Luciano de Samosata, porque después de un intento fallido llega a Nueva Francia (Canadá), recordamos que Luciano va hacia el oeste hasta llegar a una isla antes de llegar a la Luna. Allí explica ante el Virrey la rotación de la Tierra, y la existencia de otros mundos iguales que la tierra, y de otros soles iguales que el sol. O dicho de otra manera el paso del mundo Aristotélico al mundo de Copérnico y Galileo. Por otra parte defiende su preferencia por la razón frente a la fe. Por fin mediante unos ingeniosos cohetes llega a la Luna",
+        imgUrl: "/assets/books/Lit_universal/Viaje a la luna/Viaje a la luna.jpg",
+        qr: "/assets/books/Lit_universal/Viaje a la luna/Viaje a la luna_qr.jpg"
+    }, 
+    {
+        id: 89,
+        titulo: "La nueva atlantida",
+        autor: "Francis Bacon",
+        year_release: "1626",
+        category: "Literatura Universal",
+        desc: "La Nueva Atlántida es una narración breve que describe un viaje marítimo realizado por marineros europeos hacia una isla desconocida llamada Bensalem, descubierta en medio del océano Pacífico. Los marineros son recibidos cordialmente por los habitantes de la isla, quienes los conducen a una ciudad bien organizada y avanzada llamada Salomón's House (la Casa de Salomón).",
+        imgUrl: "/assets/books/Lit_universal/La_nueva_atlantida/La_nueva_atlantida.jpg",
+        qr: "/assets/books/Lit_universal/La_nueva_atlantida/La_nueva_atlantida_qr.jpg"
+    },
+    {
+        id: 90,
+        titulo: "La incomparable aventura de Hans Pfaall",
+        autor: "Edgar Allan Poe",
+        year_release: "1835",
+        category: "Literatura Universal",
+        desc: "La incomparable aventura de Hans Pfaall cuenta la historia de Hans Pfaall, un habitante de Rotterdam que decide escapar de sus deudas y problemas financieros construyendo un globo aerostático. Hans logra realizar un vuelo extraordinario hacia la Luna, donde encuentra una civilización alienígena y experimenta diversas aventuras surrealistas.",
+        imgUrl: "/assets/books/Lit_universal/La_incomparable_aventura_de_hans/La_incomparable_aventura_de_hans.jpg",
+        qr: "/assets/books/Lit_universal/La_incomparable_aventura_de_hans/La_incomparable_aventura_de_hans_qr.jpg"
+    },
+    {
+        id: 91,
+        titulo: "De la tierra a la luna",
+        autor: "Julio Verne",
+        year_release: "1865",
+        category: "Literatura Universal",
+        desc: "De la Tierra a la Luna narra la historia de un grupo de entusiastas estadounidenses del Club de los Caníbales, liderados por el presidente del club, Impey Barbicane. Este grupo decide emprender un ambicioso proyecto: construir un enorme cañón en Florida y utilizarlo para lanzar una nave espacial hacia la Luna.",
+        imgUrl: "/assets/books/Lit_universal/De_la_tierra_a_la_luna/De_la_tierra_a_la_luna.jpg",
+        qr: "/assets/books/Lit_universal/De_la_tierra_a_la_luna/De_la_tierra_a_la_luna_qr.jpg"
+    },
+    {
+        id: 92,
+        titulo: "El eterno Adán",
+        autor: "Julio Verne",
+        year_release: "1910",
+        category: "Literatura Universal",
+        desc: "El eterno Adán es una novela corta del escritor francés Julio Verne escrita poco antes de morir y publicada en 1910 en una antología de relatos breves El eterno Adán es una obra de Julio Verne que nos invita a reflexionar sobre la relación de la humanidad con el universo.",
+        imgUrl: "/assets/books/Lit_universal/El_eterno_adanEl_eterno_adan/El_eterno_adan.jpg",
+        qr: "/assets/books/Lit_universal/El_eterno_adan/El_eterno_adan_qr.jpg"
+    },
+    {
+        id: 93,
+        titulo: "Viaje maravilloso del señor Nic-Nac",
+        autor: "Eduardo Ladislao Holmberg",
+        year_release: "1875",
+        category: "Literatura Universal",
+        desc: "En 1880, Ladislao Kallitz, un empleado del Museo de Ciencias Naturales de Buenos Aires, guiado por un singular maestro médium versado en espiritismo, Fridrich Seele, y un misterioso gato negro, logra arribar a través de la técnica de la transplanetación a Marte donde será conocido como el Señor Nic-Nac. Recorriendo el espacio exterior, Nic-Nac descubrirá múltiples sociedades sobre las que se perpetra la amenaza de la conspiración. Evitar ser víctima de ella y detener sus planes sobre nuestro planeta será la empresa de este osado naturalista de los espacios.",
+        imgUrl: "/assets/books/Lit_universal/Viaje_maravilloso_del_señor_nic_nac/Viaje_maravilloso_del_señor_nic_nac.jpg",
+        qr: "/assets/books/Lit_universal/Viaje_maravilloso_del_señor_nic_nac/Viaje_maravilloso_del_señor_nic_nac_qr.jpg"
+    },
+    {
+        id: 94,
+        titulo: "El hombre invisible",
+        autor: "H. G. Wells",
+        year_release: "1897",
+        category: "Literatura Universal",
+        desc: "El hombre invisible cuenta la historia de Griffin, un científico brillante obsesionado con descubrir el secreto de la invisibilidad. Después de experimentar consigo mismo, logra volverse invisible, pero pronto descubre que revertir el proceso se vuelve extremadamente difícil. A medida que lucha con las consecuencias físicas y mentales de su descubrimiento, Griffin se ve obligado a enfrentar su propia moralidad y las implicaciones de su poder recién adquirido.",
+        imgUrl: "/assets/books/Lit_universal/El_hombre_invisible/El_hombre_invisible.jpg",
+        qr: "/assets/books/Lit_universal/El_hombre_invisible/El_hombre_invisible_qr.jpg"
+    },
+    {
+        id: 95,
+        titulo: "Nosotros",
+        autor: "Yevgueni Zamiatin",
+        year_release: "1924",
+        category: "Literatura Universal",
+        desc: "Nosotros está ambientada en un futuro distópico donde la sociedad está altamente regimentada y controlada por un gobierno totalitario conocido como el Estado Único. Los ciudadanos viven en un mundo de conformidad extrema, donde las emociones y las acciones individuales están estrictamente reguladas y suprimidas en nombre del bienestar colectivo. El protagonista de la historia es D-503, un matemático y constructor de naves espaciales que vive en la Ciudad Única. D-503 comienza a llevar un diario que relata su vida en esta sociedad altamente controlada, sus pensamientos y sentimientos, y su participación en la construcción de una nave espacial destinada a conquistar nuevos mundos.",
+        imgUrl: "/assets/books/Lit_universal/Nosotros/Nosotros.jpg",
+        qr: "/assets/books/Lit_universal/Nosotros/Nosotros_qr.jpg"
+    },
+    {
+        id: 96,
+        titulo: "Los crímenes de la Rou Morgue",
+        autor: "Edgar Allan Poe",
+        year_release: "1841",
+        category: "Policial",
+        desc: "Los crímenes de la calle Morgue es considerado el primer cuento de detectives de la historia y sigue a C. Auguste Dupin, un brillante investigador y precursor de los detectives literarios posteriores como Sherlock Holmes. La historia comienza cuando se descubre el brutal asesinato de dos mujeres en París, en una calle llamada Rue Morgue. Los cuerpos están terriblemente mutilados y parece imposible encontrar una explicación lógica para el crimen. Dupin, junto con su amigo narrador, investiga el caso y utiliza su habilidad para el razonamiento deductivo y la observación minuciosa para resolver el misterio. ",
+        imgUrl: "/assets/books/Policial/Los_crimenes_de_la_rue_morgue/Los_crimenes_de_la_rue_morgue.jpg",
+        qr: "/assets/books/Policial/Los_crimenes_de_la_rue_morgue/Los_crimenes_de_la_rue_morgue_qr.jpg"
+    },
+    {
+        id: 97,
+        titulo: "La casa lúgubre",
+        autor: "Charles Dickens",
+        year_release: "1852",
+        category: "Policial",
+        desc: "La trama sigue dos líneas principales: la historia de Esther Summerson, una joven huérfana que vive con su tutor John Jarndyce, y la intriga legal conocida como Jarndyce y Jarndyce, que afecta a varios personajes. Esther, junto con otros personajes como el detective amateur Mr. Bucket, investiga los secretos de su pasado mientras lucha por encontrar su lugar en una sociedad marcada por la desigualdad y la injusticia.",
+        imgUrl: "/assets/books/Policial/La_casa_lugubre/La_casa_lugubre.jpg",
+        qr: "/assets/books/Policial/La_casa_lugubre/La_casa_lugubre_qr.jpg"
+    },
+    {
+        id: 98,
+        titulo: "Estudio en escarlata",
+        autor: "Arthur Conan Doyle",
+        year_release: "1887",
+        category: "Policial",
+        desc: "El Dr. John Watson, un médico militar retirado, se muda a Londres y comparte un apartamento con Sherlock Holmes, un detective consultor. Holmes es llamado para investigar un misterioso asesinato en una casa vacía, donde encuentran un cadáver y una enigmática palabra escrita con sangre en la pared. Utilizando su excepcional habilidad para la deducción, Holmes desentraña el crimen y revela una intrincada historia de venganza que se extiende desde Londres hasta América.",
+        imgUrl: "/assets/books/Policial/Estudio_en_escarlata/Estudio_en_escarlata.jpg",
+        qr: "/assets/books/Policial/Estudio_en_escarlata/Estudio_en_escarlata_qr.jpg"
+    },
+    {
+        id: 99,
+        titulo: "El caso Lerouge",
+        autor: "Émile Gaboriau",
+        year_release: "1866",
+        category: "Policial",
+        desc: "El caso Lerouge comienza con el asesinato de la Sra. Lerouge en su casa de campo en Orcival. El crimen parece ser un misterio sin resolver, pero pronto entra en escena el detective amateur Lecoq, quien es conocido por su astucia e ingenio en la resolución de casos complicados.",
+        imgUrl: "/assets/books/Policial/El_caso_lerouge/El_caso_lerouge.jpg",
+        qr: "/assets/books/Policial/El_caso_lerouge/El_caso_lerouge_qr.jpg"
+    },
+    {
+        id: 100,
+        titulo: "La piedra lunar",
+        autor: "Wilkie Collins",
+        year_release: "1868",
+        category: "Policial",
+        desc: "La piedra lunar comienza con el robo de un diamante extremadamente valioso, conocido como la Piedra Lunar, de un templo en la India durante la ocupación británica. El diamante es llevado a Inglaterra, donde es entregado como un regalo a Rachel Verinder en su cumpleaños. Sin embargo, la piedra pronto desaparece misteriosamente de la casa de los Verinder, desencadenando una serie de eventos y sospechas entre los miembros de la familia y el personal doméstico.",
+        imgUrl: "/assets/books/Policial/La_piedra_lunar/La_piedra_lunar.jpg",
+        qr: "/assets/books/Policial/La_piedra_lunar/La_piedra_lunar_qr.jpg"
+    },
+    {
+        id: 101,
+        titulo: "La bolsa de huesos",
+        autor: " Eduardo Ladislao Holmberg",
+        year_release: "1896",
+        category: "Policial",
+        desc: "Un esqueleto no puede contar su propia historia, pero uno incompleto tiene el poder de evocar un crimen. Los primeros huesos llegaron a casa del médico en una bolsa. No quedaban más que los restos del ser humano que fue. Sin identidad, sin origen… y sin una de sus costillas. Esa rareza, quizá la firma de un delincuente, es lo que lleva al protagonista a preguntarse quién, cómo y por qué y a investigar la difusa línea entre el bien y el mal.",
+        imgUrl: "/assets/books/Policial/La_bolsa_de_huesos/La_bolsa_de_huesos.jpg",
+        qr: "/assets/books/Policial/La_bolsa_de_huesos/La_bolsa_de_huesos_qr.jpg"
+    },
+    {
+        id: 102,
+        titulo: "El misterio del cuarto amarillo",
+        autor: "Gaston Leroux",
+        year_release: "1907",
+        category: "Policial",
+        desc: "El misterio del cuarto amarillo comienza con un misterioso intento de asesinato en el castillo de Glandier. Una joven llamada Mathilde Stangerson es atacada en un cuarto cerrado por dentro y pintado de amarillo. A pesar de que se escucharon gritos y se intentó entrar al cuarto, la puerta estaba cerrada y la ventana estaba sellada desde dentro, lo que sugiere que el atacante logró escapar sin dejar rastro. El detective Joseph Rouletabille, conocido por su perspicacia y habilidades deductivas, es llamado para resolver el caso. Con la ayuda de su amigo y narrador de la historia, Sainclair, Rouletabille se sumerge en una compleja red de pistas, sospechosos y motivos que podrían explicar el misterio del cuarto amarillo.",
+        imgUrl: "/assets/books/Policial/El_misterioso_cuadro_amarillo/El_misterioso_cuadro_amarillo.webp",
+        qr: "/assets/books/Policial/El_misterioso_cuadro_amarillo/El_misterioso_cuadro_amarillo_qr.jpg"
+    },
 ]
 
 export default Books
