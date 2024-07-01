@@ -681,6 +681,46 @@ const Books: BookCardProps[] = [
         imgUrl: "/assets/books/filosofia/tiempo_perdido/tiempo_perdido.jpg",
         qr: "/assets/books/filosofia/tiempo_perdido/tiempo_perdido_qr.png"
     },
+    {
+        id: 68,
+        titulo: "Mis Montañas",
+        autor: "Joaquín V González",
+        year_release: "1914",
+        category: "Riojanos",
+        desc: "Mis Montañas es un libro de memorias publicado en 1893 por el político e intelectual riojano Joaquín V. González. Este libro es considerado por su autor, como el más intimo y personal de los que escribió.",
+        imgUrl: "/assets/books/riojanos/mis_montañas/mis_montañas.webp",
+        qr: "/assets/books/riojanos/mis_montañas/mis_montañas_qr.png"
+    },
+    {
+        id: 69,
+        titulo: "Estudio Comparativo de los sistemas Montessori y Froebeliano",
+        autor: "Rosario Vera Peñaloza",
+        year_release: "1999",
+        category: "Riojanos",
+        desc: "El Estudio Comparativo de los Sistemas Montessori y Froebeliano de Rosario Vera Peñaloza, publicado en 1915, es un análisis profundo de dos métodos educativos pioneros de la educación temprana: el método Montessori de Maria Montessori y el método Froebeliano de Friedrich Froebel. En esta obra, Peñaloza, reconocida educadora argentina, examina en detalle los principios filosóficos, los objetivos pedagógicos, las prácticas docentes y los materiales didácticos de cada sistema. Su objetivo era comprender las fortalezas y debilidades de cada enfoque para así poder proponer u modelo educativo propio, adaptado al contexto sociocultural de Argentina.",
+        imgUrl: "/assets/books/riojanos/estudio_comp/estudio_comp.png",
+        qr: "/assets/books/riojanos/estudio_comp/estudio_comp_qr.png"
+    },
+    {
+        id: 70,
+        titulo: "El Chacho y Urquiza",
+        autor: "Miguel Bravo Terdín",
+        year_release: "2014",
+        category: "Riojanos",
+        desc: "'Resumen de El Chacho y Urquiza de Miguel Bravo Tedín El libro explora la compleja relación entre el caudillo riojano Ángel Chacho Peñaloza y el presidente Justo José de Urquiza, dos figuras claves de la historia argentina del siglo XIX.",
+        imgUrl: "/assets/books/riojanos/chacho_urquiza/chacho_urquiza.webp",
+        qr: "/assets/books/riojanos/chacho_urquiza/chacho_urquiza_qr.png"
+    },
+    {
+        id: 70,
+        titulo: "Los Llanistos",
+        autor: "Miguel Bravo Terdín",
+        year_release: "1885",
+        category: "Riojanos",
+        desc: "El documento presenta información sobre Saturnina Quiroga, hija de José Prudencio Quiroga y hermana mayor de Facundo Quiroga. Al recibir su herencia en 1825, Saturnina incrementó considerablemente su patrimonio, recibiendo 500 pesos, joyas de oro y plata, y catorce trajes finos. Saturnina era la mujer más rica de los Llanos riojanos gracias a las herencias recibidas por ambos lados de su familia.",
+        imgUrl: "/assets/books/riojanos/llanistos/llanistos.webp",
+        qr: "/assets/books/riojanos/llanistos/llanistos_qr.png"
+    },
     
     
     
