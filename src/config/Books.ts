@@ -288,18 +288,8 @@ const Books: BookCardProps[] = [
         year_release: "1785",
         category: "Infantil-Juvenil",
         desc: "Este libro presenta las increíbles y fantásticas aventuras del Barón de Munchausen, un noble alemán conocido por su prodigiosa capacidad para contar historias exageradas y absurdas. A lo largo de sus relatos, el Barón describe sus extraordinarias hazañas durante sus campañas militares y viajes por Rusia y otros lugares del mundo.",
-        imgUrl: "/assets/books/Infanto_juvenil/El_libro_de_la_selva/El_libro_de_la_selva.jpg",
-        qr: "caca"
-    },
-    {
-        id: 28,
-        titulo: "El Baron de Muchausen",
-        autor: "Rudolf Erich Raspe",
-        year_release: "1785",
-        category: "Infantil-Juvenil",
-        desc: "Este libro presenta las increíbles y fantásticas aventuras del Barón de Munchausen, un noble alemán conocido por su prodigiosa capacidad para contar historias exageradas y absurdas. A lo largo de sus relatos, el Barón describe sus extraordinarias hazañas durante sus campañas militares y viajes por Rusia y otros lugares del mundo.",
         imgUrl: "/assets/books/Infanto_juvenil/El_baron_de_muchausen/El_baron_de_muchausen.jpg",
-        qr: "caca"
+        qr: "/assets/books/Infanto_juvenil/El_baron_de_muchausen/El_baron_de_muchausen_qr.jpg"
     },
     {
         id: 29,
@@ -728,7 +718,7 @@ const Books: BookCardProps[] = [
         year_release: "1759",
         category: "Literatura Universal",
         desc: "Cándido narra las aventuras de su protagonista homónimo, un joven ingenuo y optimista que ha sido influenciado por las enseñanzas de su mentor, el filósofo Pangloss, quien sostiene que vivimos en el mejor de los mundos posibles. Sin embargo, esta visión optimista es puesta a prueba cuando Cándido es expulsado del castillo donde creció y se embarca en una serie de viajes alrededor del mundo. A lo largo de su odisea, Cándido enfrenta una serie de desastres y desgracias que van desde guerras y terremotos hasta naufragios y persecuciones",
-        imgUrl: "/assets/books/Lit_universal/candido_o_el_optimismo_voltaire.jpg",
+        imgUrl: "/assets/books/Lit_universal/candido_o_el_optimismo_voltaire/candido_o_el_optimismo_voltaire.jpg",
         qr: "/assets/books/Lit_universal/candido_o_el_optimismo_voltaire/candido_o_el_optimismo_voltaire_qr.jpg"
     },
     {
@@ -886,17 +876,17 @@ const Books: BookCardProps[] = [
         titulo: "Viaje a la luna",
         autor: "Cyrano de Bergerac",
         year_release: "1906",
-        category: "Literatura Universal",
+        category: "Ciencia Ficción",
         desc: "En ella se relatan varias formas de llegar a la Luna, gotas de rocío envasadas, cohetes, pájaros y extrañas máquinas. El comienzo del viaje recuerda el viaje de Luciano de Samosata, porque después de un intento fallido llega a Nueva Francia (Canadá), recordamos que Luciano va hacia el oeste hasta llegar a una isla antes de llegar a la Luna. Allí explica ante el Virrey la rotación de la Tierra, y la existencia de otros mundos iguales que la tierra, y de otros soles iguales que el sol. O dicho de otra manera el paso del mundo Aristotélico al mundo de Copérnico y Galileo. Por otra parte defiende su preferencia por la razón frente a la fe. Por fin mediante unos ingeniosos cohetes llega a la Luna",
-        imgUrl: "/assets/books/Ciencia_Ficción/Viaje a la luna/Viaje a la luna.jpg",
-        qr: "/assets/books/Ciencia_Ficción/Viaje a la luna/Viaje a la luna_qr.jpg"
+        imgUrl: "/assets/books/Ciencia_Ficción/Viaje_a_la_luna/Viaje_a_la_luna.jpg",
+        qr: "/assets/books/Ciencia_Ficción/Viaje_a_la_luna/Viaje_a_la_luna_qr.jpg"
     }, 
     {
         id: 89,
         titulo: "La nueva atlantida",
         autor: "Francis Bacon",
         year_release: "1626",
-        category: "Literatura Universal",
+        category: "Ciencia Ficción",
         desc: "La Nueva Atlántida es una narración breve que describe un viaje marítimo realizado por marineros europeos hacia una isla desconocida llamada Bensalem, descubierta en medio del océano Pacífico. Los marineros son recibidos cordialmente por los habitantes de la isla, quienes los conducen a una ciudad bien organizada y avanzada llamada Salomón's House (la Casa de Salomón).",
         imgUrl: "/assets/books/Ciencia_Ficción/La_nueva_atlantida/La_nueva_atlantida.jpg",
         qr: "/assets/books/Ciencia_Ficción/La_nueva_atlantida/La_nueva_atlantida_qr.jpg"
@@ -906,10 +896,10 @@ const Books: BookCardProps[] = [
         titulo: "La incomparable aventura de Hans Pfaall",
         autor: "Edgar Allan Poe",
         year_release: "1835",
-        category: "Literatura Universal",
+        category: "Ciencia Ficción",
         desc: "La incomparable aventura de Hans Pfaall cuenta la historia de Hans Pfaall, un habitante de Rotterdam que decide escapar de sus deudas y problemas financieros construyendo un globo aerostático. Hans logra realizar un vuelo extraordinario hacia la Luna, donde encuentra una civilización alienígena y experimenta diversas aventuras surrealistas.",
-        imgUrl: "/assets/books/Ciencia_Ficción/La_incomparable_aventura_de_hans/La_incomparable_aventura_de_hans.jpg",
-        qr: "/assets/books/Ciencia_Ficción/La_incomparable_aventura_de_hans/La_incomparable_aventura_de_hans_qr.jpg"
+        imgUrl: "/assets/books/Ciencia_Ficción/La_incomparable_aventura_de_hans/La_incomparable_aventura_de_hanss.jpg",
+        qr: "/assets/books/Ciencia_Ficción/La_incomparable_aventura_de_hans/La_incomparable_aventura_de_hanss_qr.jpg"
     },
     {
         id: 91,
@@ -928,7 +918,7 @@ const Books: BookCardProps[] = [
         year_release: "1910",
         category: "Ciencia Ficción",
         desc: "El eterno Adán es una novela corta del escritor francés Julio Verne escrita poco antes de morir y publicada en 1910 en una antología de relatos breves El eterno Adán es una obra de Julio Verne que nos invita a reflexionar sobre la relación de la humanidad con el universo.",
-        imgUrl: "/assets/books/Ciencia_Ficción/El_eterno_adanEl_eterno_adan/El_eterno_adan.jpg",
+        imgUrl: "/assets/books/Ciencia_Ficción/El_eterno_adan/El_eterno_adan.jpg",
         qr: "/assets/books/Ciencia_Ficción/El_eterno_adan/El_eterno_adan_qr.jpg"
     },
     {
@@ -984,11 +974,11 @@ const Books: BookCardProps[] = [
     {
         id: 98,
         titulo: "Estudio en escarlata",
-        autor: "Arthur Conan Doyle",
+        autor: "Sir Arthur Conan Doyle",
         year_release: "1887",
         category: "Policial",
         desc: "El Dr. John Watson, un médico militar retirado, se muda a Londres y comparte un apartamento con Sherlock Holmes, un detective consultor. Holmes es llamado para investigar un misterioso asesinato en una casa vacía, donde encuentran un cadáver y una enigmática palabra escrita con sangre en la pared. Utilizando su excepcional habilidad para la deducción, Holmes desentraña el crimen y revela una intrincada historia de venganza que se extiende desde Londres hasta América.",
-        imgUrl: "/assets/books/Policial/Estudio_en_escarlata/Estudio_en_escarlata.jpg",
+        imgUrl: "/assets/books/Policial/Estudio_en_escarlata/Estudio_en_escarlata.jpeg",
         qr: "/assets/books/Policial/Estudio_en_escarlata/Estudio_en_escarlata_qr.jpg"
     },
     {
