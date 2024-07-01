@@ -6,11 +6,13 @@ import GameOver from '../components/QAGame/GameOver';
 import { NavLink, useNavigate } from 'react-router-dom';
 import TimerBar from '../components/QAGame/Timer';
 import getPhrase from '../components/QAGame/getPhrase';
+import AnswersModal from '../components/QAGame/AnswersModal';
 
 export default function QAGamePlay() {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [score, setScore] = useState(0);
-    const [isOpen, setIsOpen] = useState(false);
+    const [optionsPicked, setOptionsPicked] = useState<{ question: string, answer: string, isCorrect: boolean }[]>([]);
+    const [isOpenGo, setIsOpenGo] = useState(false);
     const [isFinished, setIsFinished] = useState(false);
     const [phrase, setPhrase] = useState({ title: '', desc: '' });
     const [showAnswers, setShowAnswers] = useState(false);
@@ -26,21 +28,32 @@ export default function QAGamePlay() {
         const target = e.target as HTMLButtonElement | null;
         if (target) {
             target.classList.add(isCorrect ? "correct" : "incorrect");
+            setOptionsPicked(prev => [
+                ...prev,
+                {
+                    question: qaBlock[currentQuestion].question,
+                    answer: target.textContent || '',
+                    isCorrect
+                }
+            ]);
         }
-        setShowAnswers(true);
         if (currentQuestion === qaBlock.length - 1) {
             const finalPhrase = getPhrase(score);
             setPhrase(finalPhrase);
             setIsFinished(true);
-            setIsOpen(true);
+            setShowAnswers(true);
         } else {
-            setShowAnswers(false);
             setCurrentQuestion(prev => prev + 1);
         }
     };
 
-    const closeModal = () => {
-        setIsOpen(false)
+    const closeModalAnswers = () => {
+        setShowAnswers(false)
+        setIsOpenGo(true)
+    }
+
+    const closeModalGo = () => {
+        setIsOpenGo(false)
         navigate('/qagame')
     }
 
@@ -68,9 +81,28 @@ export default function QAGamePlay() {
                     ))}
                 </div>
             </main>
+            {isFinished && showAnswers && <AnswersModal
+                isOpen={showAnswers}
+                onClose={closeModalAnswers}
+                content={
+                    <>
+                        <h1>Veriifica tus respuestas</h1>
+                        <section>
+                            {optionsPicked.map((picked, index) => (
+                                <div key={index}>
+                                    <p><strong>Pregunta: </strong>{picked.question}</p>
+                                    <p><strong>Respuesta Elegida: </strong>{picked.answer} ({picked.isCorrect ? 'Correcto' : 'Incorrecto'})</p>
+                                </div>
+                            ))}
+
+                        </section>
+                        <button onClick={closeModalAnswers} className="green">Siguiente</button>
+                    </>
+                }
+            ></AnswersModal>}
             {isFinished && <GameOver
-                isOpen={isOpen}
-                onClose={closeModal}
+                isOpen={isOpenGo}
+                onClose={closeModalGo}
                 content={
                     <>
                         <span>Has conseguido responder correctamente: {score} de 6 preguntas</span>

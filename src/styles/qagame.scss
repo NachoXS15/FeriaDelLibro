@@ -17,8 +17,9 @@ main {
     margin: 0 auto;
     margin-top: 60px;
     background-image: url('/assets/imgs/qa_paga_bg.webp');
+    aspect-ratio: 16/9;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     padding: 20px;
     border-radius: 10px;
@@ -87,7 +88,6 @@ main {
         border-radius: 50px;
     }
 
-    /* Estilo para la barra de progreso */
     .progress-container {
         position: relative;
         height: 20px;
@@ -202,6 +202,80 @@ main {
                 font-size: 0.8em;
             }
         }
+    }
+
+}
+
+.modal-backdrop-answers{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+
+    .modal-content-answers{
+        width: 90%;
+        height: 780px;
+        background-image: url('/assets/imgs/qa_bg_nobook.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        padding: 30px;
+        border-radius: 30px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+        
+        h1 {
+            font-weight: 800;
+            font-size: 3em;
+        }
+
+        section{
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+
+            div{
+                width: 30%;
+
+        
+                h2{
+                    font-family: 700;
+                    font-size: 0.9em;
+                    margin-bottom: 1em;
+                }
+        
+                h3 {
+                    font-weight: 700;
+                    margin-bottom: 20px;
+                    font-size: 0.8em;
+                }
+        
+                p {
+                    font-size: 2em;
+                }
+
+                .green {
+                    margin-top: 30px;
+                    font-size: 2em;
+                }
+            }
+    
+        }
+        
     }
 
 }
