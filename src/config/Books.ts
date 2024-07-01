@@ -888,8 +888,8 @@ const Books: BookCardProps[] = [
         year_release: "1906",
         category: "Literatura Universal",
         desc: "En ella se relatan varias formas de llegar a la Luna, gotas de rocío envasadas, cohetes, pájaros y extrañas máquinas. El comienzo del viaje recuerda el viaje de Luciano de Samosata, porque después de un intento fallido llega a Nueva Francia (Canadá), recordamos que Luciano va hacia el oeste hasta llegar a una isla antes de llegar a la Luna. Allí explica ante el Virrey la rotación de la Tierra, y la existencia de otros mundos iguales que la tierra, y de otros soles iguales que el sol. O dicho de otra manera el paso del mundo Aristotélico al mundo de Copérnico y Galileo. Por otra parte defiende su preferencia por la razón frente a la fe. Por fin mediante unos ingeniosos cohetes llega a la Luna",
-        imgUrl: "/assets/books/Lit_universal/Viaje a la luna/Viaje a la luna.jpg",
-        qr: "/assets/books/Lit_universal/Viaje a la luna/Viaje a la luna_qr.jpg"
+        imgUrl: "/assets/books/Ciencia_Ficción/Viaje a la luna/Viaje a la luna.jpg",
+        qr: "/assets/books/Ciencia_Ficción/Viaje a la luna/Viaje a la luna_qr.jpg"
     }, 
     {
         id: 89,
@@ -898,8 +898,8 @@ const Books: BookCardProps[] = [
         year_release: "1626",
         category: "Literatura Universal",
         desc: "La Nueva Atlántida es una narración breve que describe un viaje marítimo realizado por marineros europeos hacia una isla desconocida llamada Bensalem, descubierta en medio del océano Pacífico. Los marineros son recibidos cordialmente por los habitantes de la isla, quienes los conducen a una ciudad bien organizada y avanzada llamada Salomón's House (la Casa de Salomón).",
-        imgUrl: "/assets/books/Lit_universal/La_nueva_atlantida/La_nueva_atlantida.jpg",
-        qr: "/assets/books/Lit_universal/La_nueva_atlantida/La_nueva_atlantida_qr.jpg"
+        imgUrl: "/assets/books/Ciencia_Ficción/La_nueva_atlantida/La_nueva_atlantida.jpg",
+        qr: "/assets/books/Ciencia_Ficción/La_nueva_atlantida/La_nueva_atlantida_qr.jpg"
     },
     {
         id: 90,
@@ -908,58 +908,58 @@ const Books: BookCardProps[] = [
         year_release: "1835",
         category: "Literatura Universal",
         desc: "La incomparable aventura de Hans Pfaall cuenta la historia de Hans Pfaall, un habitante de Rotterdam que decide escapar de sus deudas y problemas financieros construyendo un globo aerostático. Hans logra realizar un vuelo extraordinario hacia la Luna, donde encuentra una civilización alienígena y experimenta diversas aventuras surrealistas.",
-        imgUrl: "/assets/books/Lit_universal/La_incomparable_aventura_de_hans/La_incomparable_aventura_de_hans.jpg",
-        qr: "/assets/books/Lit_universal/La_incomparable_aventura_de_hans/La_incomparable_aventura_de_hans_qr.jpg"
+        imgUrl: "/assets/books/Ciencia_Ficción/La_incomparable_aventura_de_hans/La_incomparable_aventura_de_hans.jpg",
+        qr: "/assets/books/Ciencia_Ficción/La_incomparable_aventura_de_hans/La_incomparable_aventura_de_hans_qr.jpg"
     },
     {
         id: 91,
         titulo: "De la tierra a la luna",
         autor: "Julio Verne",
         year_release: "1865",
-        category: "Literatura Universal",
+        category: "Ciencia Ficción",
         desc: "De la Tierra a la Luna narra la historia de un grupo de entusiastas estadounidenses del Club de los Caníbales, liderados por el presidente del club, Impey Barbicane. Este grupo decide emprender un ambicioso proyecto: construir un enorme cañón en Florida y utilizarlo para lanzar una nave espacial hacia la Luna.",
-        imgUrl: "/assets/books/Lit_universal/De_la_tierra_a_la_luna/De_la_tierra_a_la_luna.jpg",
-        qr: "/assets/books/Lit_universal/De_la_tierra_a_la_luna/De_la_tierra_a_la_luna_qr.jpg"
+        imgUrl: "/assets/books/Ciencia_Ficción/De_la_tierra_a_la_luna/De_la_tierra_a_la_luna.jpg",
+        qr: "/assets/books/Ciencia_Ficción/De_la_tierra_a_la_luna/De_la_tierra_a_la_luna_qr.jpg"
     },
     {
         id: 92,
         titulo: "El eterno Adán",
         autor: "Julio Verne",
         year_release: "1910",
-        category: "Literatura Universal",
+        category: "Ciencia Ficción",
         desc: "El eterno Adán es una novela corta del escritor francés Julio Verne escrita poco antes de morir y publicada en 1910 en una antología de relatos breves El eterno Adán es una obra de Julio Verne que nos invita a reflexionar sobre la relación de la humanidad con el universo.",
-        imgUrl: "/assets/books/Lit_universal/El_eterno_adanEl_eterno_adan/El_eterno_adan.jpg",
-        qr: "/assets/books/Lit_universal/El_eterno_adan/El_eterno_adan_qr.jpg"
+        imgUrl: "/assets/books/Ciencia_Ficción/El_eterno_adanEl_eterno_adan/El_eterno_adan.jpg",
+        qr: "/assets/books/Ciencia_Ficción/El_eterno_adan/El_eterno_adan_qr.jpg"
     },
     {
         id: 93,
         titulo: "Viaje maravilloso del señor Nic-Nac",
         autor: "Eduardo Ladislao Holmberg",
         year_release: "1875",
-        category: "Literatura Universal",
+        category: "Ciencia Ficción",
         desc: "En 1880, Ladislao Kallitz, un empleado del Museo de Ciencias Naturales de Buenos Aires, guiado por un singular maestro médium versado en espiritismo, Fridrich Seele, y un misterioso gato negro, logra arribar a través de la técnica de la transplanetación a Marte donde será conocido como el Señor Nic-Nac. Recorriendo el espacio exterior, Nic-Nac descubrirá múltiples sociedades sobre las que se perpetra la amenaza de la conspiración. Evitar ser víctima de ella y detener sus planes sobre nuestro planeta será la empresa de este osado naturalista de los espacios.",
-        imgUrl: "/assets/books/Lit_universal/Viaje_maravilloso_del_señor_nic_nac/Viaje_maravilloso_del_señor_nic_nac.jpg",
-        qr: "/assets/books/Lit_universal/Viaje_maravilloso_del_señor_nic_nac/Viaje_maravilloso_del_señor_nic_nac_qr.jpg"
+        imgUrl: "/assets/books/Ciencia_Ficción/Viaje_maravilloso_del_señor_nic_nac/Viaje_maravilloso_del_señor_nic_nac.jpg",
+        qr: "/assets/books/Ciencia_Ficción/Viaje_maravilloso_del_señor_nic_nac/Viaje_maravilloso_del_señor_nic_nac_qr.jpg"
     },
     {
         id: 94,
         titulo: "El hombre invisible",
         autor: "H. G. Wells",
         year_release: "1897",
-        category: "Literatura Universal",
+        category: "Ciencia Ficción",
         desc: "El hombre invisible cuenta la historia de Griffin, un científico brillante obsesionado con descubrir el secreto de la invisibilidad. Después de experimentar consigo mismo, logra volverse invisible, pero pronto descubre que revertir el proceso se vuelve extremadamente difícil. A medida que lucha con las consecuencias físicas y mentales de su descubrimiento, Griffin se ve obligado a enfrentar su propia moralidad y las implicaciones de su poder recién adquirido.",
-        imgUrl: "/assets/books/Lit_universal/El_hombre_invisible/El_hombre_invisible.jpg",
-        qr: "/assets/books/Lit_universal/El_hombre_invisible/El_hombre_invisible_qr.jpg"
+        imgUrl: "/assets/books/Ciencia_Ficción/El_hombre_invisible/El_hombre_invisible.jpg",
+        qr: "/assets/books/Ciencia_Ficción/El_hombre_invisible/El_hombre_invisible_qr.jpg"
     },
     {
         id: 95,
         titulo: "Nosotros",
         autor: "Yevgueni Zamiatin",
         year_release: "1924",
-        category: "Literatura Universal",
+        category: "Ciencia Ficción",
         desc: "Nosotros está ambientada en un futuro distópico donde la sociedad está altamente regimentada y controlada por un gobierno totalitario conocido como el Estado Único. Los ciudadanos viven en un mundo de conformidad extrema, donde las emociones y las acciones individuales están estrictamente reguladas y suprimidas en nombre del bienestar colectivo. El protagonista de la historia es D-503, un matemático y constructor de naves espaciales que vive en la Ciudad Única. D-503 comienza a llevar un diario que relata su vida en esta sociedad altamente controlada, sus pensamientos y sentimientos, y su participación en la construcción de una nave espacial destinada a conquistar nuevos mundos.",
-        imgUrl: "/assets/books/Lit_universal/Nosotros/Nosotros.jpg",
-        qr: "/assets/books/Lit_universal/Nosotros/Nosotros_qr.jpg"
+        imgUrl: "/assets/books/Ciencia_Ficción/Nosotros/Nosotros.jpg",
+        qr: "/assets/books/Ciencia_Ficción/Nosotros/Nosotros_qr.jpg"
     },
     {
         id: 96,
