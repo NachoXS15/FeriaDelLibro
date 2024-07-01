@@ -7,7 +7,6 @@ import { NavLink, useParams} from 'react-router-dom';
 import { ArrowBack } from '../components/ui/svgs';
 import { BookCardProps } from '../config/types/BookCardProps';
 import BookModal from '../components/Library/BookModal';
-import QRCodeEx from '/assets/imgs/qr.webp'
 import LibraryProp from '../config/types/LibraryProp';
 
 export default function Biblioteca({categoryProp}: LibraryProp) {
@@ -56,8 +55,9 @@ export default function Biblioteca({categoryProp}: LibraryProp) {
           <div style={{backgroundImage: `url(${selectedBook.imgUrl})`}} className='modal-img'></div>
           <div className='modal-info'>
             <h2>{selectedBook.titulo}</h2>
-            <h3>Autor: {selectedBook.autor}</h3>
-            <p>{selectedBook.desc}</p>
+            <h3><strong>Autor:</strong>{selectedBook.autor}</h3>
+            <h4 style={{marginBottom: '1em'}}><strong>Año de lanzamiento:</strong>{selectedBook.year_release}</h4>
+            <p><strong>Sinopsis: </strong>{selectedBook.desc}</p>
           </div>
           <div className='modal-download'>
             <h4>Descargar este libro aquí</h4>

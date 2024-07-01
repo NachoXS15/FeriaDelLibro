@@ -452,7 +452,7 @@ const Books: BookCardProps[] = [
         qr: "/assets/books/lit_arg_latam/sangre/sangre_qr.png"
     },
     {
-        id: 41,
+        id: 44,
         titulo: "Los Misterios del Plata",
         autor: "Juana Manso",
         year_release: "1852",
@@ -462,7 +462,7 @@ const Books: BookCardProps[] = [
         qr: "/assets/books/lit_arg_latam/misterio_plata/misterio_plata_qr.png"
     },
     {
-        id: 42,
+        id: 45,
         titulo: "El Pozo de Yocci",
         autor: "Juana Manuela Gorriti",
         year_release: "1814",
@@ -472,7 +472,7 @@ const Books: BookCardProps[] = [
         qr: "/assets/books/lit_arg_latam/yocci/yocci_qr.png"
     },
     {
-        id: 43,
+        id: 46,
         titulo: "El Angel de la Sombra",
         autor: "Leopoldo Lugones",
         year_release: "1926",
@@ -482,7 +482,7 @@ const Books: BookCardProps[] = [
         qr: "/assets/books/lit_arg_latam/angel_sombra/angel_sombra_qr.png"
     },
     {
-        id: 44,
+        id: 47,
         titulo: "Los Siete Locos",
         autor: "Roberto Arlt",
         year_release: "1926",
@@ -492,7 +492,7 @@ const Books: BookCardProps[] = [
         qr: "/assets/books/lit_arg_latam/siete_locos/siete_locos_qr.png"
     },
     {
-        id: 45,
+        id: 49,
         titulo: "Los Lanzallamas",
         autor: "Roberto Arlt",
         year_release: "1931",
@@ -502,7 +502,7 @@ const Books: BookCardProps[] = [
         qr: "/assets/books/lit_arg_latam/lanzallamas/lanzallamas_qr.png"
     },
     {
-        id: 42,
+        id: 50,
         titulo: "El Médico de San Luis",
         autor: "Eduarda Mansilla",
         year_release: "1860",
@@ -512,25 +512,176 @@ const Books: BookCardProps[] = [
         qr: "/assets/books/lit_arg_latam/san_luis/san_luis_qr.png"
     },
     {
-        id: 43,
-        titulo: "El Angel de la Sombra",
-        autor: "Leopoldo Lugones",
-        year_release: "1926",
+        id: 51,
+        titulo: "Lucía Miranda",
+        autor: "Rosa Guerra",
+        year_release: "1860",
         category: "Literatura Argentina y Latinoamericana",
-        desc: "Luisa, hija de una familia acomodada, trata de ocultar su romance con Suárez Vallejo, profesor de francés de origen incierto, mientras su salud se deteriora de la mano de su médico. Una historia de amor y drama, rodeada de hechos extraordinarios. El ángel de la sombra (1926) única novela escrita por Leopoldo Lugones, mantuvo la línea de misterio, enigma y ocultismo expuesta en sus Cuentos fatales. En la sangre es una novela escrita por el autor argentino Eugenio Cambaceres, publicada en 1887. Fue la cuarta y última novela de Cambaceres. En el texto, se narra la historia de Genaro, un hijo de inmigrantes italianos en Buenos Aires durante el siglo XIX.",
-        imgUrl: "/assets/books/lit_arg_latam/angel_sombra/angel_sombra.webp",
-        qr: "/assets/books/lit_arg_latam/angel_sombra/angel_sombra_qr.png"
+        desc: "La leyenda cuenta que Lucía Miranda, mujer de uno de los militares españoles del fuerte, y Mangorá, cacique de los timbués, anduvieron en amores. Pero la imposibilidad de esta mezcla entre naturales y españoles, hasta entonces prohibida, hizo que el desesperado Mangorá atacara el fuerte para llevarse a Lucía.",
+        imgUrl: "/assets/books/lit_arg_latam/lucia_miranda/lucia_miranda.webp",
+        qr: "/assets/books/lit_arg_latam/lucia_miranda/lucia_miranda_qr.png"
     },
     {
-        id: 44,
-        titulo: "Los Siete Locos",
-        autor: "Roberto Arlt",
+        id: 52,
+        titulo: "La Gran Aldea",
+        autor: "Lucio Vicente López",
         year_release: "1926",
         category: "Literatura Argentina y Latinoamericana",
-        desc: "Luisa, hija de una familia acomodada, trata de ocultar su romance con Suárez Vallejo, profesor de francés de origen incierto, mientras su salud se deteriora de la mano de su médico. Una historia de amor y drama, rodeada de hechos extraordinarios. El ángel de la sombra (1926) única novela escrita por Leopoldo Lugones, mantuvo la línea de misterio, enigma y ocultismo expuesta en sus Cuentos fatales. En la sangre es una novela escrita por el autor argentino Eugenio Cambaceres, publicada en 1887. Fue la cuarta y última novela de Cambaceres. En el texto, se narra la historia de Genaro, un hijo de inmigrantes italianos en Buenos Aires durante el siglo XIX.",
-        imgUrl: "/assets/books/lit_arg_latam/siete_locos/siete_locos.webp",
-        qr: "/assets/books/lit_arg_latam/siete_locos/siete_locos_qr.png"
+        desc: "La novela La gran aldea (1885), de Lucio Vicente López, trata sobre la dramática transformación que experimenta Buenos Aires entre 1862 y 1883 [1], período en el que se convierte de una ciudad patricia—conformada por la aristocracia criolla—en una ciudad burguesa, constituida mayormente por mercaderes inmigrantes.",
+        imgUrl: "/assets/books/lit_arg_latam/gran_aldea/gran_aldea.png",
+        qr: "/assets/books/lit_arg_latam/gran_aldea/gran_aldea_qr.png"
     },
+    {
+        id: 53,
+        titulo: "Guatimozin",
+        autor: "Gertrudis Gómez de Avellaneda",
+        year_release: "1846",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "Guatimozin, último emperador de México, cuenta la conquista de México por parte de los españoles y la caída del imperio azteca. La voz autorial se vale de algunos elementos y datos históricos para crear una ficción que inventa y altera la cronología de los hechos e inserta episodios imaginativos y sucesos verosímiles.",
+        imgUrl: "/assets/books/lit_arg_latam/guatimozin/guatimozin.jpg",
+        qr: "/assets/books/lit_arg_latam/guatimozin/guatimozin_qr.png"
+    },
+    {
+        id: 54,
+        titulo: "Raza de Bronce",
+        autor: "Alcides Arguedas",
+        year_release: "1978",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "En esta obra el autor presenta una trama sobre la dualidad Blanco/Indio, que da paso a una visión compleja del problema racial, donde los mestizos se hacen pasar por blancos por ciertas estrategias, poniendo así en duda nociones ontologizantes de la identidad.",
+        imgUrl: "/assets/books/lit_arg_latam/raza_bronce/raza_bronce.jpg",
+        qr: "/assets/books/lit_arg_latam/raza_bronce/raza_bronce_qr.png"
+    },
+    {
+        id: 55,
+        titulo: "El Problema",
+        autor: "Máximo Soto Hall",
+        year_release: "1899",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "El problema es una novela de tesis. Estudia, en la región tropical de América, el antagonismo entre dos razas que parecen no comprenderse y que, a la larga, han de concluir conociéndose mejor y adaptándose, en forma recíproca, la una a las justas exigencias de la otra.",
+        imgUrl: "/assets/books/lit_arg_latam/problema/problema.jpg",
+        qr: "/assets/books/lit_arg_latam/problema/problema_qr.png"
+    },
+    {
+        id: 56,
+        titulo: "Ifigenia",
+        autor: "Teresa de la Parra",
+        year_release: "1924",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "El tema central de la obra es el conflicto continuo que existía entre la nueva mentalidad de las mujeres jóvenes despiertas al modernismo por los viajes y la literatura, y la vida real que llevaban, encadenadas por perjuicios y costumbres de otra época.",
+        imgUrl: "/assets/books/lit_arg_latam/ifigenia/ifigenia.jpg",
+        qr: "/assets/books/lit_arg_latam/ifigenia/ifigenia_qr.png"
+    },
+    {
+        id: 57,
+        titulo: "A Fuego Lento",
+        autor: "Emilio Bobadilla",
+        year_release: "1903",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "En A Fuego Lento, Emilio Bobadilla nos sumerge en un relato apasionante sobre el amor y la traición en el contexto de la sociedad aristocrática del siglo XIX. Con una prosa cuidadosamente elaborada y un ritmo pausado, Bobadilla nos lleva a través de los intrincados giros de la trama, manteniendo al lector en vilo hasta la última página. La novela destaca por su profundidad psicológica y la maestría con la que el autor describe las emociones de sus personajes.",
+        imgUrl: "/assets/books/lit_arg_latam/fuego_lento/fuego_lento.jpg",
+        qr: "/assets/books/lit_arg_latam/fuego_lento/fuego_lento_qr.png"
+    },
+    {
+        id: 58,
+        titulo: "Las Vertebras de Pan",
+        autor: "Eloy Fariña Nuñez",
+        year_release: "2008",
+        category: "Literatura Argentina y Latinoamericana",
+        desc: "Los diferentes cuentos de «Las vértebras de Pan» van componiendo un mosaic de visions, una red de vías que seguir para comprender las diferrentes posibilidades que se le ofrecen al hombre para alanzar el conocimiento de sí mismo y del Cosmos.",
+        imgUrl: "/assets/books/lit_arg_latam/vertebras/vertebras.jpg",
+        qr: "/assets/books/lit_arg_latam/vertebras/vertebras_qr.png"
+    },
+    {
+        id: 59,
+        titulo: "El Principe",
+        autor: "Nicolas Maquiavelo",
+        year_release: "1899",
+        category: "Ensayo/Filosofia",
+        desc: "El Príncipe de Nicolás Maquiavelo es un libro de estrategia, el cual tuvo como objetivo el enseñar a los gobernantes de la época de qué forma debían actuar para prevalecer sobre el resto. Es un tratado político del siglo XVI del diplomático y teórico político italiano Nicolás Maquiavelo. Según la correspondencia de Maquiavelo, una versión parece haber sido distribuida en 1513, usando el título en latín De Principatibus.",
+        imgUrl: "/assets/books/filosofia/principe/principe.webp",
+        qr: "/assets/books/filosofia/principe/principe_qr.png"
+    },
+    {
+        id: 60,
+        titulo: "Utopía",
+        autor: "Tomás Moro",
+        year_release: "1516",
+        category: "Ensayo/Filosofia",
+        desc: "La obra de Tomás Moro muestra la imagen ideal de un Estado social y, al mismo tiempo, critica las formas de Estado existentes. Un componente central del texto es el informe inventado de un navegante sobre la isla de Utopía, donde prevalecen condiciones sociales ideales.",
+        imgUrl: "/assets/books/filosofia/utopia/utopia.jpg",
+        qr: "/assets/books/filosofia/utopia/utopia_qr.png"
+    },
+    {
+        id: 61,
+        titulo: "El Origen de las Especies",
+        autor: "Charles Darwin",
+        year_release: "1859",
+        category: "Ensayo/Filosofia",
+        desc: "El origen de las especies —título original en inglés: On the Origin of Species— es un libro de Charles Darwin publicado el 24 de noviembre de 1859, considerado uno de los trabajos precursores de la literatura científica y el fundamento de la teoría de la biología evolutiva.",
+        imgUrl: "/assets/books/filosofia/especies/especies.jpg",
+        qr: "/assets/books/filosofia/especies/especies_qr.png"
+    },
+    {
+        id: 62,
+        titulo: "Walden",
+        autor: "Henry David Thoreau",
+        year_release: "1854",
+        category: "Ensayo/Filosofia",
+        desc: "Walden es un viaje en busca de la verdad que confluye en uno mismo. Una reflexión que repara en temas como la esclavitud, la memoria india o la defensa de la naturaleza, pero que se ocupa primariamente de las necesidades últimas del ser humano. Es, en esencia, un alegato a favor del minimalismo.",
+        imgUrl: "/assets/books/filosofia/walden/walden.jpg",
+        qr: "/assets/books/filosofia/walden/walden_qr.png"
+    },
+    {
+        id: 63,
+        titulo: "Una Humilde Propuesta",
+        autor: "Johnathan Swift",
+        year_release: "1729",
+        category: "Ensayo/Filosofia",
+        desc: "En la obra maestra satírica de Jonathan Swift, *Una humilde propuesta,* el aparentemente racional y meticulosamente argumentado plan para abordar la pobreza extrema y la superpoblación de Irlanda rápidamente se convierte en una proposición grotesca, aunque oscuramente humorística: criar y consumir bebés. Swift emplea magistralmente la ironía y la exageración para criticar la negligencia del gobierno británico y las actitudes frías y calculadoras de la élite hacia el sufrimiento de los pobres. Al presentar una solución extravagante con la lógica y el comportamiento de un economista experimentado, Swift atrae de manera convincente a los lectores, impactándolos y animándolos a reflexionar sobre las graves injusticias sociales de su época.",
+        imgUrl: "/assets/books/filosofia/propuesta/propuesta.jpg",
+        qr: "/assets/books/filosofia/propuesta/propuesta_qr.png"
+    },
+    {
+        id: 64,
+        titulo: "El Hombre Mediocre",
+        autor: "José Ingenieros",
+        year_release: "1913",
+        category: "Ensayo/Filosofia",
+        desc: "El hombre mediocre nos muestra el peligro que corren las sociedades donde los ideales han quedado sepultados por gobiernos, ideologías y éticas que se proclaman como «oficiales», arremetiendo contra todo aquello que señale una nueva manera de concebir la realidad.",
+        imgUrl: "/assets/books/filosofia/mediocre/mediocre.jpg",
+        qr: "/assets/books/filosofia/mediocre/mediocre_qr.png"
+    },
+    {
+        id: 65,
+        titulo: "Teoría Poética y Estética",
+        autor: "Paul Valery",
+        year_release: "1999",
+        category: "Ensayo/Filosofia",
+        desc: "Cada obra de arte es conforme a su propia regla, regla que la hace adecuada sólo a sí misma; de modo que cada pieza de arte posee su propia ley de unidad, armonía y proporción y hay en ella una relación correcta entre las partes materiales que componen un todo.",
+        imgUrl: "/assets/books/filosofia/teoria/teoria.png",
+        qr: "/assets/books/filosofia/teoria/teoria_qr.png"
+    },
+    {
+        id: 66,
+        titulo: "Literatura y Estética",
+        autor: "José Carlos Mariátegui",
+        year_release: "1958",
+        category: "Ensayo/Filosofia",
+        desc: "'Literatura y Estética' es una colección de ensayos escritos por José Carlos Mariátegui, un destacado intelectual peruano y uno de los más influyentes pensadores marxistas en América Latina. Esta obra se centra en la crítica literaria y el análisis estético desde una perspectiva marxista, explorando la relación entre la literatura, la sociedad y la ideología.",
+        imgUrl: "/assets/books/filosofia/literatura/literatura.jpg",
+        qr: "/assets/books/filosofia/literatura/literatura_qr.png"
+    },
+    {
+        id: 67,
+        titulo: "Tiempo Perdido",
+        autor: "Eduardo Wilde",
+        year_release: "1885",
+        category: "Ensayo/Filosofia",
+        desc: "'Tiempo perdido' es una obra del escritor argentino Eduardo Wilde, publicada en 1885. El libro es una colección de ensayos y crónicas que abordan diversos temas de la vida cotidiana y social de su tiempo. Wilde, conocido por su estilo agudo y satírico, utiliza estos textos para reflexionar sobre la cultura, la política y la sociedad de la Argentina del siglo XIX. En esta obra, Wilde critica las costumbres y los vicios de su época, poniendo de manifiesto las contradicciones y las incongruencias de la sociedad. Sus ensayos, a menudo humorísticos y mordaces, exploran temas como la educación, la burocracia, las modas, la moralidad y la religión..",
+        imgUrl: "/assets/books/filosofia/tiempo_perdido/tiempo_perdido.jpg",
+        qr: "/assets/books/filosofia/tiempo_perdido/tiempo_perdido_qr.png"
+    },
+    
     
     
 ]
