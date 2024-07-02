@@ -52,7 +52,7 @@ main {
     width: 80%;
     height: 700px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 50px;
 
     #top {
         width: 100%;
@@ -157,7 +157,7 @@ main {
     .modal-content-qa {
         width: 90%;
         height: 780px;
-        background-image: url('/assets/imgs/qa_win_bg.webp');
+        background-image: url('/assets/imgs//bgs/qa_win_bg.webp');
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center;
@@ -219,12 +219,12 @@ main {
 
     .modal-content-answers{
         width: 90%;
-        height: 780px;
-        background-image: url('/assets/imgs/answers_bg.png');
+        height: 800px;
+        background-image: url('/assets/imgs/bgs/answers_bg.png');
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center;
-        padding: 30px;
+        padding: 60px;
         border-radius: 30px;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         color: white;

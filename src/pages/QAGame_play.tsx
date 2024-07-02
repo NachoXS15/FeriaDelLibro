@@ -28,23 +28,13 @@ export default function QAGamePlay() {
             const timer = setTimeout(() => {
                 handleAnswer(false, null)
             }, 10000);
-            return () => clearTimeout(timer)   
+            return () => clearTimeout(timer)
         }
     }, [currentQuestion, isFinished])
 
-    useEffect(() => {
-        if (!isFinished) {
-            const countdown = setInterval(() => {
-                setTimeLeft(prev => prev -1);
-            }, 10000)
-            
-            return () => clearInterval(countdown)
-        }
-
-    }, [timeLeft, isFinished])
 
     const handleAnswer = (isCorrect: boolean, e: React.MouseEvent<HTMLButtonElement> | null) => {
-        if(isFinished) return;
+        if (isFinished) return;
 
         if (isCorrect) setScore(score + 1);
         if (e) {
@@ -81,9 +71,9 @@ export default function QAGamePlay() {
     };
     const closeModalGo = () => {
         setIsOpenGo(false)
-        setShowAnswers(true)        
+        setShowAnswers(true)
     }
-    
+
     const closeModalAnswers = () => {
         setShowAnswers(false)
         navigate('/qagame')
