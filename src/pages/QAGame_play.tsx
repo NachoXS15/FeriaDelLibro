@@ -136,7 +136,7 @@ export default function QAGamePlay() {
                             {optionsPicked.map((picked, index) => (
                                 <div key={index}>
                                     <p><strong className='yellow'><span>Pregunta: </span></strong>{picked.question}</p>
-                                    <p><strong className='violet-text'><span>Respuesta Elegida: </span></strong>{picked.answer} - <span className={picked.isCorrect ? 'correct' : 'incorrect'}>({picked.isCorrect ? 'Correcto' : 'Incorrecto'})</span></p>
+                                    <p><strong className='violet-text'><span>Respuesta Elegida: </span></strong>{picked.answer} - <span className={picked.isCorrect ? 'correct' : 'incorrect'}>({picked.answer === "" ? 'No respondió' : picked.isCorrect ? 'Correcto' : 'Incorrecto'})</span></p>
                                 </div>
                             ))}
 
