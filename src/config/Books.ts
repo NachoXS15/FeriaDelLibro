@@ -1031,16 +1031,6 @@ const Books: BookCardProps[] = [
          imgUrl: "/assets/books/Teatro/Edipo_rey/Edipo_rey.jpg",
         qr: "/assets/books/Teatro/Edipo_rey/Edipo_rey_qr.jpg"
     },
-     {
-        id: 104,
-        titulo: "El misterio del cuarto amarillo",
-        autor: "Gaston Leroux",
-        year_release: "1907",
-        category: "Teatro",
-        desc: "El misterio del cuarto amarillo comienza con un misterioso intento de asesinato en el castillo de Glandier. Una joven llamada Mathilde Stangerson es atacada en un cuarto cerrado por dentro y pintado de amarillo. A pesar de que se escucharon gritos y se intentó entrar al cuarto, la puerta estaba cerrada y la ventana estaba sellada desde dentro, lo que sugiere que el atacante logró escapar sin dejar rastro. El detective Joseph Rouletabille, conocido por su perspicacia y habilidades deductivas, es llamado para resolver el caso. Con la ayuda de su amigo y narrador de la historia, Sainclair, Rouletabille se sumerge en una compleja red de pistas, sospechosos y motivos que podrían explicar el misterio del cuarto amarillo.",
-        imgUrl: "/assets/books/Teatro/",
-        qr: "/assets/books/Teatro/"
-    },
     {
         id: 105,
         titulo: "El abanico de Lady Windermere",
@@ -1140,16 +1130,6 @@ const Books: BookCardProps[] = [
         desc: "Enrique Angelelli: Un Testigo de la Vida es una obra escrita por Ricardo Mercado Luna. El libro, publicado en 1986, es una biografía que aborda la vida y el trabajo pastoral de Enrique Angelelli, obispo de La Rioja en Argentina. Ricardo Mercado Luna, abogado y escritor, ofrece un detallado relato sobre la vida de Angelelli, su compromiso con los derechos humanos, su trabajo con los pobres y marginados, y las circunstancias que rodearon su asesinato en 1976 durante la dictadura militar argentina. La obra se centra en su legado como un defensor ferviente de la justicia social y los derechos humanos.",
         imgUrl: "/assets/books/riojanos/angelelli/angelelli.webp",
         qr: "/assets/books/riojanos/angelelli/angelelli_qr.jpg"
-    },
-    {
-        id: 115,
-        titulo: "El Final Más Feliz",
-        autor: "Marcelo Lacasa",
-        year_release: "0",
-        category: "Riojanos",
-        desc: "El final más felizes un libro escrito por Marcelo Lacasa. Publicado en 2017, esta obra aborda el asesinato del obispo Enrique Angelelli, ofreciendo una perspectiva detallada sobre los eventos que llevaron a su muerte y el impacto de su legado. Lacasa, a través de una narrativa bien documentada, explora los aspectos políticos, sociales y religiosos que rodearon la vida y la trágica muerte de Angelelli. El libro se enfoca en esclarecer las circunstancias de su asesinato, que fue inicialmente presentado como un accidente, pero que más tarde se confirmó como un homicidio perpetrado durante la dictadura militar argentina. No solo se detiene en los hechos históricos, sino que también reflexiona sobre el legado de Angelelli y su lucha por la justicia y los derechos humanos.",
-        imgUrl: "/assets/books/riojanos/memorias_llanos/memorias_llanos.webp",
-        qr: "/assets/books/riojanos/memorias_llanos/memorias_llanos_qr.png"
     },
     {
         id: 116,
@@ -1375,12 +1355,12 @@ const Books: BookCardProps[] = [
     },
     {
         id: 29,
-        titulo: "El extraño caso del doctor Jekyll y el señor Hyde",
+        titulo: "El Extraño Caso del Doctor Jekyll y el Señor Hyde",
         autor: "Robert Louis Stevenson",
         year_release: "1886",
         category: "Fantástico",
         desc: "La historia sigue a Gabriel John Utterson, un abogado de Londres, que investiga las extrañas acciones de su amigo, el Dr. Henry Jekyll, y la relación de Jekyll con el siniestro Edward Hyde. A medida que Utterson profundiza en el misterio, descubre una verdad perturbadora sobre la dualidad de la naturaleza humana y los límites entre el bien y el mal.",
-        imgUrl: "/assets/books/Fantástico/El_misterioso_caso_del_dr_jekyll_y_mr_hyde/El_misterioso_caso_del_dr_jekyll_y_mr_hyde.jpeg",
+        imgUrl: "/assets/books/Fantástico/El_misterioso_caso_del_dr_jekyll_y_mr_hyde/jekyl.jpeg",
         qr: "/assets/books/Fantástico/El_misterioso_caso_del_dr_jekyll_y_mr_hyde/El_misterioso_caso_del_dr_jekyll_y_mr_hyde_qr.jpg",
     },
     {
@@ -1422,6 +1402,16 @@ const Books: BookCardProps[] = [
         desc: "La novela cuenta la historia de Robinson Crusoe, un marinero que naufraga en una isla desierta. A lo largo de 28 años, Crusoe lucha por sobrevivir, construye una vida en la isla y enfrenta desafíos tanto físicos como espirituales. La obra explora temas de soledad, ingenio humano y la relación entre el hombre y la naturaleza.",
         imgUrl: "/assets/books/Fantástico/Las_aventuras_de_robinson_crusoe/Las_aventuras_de_robinson_crusoe.jpg",
         qr: "/assets/books/Fantástico/7Las_aventuras_de_robinson_crusoeLas_aventuras_de_robinson_crusoe_qr.jpg",
+    },
+    {
+        id: 29,
+        titulo: "El Hombre que sabía demasiado",
+        autor: "G. K. Chesterton",
+        year_release: "1719",
+        category: "Policial",
+        desc: "Las historias de El hombre que sabía demasiado nos presentan a Horne Fisher, un investigador que no resuelve los crímenes gracias a su ingenio ni a sus dotes deductivas, sino por sus conocimientos sobre los entresijos de la política británica y por su intrincada red de contactos. Pero no es el único personaje peculiar de esta recopilación de relatos que subvierten el género policíaco y al mismo tiempo nos ofrecen una de las mejores obras de uno de los grandes autores que ha dado la literatura inglesa.",
+        imgUrl: "/assets/books/Policial/El_hombre_que_sabia_demasiado/El_hombre_que_sabia_demasiado.jpg",
+        qr: "/assets/books/Policial/El_hombre_que_sabia_demasiado/El_hombre_que_sabia_demasiado_qr.png",
     },
 ]
 

@@ -13,9 +13,9 @@ export default function QAGamePlay() {
     const [score, setScore] = useState(0);
     const [optionsPicked, setOptionsPicked] = useState<{ question: string, answer: string, isCorrect: boolean }[]>([]);
     const [isOpenGo, setIsOpenGo] = useState(false);
+    const [showAnswers, setShowAnswers] = useState(false);
     const [isFinished, setIsFinished] = useState(false);
     const [phrase, setPhrase] = useState({ title: '', desc: '' });
-    const [showAnswers, setShowAnswers] = useState(false);
     const navigate = useNavigate()
 
     const blocks = [1, 2, 3];
@@ -41,21 +41,24 @@ export default function QAGamePlay() {
             const finalPhrase = getPhrase(score);
             setPhrase(finalPhrase);
             setIsFinished(true);
-            setShowAnswers(true);
+            setIsOpenGo(true);
         } else {
             setCurrentQuestion(prev => prev + 1);
         }
     };
+    const closeModalGo = () => {
+        setIsOpenGo(false)
+        setShowAnswers(true)
+        console.log("game over");
+        
+    }
 
     const closeModalAnswers = () => {
         setShowAnswers(false)
-        setIsOpenGo(true)
-    }
-
-    const closeModalGo = () => {
-        setIsOpenGo(false)
+        console.log("answer cerrao");
         navigate('/qagame')
     }
+
 
     return (
         <>
@@ -81,26 +84,7 @@ export default function QAGamePlay() {
                     ))}
                 </div>
             </main>
-            {isFinished && showAnswers && <AnswersModal
-                isOpen={showAnswers}
-                onClose={closeModalAnswers}
-                content={
-                    <>
-                        <h1>Veriifica tus respuestas</h1>
-                        <section>
-                            {optionsPicked.map((picked, index) => (
-                                <div key={index}>
-                                    <p><strong>Pregunta: </strong>{picked.question}</p>
-                                    <p><strong>Respuesta Elegida: </strong>{picked.answer} ({picked.isCorrect ? 'Correcto' : 'Incorrecto'})</p>
-                                </div>
-                            ))}
-
-                        </section>
-                        <button onClick={closeModalAnswers} className="green">Siguiente</button>
-                    </>
-                }
-            ></AnswersModal>}
-            {isFinished && <GameOver
+            {isFinished && isOpenGo && <GameOver
                 isOpen={isOpenGo}
                 onClose={closeModalGo}
                 content={
@@ -108,10 +92,29 @@ export default function QAGamePlay() {
                         <span>Has conseguido responder correctamente: {score} de 6 preguntas</span>
                         <h2>{phrase.title}</h2>
                         <p>{phrase.desc}</p>
-                        <NavLink to={'/qagame'} className="green">Volver a empezar</NavLink>
+                        <button onClick={closeModalGo} className="green">Ver resultados</button>
                     </>
                 }
             ></GameOver>}
+            {isFinished && showAnswers && <AnswersModal
+                isOpen={showAnswers}
+                onClose={closeModalAnswers}
+                content={
+                    <>
+                        <h1>Verificá tus respuestas</h1>
+                        <section>
+                            {optionsPicked.map((picked, index) => (
+                                <div key={index}>
+                                    <p><strong className='yellow'><span>Pregunta: </span></strong>{picked.question}</p>
+                                    <p><strong className='violet-text'><span>Respuesta Elegida: </span></strong>{picked.answer} - <span className={picked.isCorrect ? 'correct' : 'incorrect'}>({picked.isCorrect ? 'Correcto' : 'Incorrecto'})</span></p>
+                                </div>
+                            ))}
+
+                        </section>
+                        <button onClick={closeModalAnswers} className="green">Volver a empezar</button>
+                    </>
+                }
+            ></AnswersModal>}
         </>
     );
 }
