@@ -1,5 +1,5 @@
 import '../styles/library.scss'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Library from "../components/Library/LibraryItems";
 import Header from "../components/ui/Header";
 import Categories from "../config/Categories";
@@ -15,6 +15,10 @@ export default function Biblioteca({categoryProp}: LibraryProp) {
   const [categorySelected, setCategorySelected] = useState<string>(id || categoryProp || "Clásicos")
   const [selectedBook, setSelectedBook] = useState<BookCardProps | null>(null);
   console.log("categoria: ", categorySelected);
+
+  useEffect(() => {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }, [categorySelected])
 
   const handleCategorySelected = (c: string) => {
     setCategorySelected(c)

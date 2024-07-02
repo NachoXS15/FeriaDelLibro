@@ -8,7 +8,7 @@ const Categories = [
     "Teatro",
     "Literatura Universal",
     "Cuentos",
-    "Poesia",
+    "Poesía",
     "Policial",
     "Ensayo/Filosofia",
     "Todos"
