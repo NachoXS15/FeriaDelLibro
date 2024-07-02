@@ -5,8 +5,8 @@
     justify-content: center;
     align-items: flex-start;
     margin: 0 auto;
-}
 
+}
 aside {
     width: 20%;
     height: 1000dvh;
@@ -14,8 +14,9 @@ aside {
     text-align: center;
     
     div{
-        // position: fixed;
-        // left: -30px;
+        position: sticky;
+        top: 10px;
+        left: -30px;
         text-align: center;
         button {
             background: none;

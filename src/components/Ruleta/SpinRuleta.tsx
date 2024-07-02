@@ -2,6 +2,7 @@ import { useState } from "react";
 import Phrases from "../../config/Phrases";
 import PhraseModal from "./PhraseModal";
 import { RuletaProps } from "../../config/types/RuletaProps";
+import wheel from '/assets/imgs/ruleta.svg'
 
 
 export default function SpinRuleta() {
@@ -9,26 +10,31 @@ export default function SpinRuleta() {
     const [selectedBook, setSelectedBook] = useState<RuletaProps | null>(null);
     const [selectedPhrase, setSelectedPhrase] = useState<string | null>(null);
     const [isModalOpen, setModalOpen] = useState<boolean>(false)
+    const [isSpinning, setIsSpinning] = useState(false)
 
     const handleSpin = () => {
-        const categories = [...new Set(Phrases.map(book => book.category))];
-        console.log(categories);
-        const randomCategoryIndex = Math.floor(Math.random() * categories.length);
-        const randomCategory = categories[randomCategoryIndex];
-        setSelectedCategory(randomCategory);
-
-        const booksCategory = Phrases.filter(book => book.category === randomCategory);
-        const randomBookIndex = Math.floor(Math.random() * booksCategory.length);
-        const bookSelected = booksCategory[randomBookIndex];
-        setSelectedBook(bookSelected);
-
-        const phraseBook = bookSelected.phrases;
-        const phraseEntries = Object.entries(phraseBook);
-        const randomEntryPhrase = phraseEntries[Math.floor(Math.random() * phraseEntries.length)];
-        const randomPhrase = randomEntryPhrase[1];
-        setSelectedPhrase(randomPhrase)
-
-        setModalOpen(true)
+        setIsSpinning(true)
+        setTimeout(() => {
+            const categories = [...new Set(Phrases.map(book => book.category))];
+            console.log(categories);
+            const randomCategoryIndex = Math.floor(Math.random() * categories.length);
+            const randomCategory = categories[randomCategoryIndex];
+            setSelectedCategory(randomCategory);
+    
+            const booksCategory = Phrases.filter(book => book.category === randomCategory);
+            const randomBookIndex = Math.floor(Math.random() * booksCategory.length);
+            const bookSelected = booksCategory[randomBookIndex];
+            setSelectedBook(bookSelected);
+    
+            const phraseBook = bookSelected.phrases;
+            const phraseEntries = Object.entries(phraseBook);
+            const randomEntryPhrase = phraseEntries[Math.floor(Math.random() * phraseEntries.length)];
+            const randomPhrase = randomEntryPhrase[1];
+            setSelectedPhrase(randomPhrase)
+    
+            setModalOpen(true)
+            setIsSpinning(false)
+        }, 4900)
     };
 
     const closeModal = () => {
@@ -37,7 +43,7 @@ export default function SpinRuleta() {
 
     return (
         <>
-            <img src="/assets/imgs/arrow_wheel.webp" alt="" width={500} />
+            <img src={wheel} className={isSpinning ? 'spin-animation': ''} width={500} />
             <button className='violet' onClick={handleSpin}>GIRAR</button>
             <PhraseModal
                 isOpen={isModalOpen}

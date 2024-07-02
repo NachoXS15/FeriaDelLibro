@@ -3,7 +3,7 @@ import Header from '../components/ui/Header';
 import Questiones from '../config/Questions';
 import { useState } from 'react';
 import GameOver from '../components/QAGame/GameOver';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import TimerBar from '../components/QAGame/Timer';
 import getPhrase from '../components/QAGame/getPhrase';
 import AnswersModal from '../components/QAGame/AnswersModal';

@@ -8,7 +8,7 @@ interface ModalProps {
 
 export default function BookModal({ onClose, children }: ModalProps) {
   return (
-    <div className="modal-overlay">
+    <div className="modal-overlay" onClick={onClose}>
       <div className="modal-box">
         <div className='modal-content'>
           <button onClick={onClose} className="modal-close-button">

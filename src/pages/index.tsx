@@ -35,14 +35,14 @@ export default function Inicio() {
           </div>
           <div id="bottom">
             <div id="book1"></div>
-            <NavLink to={'/ruleta'} className="red">Juega Ahora</NavLink>
+            <NavLink to={'/ruleta'} className="blue ruleta">Juega Ahora</NavLink>
             <div id="ruleta1"></div>
           </div>
         </section>
         <section id="qagame-index">
           <div id="qagame-index-left">
             <h1>Trivia Literaria</h1>
-            <NavLink to={'/qagame'} className='blue' style={{ padding: '10px 20px' }}>Juega Ahora</NavLink>
+            <NavLink to={'/qagame'} className='red' style={{ padding: '10px 20px' }}>Juega Ahora</NavLink>
           </div>
           <div id="qagame-index-right"></div>
         </section>
