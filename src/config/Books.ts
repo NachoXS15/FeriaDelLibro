@@ -309,7 +309,7 @@ const Books: BookCardProps[] = [
         category: "Fantástico",
         desc: "Drácula es una novela epistolar que narra la historia del Conde Drácula, un vampiro antiguo que deja su castillo en Transilvania para viajar a Londres en busca de nuevas víctimas y extender su influencia maligna. La historia se desarrolla a través de los diarios personales, cartas y registros de varios personajes, incluyendo al abogado Jonathan Harker, su prometida Mina Murray, el profesor Abraham Van Helsing y otros. A medida que los personajes descubren la verdad sobre Drácula y sus poderes sobrenaturales, se unen en una desesperada lucha para proteger a sus seres queridos y a la sociedad de la amenaza vampírica.",
         imgUrl: "/assets/books/Fantástico/Dracula/Dracula.jpg",
-        qr: "caca"
+        qr: "/assets/books/Fantástico/Dracula/Dracula_qr.jpg"
     },
     {
         id: 31,
@@ -319,7 +319,7 @@ const Books: BookCardProps[] = [
         category: "Fantástico",
         desc: "Drácula es una novela epistolar que narra la historia del Conde Drácula, un vampiro antiguo que deja su castillo en Transilvania para viajar a Londres en busca de nuevas víctimas y extender su influencia maligna. La historia se desarrolla a través de los diarios personales, cartas y registros de varios personajes, incluyendo al abogado Jonathan Harker, su prometida Mina Murray, el profesor Abraham Van Helsing y otros. A medida que los personajes descubren la verdad sobre Drácula y sus poderes sobrenaturales, se unen en una desesperada lucha para proteger a sus seres queridos y a la sociedad de la amenaza vampírica.",
         imgUrl: "/assets/books/Fantástico/La_caida_de_la_casa_usher/La_caida_de_la_casa_usher.jpg",
-        qr: "caca"
+        qr: "/assets/books/Fantástico/La_caida_de_la_casa_usher/La_caida_de_la_casa_usher_qr.jpg"
     },
     {
         id: 32,
@@ -1199,7 +1199,7 @@ const Books: BookCardProps[] = [
         category: "Cuentos",
         desc: "'La Señora del Perrito y otros cuentos' es una colección de cuentos escrita por el autor ruso Anton Chejov. Este libro incluye una selección de algunos de los cuentos más destacados de Chejov, conocido por su habilidad para captar la complejidad de las relaciones humanas y la vida cotidiana.",
         imgUrl: "/assets/books/cuentos/perrito/perrito.webp",
-        qr: "/assets/books/cuentos/perrito/perrito_qr.jpg"
+        qr: "/assets/books/cuentos/perrito/perrito_qr.png"
     },
     {
         id: 123,
@@ -1360,7 +1360,7 @@ const Books: BookCardProps[] = [
         year_release: "1886",
         category: "Fantástico",
         desc: "La historia sigue a Gabriel John Utterson, un abogado de Londres, que investiga las extrañas acciones de su amigo, el Dr. Henry Jekyll, y la relación de Jekyll con el siniestro Edward Hyde. A medida que Utterson profundiza en el misterio, descubre una verdad perturbadora sobre la dualidad de la naturaleza humana y los límites entre el bien y el mal.",
-        imgUrl: "/assets/books/Fantástico/El_misterioso_caso_del_dr_jekyll_y_mr_hyde/jekyl.jpeg",
+        imgUrl: "/assets/books/Fantástico/El_misterioso_caso_del_dr_jekyll_y_mr_hyde/El_misterioso_caso_del_dr_jekyll_y_mr_hyde.jpeg",
         qr: "/assets/books/Fantástico/El_misterioso_caso_del_dr_jekyll_y_mr_hyde/El_misterioso_caso_del_dr_jekyll_y_mr_hyde_qr.jpg",
     },
     {

@@ -7,10 +7,10 @@ const TimerBar = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setProgress((prevProgress) => {
-        const newProgress = prevProgress - (100 / (duration / 10)); // Reduce progress more frequently
+        const newProgress = prevProgress - (100 / (duration / 10));
         return newProgress >= 0 ? newProgress : 0;
       });
-    }, 10); // Update every 10ms for smoother animation
+    }, 10);
 
     return () => {
       clearInterval(interval);
@@ -21,7 +21,7 @@ const TimerBar = () => {
     <div className="progress-container">
       <div
         className="progress-bar"
-        style={{ width: `${progress}%`, marginLeft: `${(100 - progress) / 2}%` }}
+        style={{ width: `${progress}%`, marginLeft: `${(100 - progress) / 2}%`, backgroundColor: `${progress < 30 ? '#F26B76' : '#00695c'}` }}
       ></div>
     </div>
   );

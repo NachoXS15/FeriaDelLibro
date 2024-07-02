@@ -1,7 +1,7 @@
 import '../styles/qagame.scss';
 import Header from '../components/ui/Header';
 import Questiones from '../config/Questions';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import GameOver from '../components/QAGame/GameOver';
 import { useNavigate } from 'react-router-dom';
 import TimerBar from '../components/QAGame/Timer';
@@ -16,24 +16,57 @@ export default function QAGamePlay() {
     const [showAnswers, setShowAnswers] = useState(false);
     const [isFinished, setIsFinished] = useState(false);
     const [phrase, setPhrase] = useState({ title: '', desc: '' });
+    const [timeLeft, setTimeLeft] = useState(10);
     const navigate = useNavigate()
 
     const blocks = [1, 2, 3];
     const blockIndex = blocks[Math.floor(Math.random() * blocks.length)];
     const qaBlock = Questiones.filter(question => question.block === blockIndex);
-    console.log(qaBlock[currentQuestion]);
+    useEffect(() => {
+        setTimeLeft(10);
+        if (!isFinished) {
+            const timer = setTimeout(() => {
+                handleAnswer(false, null)
+            }, 10000);
+            return () => clearTimeout(timer)   
+        }
+    }, [currentQuestion, isFinished])
 
-    const handleAnswer = (isCorrect: boolean, e: React.MouseEvent<HTMLButtonElement>) => {
+    useEffect(() => {
+        if (!isFinished) {
+            const countdown = setInterval(() => {
+                setTimeLeft(prev => prev -1);
+            }, 10000)
+            
+            return () => clearInterval(countdown)
+        }
+
+    }, [timeLeft, isFinished])
+
+    const handleAnswer = (isCorrect: boolean, e: React.MouseEvent<HTMLButtonElement> | null) => {
+        if(isFinished) return;
+
         if (isCorrect) setScore(score + 1);
-        const target = e.target as HTMLButtonElement | null;
-        if (target) {
-            target.classList.add(isCorrect ? "correct" : "incorrect");
+        if (e) {
+            const target = e.target as HTMLButtonElement | null;
+            if (target) {
+                target.classList.add(isCorrect ? "correct" : "incorrect");
+                setOptionsPicked(prev => [
+                    ...prev,
+                    {
+                        question: qaBlock[currentQuestion].question,
+                        answer: target.textContent || '',
+                        isCorrect
+                    }
+                ]);
+            }
+        } else {
             setOptionsPicked(prev => [
                 ...prev,
                 {
                     question: qaBlock[currentQuestion].question,
-                    answer: target.textContent || '',
-                    isCorrect
+                    answer: '',
+                    isCorrect: false
                 }
             ]);
         }
@@ -48,14 +81,11 @@ export default function QAGamePlay() {
     };
     const closeModalGo = () => {
         setIsOpenGo(false)
-        setShowAnswers(true)
-        console.log("game over");
-        
+        setShowAnswers(true)        
     }
-
+    
     const closeModalAnswers = () => {
         setShowAnswers(false)
-        console.log("answer cerrao");
         navigate('/qagame')
     }
 
