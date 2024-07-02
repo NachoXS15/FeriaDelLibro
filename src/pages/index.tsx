@@ -1,6 +1,7 @@
 import '../styles/buttons.scss'
 import '../styles/index.scss'
 import { NavLink } from "react-router-dom";
+import bookCover from '../../public/assets/imgs/books_index.webp'
 import Header from "../components/ui/Header";
 import CategoryCard from "../components/ui/CategoryCard";
 export default function Inicio() {
@@ -15,7 +16,7 @@ export default function Inicio() {
             <NavLink className="blue" to={'/library'}>Ver más</NavLink>
           </div>
           <div>
-            <div className="test"></div>
+            <img src={bookCover} className='book-cover' alt="" width={1000} />
           </div>
         </section>
         <section id="categories">

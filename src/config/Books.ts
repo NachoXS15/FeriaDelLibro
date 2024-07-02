@@ -79,7 +79,7 @@ const Books: BookCardProps[] = [
         category: "Clásicos",
         desc: "En la segunda parte de Fausto, Goethe continúa la historia del erudito Fausto, ahora embarcado en un viaje más espiritual y filosófico. Fausto se encuentra en un conflicto entre sus aspiraciones terrenales y su búsqueda de redención y sabiduría espiritual. La trama se expande a través de diversos escenarios y personajes míticos, explorando temas como la ambición desenfrenada, el amor, la política y la naturaleza del alma humana. Goethe teje elementos de mitología y filosofía en una narrativa compleja que culmina en una reflexión profunda sobre la condición humana y el significado de la vida.",
         imgUrl: "/assets/books/Clásicos/Fausto_2/Fausto_2.jpg",
-        qr: "/assets/books/Clásicos/Fausto_1/Fausto_2_qr.jpg"
+        qr: "/assets/books/Clásicos/Fausto_2/Fausto_2_qr.jpg"
     },
     {
         id: 9,
@@ -126,7 +126,7 @@ const Books: BookCardProps[] = [
         titulo: "Guerra y Paz, tomo 1",
         autor: "León Tolstói",
         year_release: "1867",
-        category: "Poesia",
+        category: "Clásicos",
         desc: "Guerra y Paz es una novela que ofrece una visión panorámica de la sociedad rusa durante las guerras napoleónicas del siglo XIX. A través de las vidas de varios personajes aristocráticos, la obra explora temas como el amor, la guerra, la política y la búsqueda de sentido en la vida. Tolstói entrelaza magistralmente narrativas personales con eventos históricos significativos, proporcionando una representación detallada y vívida de la vida en la Rusia de la época. La novela es conocida por su profundidad psicológica, su rica descripción de los personajes y su reflexión sobre los temas universales que han resonado a lo largo de los siglos.",
         imgUrl: "/assets/books/Clásicos/Guerra_y_paz_tomo_1/Guerra_y_paz_tomo_1.jpg",
         qr: "/assets/books/Clásicos/Guerra_y_paz_tomo_1/Guerra_y_paz_tomo_1_qr.jpg"
@@ -165,11 +165,11 @@ const Books: BookCardProps[] = [
         id: 17,
         titulo: "El Conde de Montecristo 1",
         autor: "Alexandre Dumas y Auguste Maquet",
-        year_release: "1846",
+        year_release: "1844",
         category: "Clásicos",
         desc: "El conde de Montecristo narra la historia de Edmundo Dantès, un joven marinero que es injustamente encarcelado en la prisión de la isla de If. Después de años de confinamiento, Dantès logra escapar gracias a la ayuda de un compañero de prisión y descubre un tesoro en la remota isla de Montecristo. Con esta fortuna, regresa a la sociedad como el misterioso y poderoso conde de Montecristo, decidido a llevar a cabo una meticulosa venganza contra aquellos que lo traicionaron y condenaron injustamente.",
-        imgUrl: "/assets/books/Clásicos/Conde_de_montecristo_vol 1_y_2/Conde_de_montecristo_vol 1_y_2.webp",
-        qr: "/assets/books/Clásicos/Conde_de_montecristo_vol 1_y_2/Conde_de_montecristo_vol_1_qr.jpg"
+        imgUrl: "/assets/books/Clásicos/Conde_de_montecristo_vol_1_y_2/Conde_de_montecristo_vol_1_y_2.webp",
+        qr: "/assets/books/Clásicos/Conde_de_montecristo_vol_1_y_2/Conde_de_montecristo_vol_1_qr.jpg"
     },
     {
         id: 18,
@@ -349,7 +349,7 @@ const Books: BookCardProps[] = [
         category: "Literatura Argentina y Latinoamericana",
         desc: "«Los montoneros» (1884) es la continuación de la novela biográfica «El Chacho», sobre el líder federal Ángel «Chacho» Peñaloza. En la secuela de esta crónica militar se suceden los acontecimientos enmarcados en las guerras civiles argentinas.",
         imgUrl: "/assets/books/lit_arg_latam/montoneros/montoneros.jpg",
-        qr: "/assets/books/lit_arg_latam/montoneros/montoneros_qr.jpg"
+        qr: "/assets/books/lit_arg_latam/montoneros/montoneros_qr.png"
     },
     {
         id: 35,
@@ -1044,7 +1044,7 @@ const Books: BookCardProps[] = [
     {
         id: 105,
         titulo: "El abanico de Lady Windermere",
-        autor: "Federico García Lorca",
+        autor: "Oscar Wilde",
         year_release: "1892",
         category: "Teatro",
         desc: "Ambientada en una casa de luto en una aldea española, la obra explora temas de represión, celos y deseo a través de la vida de Bernarda Alba y sus cinco hijas.",
@@ -1069,7 +1069,7 @@ const Books: BookCardProps[] = [
         category: "Teatro",
         desc: "La obra plantea la pregunta filosófica sobre la realidad y el destino a través de la historia del príncipe Segismundo, quien es encarcelado desde su nacimiento debido a una profecía.",
         imgUrl: "/assets/books/Teatro/Seis_personajes_en_busca_de_autor/Seis_personajes_en_busca_de_autor.png",
-        qr: "/assets/books/Teatro/Seis_personajes_en_busca_de_autor/Seis_personajes_en_busca_de_autor.jpg"
+        qr: "/assets/books/Teatro/Seis_personajes_en_busca_de_autor/Seis_personajes_en_busca_de_autor_qr.jpg"
     },
     {
         id: 108,
@@ -1097,9 +1097,331 @@ const Books: BookCardProps[] = [
         autor: "Alexandre Dumas y Auguste Maquet",
         year_release: "1846",
         category: "Clásicos",
-        desc: "El conde de Montecristo narra la historia de Edmundo Dantès, un joven marinero que es injustamente encarcelado en la prisión de la isla de If. Después de años de confinamiento, Dantès logra escapar gracias a la ayuda de un compañero de prisión y descubre un tesoro en la remota isla de Montecristo. Con esta fortuna, regresa a la sociedad como el misterioso y poderoso conde de Montecristo, decidido a llevar a cabo una meticulosa venganza contra aquellos que lo traicionaron y condenaron injustamente.",
-        imgUrl: "/assets/books/Clásicos/Conde_de_montecristo_vol 1_y_2/Conde_de_montecristo_vol_1_y_2.webp",
-        qr: "/assets/books/Clásicos/Conde_de_montecristo_vol 1_y_2/Conde_de_montecristo_vol_2_qr.jpg"
+        desc: "En el segundo tomo de El conde de Montecristo, la venganza de Edmond Dantès toma forma mientras se establece en París bajo la identidad del Conde de Montecristo. Utilizando su vasta fortuna y su ingenio, Dantès comienza a ejecutar meticulosamente su plan para destruir a aquellos que lo traicionaron. A través de una serie de ingeniosas maquinaciones, Montecristo se introduce en la vida de sus enemigos: Fernand Mondego, ahora conde de Morcerf; Danglars, quien se ha convertido en un banquero poderoso; Gérard de Villefort, un influyente fiscal del rey; y Caderousse, un antiguo conocido convertido en criminal.",
+        imgUrl: "/assets/books/Clásicos/Conde_de_montecristo_vol_1_y_2/Conde_de_montecristo_vol_1_y_2.webp",
+        qr: "/assets/books/Clásicos/Conde_de_montecristo_vol_1_y_2/Conde_de_montecristo_vol_2_qr.jpg"
+    },
+    {
+        id: 111,
+        titulo: "Memoria de los Llanos",
+        autor: "Héctor David Garcia",
+        year_release: "1989",
+        category: "Riojanos",
+        desc: "Memoria de los Llanos de Héctor David García es una obra que se centra en la vida y cultura de los Llanos Orientales de Colombia y Venezuela. La narrativa se sumerge en el paisaje vasto y exuberante de los llanos, explorando las tradiciones, la historia, y las experiencias de las personas que habitan esta región.",
+        imgUrl: "/assets/books/riojanos/memorias_llanos/memoria_llanos.webp",
+        qr: "/assets/books/riojanos/memorias_llanos/memorias_llanos_qr.png"
+    },
+    {
+        id: 112,
+        titulo: "Los Fundadores del Olvido",
+        autor: "Héctor David Garcia",
+        year_release: "1993",
+        category: "Riojanos",
+        desc: "La Rioja Argentina, que siempre ha vivido un poco a contrapelo del país, indiferente u oponiéndose a las constantes dictadas por Buenos Aires, ha sido, por su historia, su situación geográfica y su etnia, una franja latinoamericana con todas sus peculiaridades culturales inherentes.Héctor David Gatica ha sido testigo y cronista de ese destino latinoamericano de La Rioja. Los trabajos reunidos en Los fundadores del Olvido responden plenamente a esa premisa. Las particulares de su «crónica» son ese ojo que escudriña poéticamente en los hechos, esto es, que los ve en profundidad, y un lenguaje que se adapta a esa visión utilizando ese castellano singular que ha quedado en nuestros campos.",
+        imgUrl: "/assets/books/riojanos/estudio_comp/estudio_comp.png",
+        qr: "/assets/books/riojanos/estudio_comp/estudio_comp_qr.png"
+    },
+    {
+        id: 113,
+        titulo: "Los Dias Sobre Mí",
+        autor: "Adriana Petrigliano",
+        year_release: "2014",
+        category: "Riojanos",
+        desc: "'Resumen de El Chacho y Urquiza de Miguel Bravo Tedín El libro explora la compleja relación entre el caudillo riojano Ángel Chacho Peñaloza y el presidente Justo José de Urquiza, dos figuras claves de la historia argentina del siglo XIX.",
+        imgUrl: "/assets/books/riojanos/dias_sobremi/dias_sobre_mi.jpg",
+        qr: "/assets/books/riojanos/dias_sobremi/dias_sobremi.png"
+    },
+    {
+        id: 114,
+        titulo: "Enrique Angelelli Obispo de La Rioja",
+        autor: "Ricardo Mercado Luna",
+        year_release: "1986",
+        category: "Riojanos",
+        desc: "Enrique Angelelli: Un Testigo de la Vida es una obra escrita por Ricardo Mercado Luna. El libro, publicado en 1986, es una biografía que aborda la vida y el trabajo pastoral de Enrique Angelelli, obispo de La Rioja en Argentina. Ricardo Mercado Luna, abogado y escritor, ofrece un detallado relato sobre la vida de Angelelli, su compromiso con los derechos humanos, su trabajo con los pobres y marginados, y las circunstancias que rodearon su asesinato en 1976 durante la dictadura militar argentina. La obra se centra en su legado como un defensor ferviente de la justicia social y los derechos humanos.",
+        imgUrl: "/assets/books/riojanos/angelelli/angelelli.webp",
+        qr: "/assets/books/riojanos/angelelli/angelelli_qr.jpg"
+    },
+    {
+        id: 115,
+        titulo: "El Final Más Feliz",
+        autor: "Marcelo Lacasa",
+        year_release: "0",
+        category: "Riojanos",
+        desc: "El final más felizes un libro escrito por Marcelo Lacasa. Publicado en 2017, esta obra aborda el asesinato del obispo Enrique Angelelli, ofreciendo una perspectiva detallada sobre los eventos que llevaron a su muerte y el impacto de su legado. Lacasa, a través de una narrativa bien documentada, explora los aspectos políticos, sociales y religiosos que rodearon la vida y la trágica muerte de Angelelli. El libro se enfoca en esclarecer las circunstancias de su asesinato, que fue inicialmente presentado como un accidente, pero que más tarde se confirmó como un homicidio perpetrado durante la dictadura militar argentina. No solo se detiene en los hechos históricos, sino que también reflexiona sobre el legado de Angelelli y su lucha por la justicia y los derechos humanos.",
+        imgUrl: "/assets/books/riojanos/memorias_llanos/memorias_llanos.webp",
+        qr: "/assets/books/riojanos/memorias_llanos/memorias_llanos_qr.png"
+    },
+    {
+        id: 116,
+        titulo: "El Corcino",
+        autor: "Plutarco Schaller",
+        year_release: "1997",
+        category: "Riojanos",
+        desc: "Editado en 1997, es el tercer libro escrito por Plutarco Schaller, en el cual el personaje principal es “Corcino” Díaz, uno de los tres hermanos que habitaban el paraje “Chimicomayo”, en el límite de los Dptos. Castro Barros y Arauco, al norte de la provincia de La Rioja, Argentina. Los otros hermanos son Carlitos (el mayor) y Juan (el menor), los cuales moraban en la única casa edificada en este paraje tan alejado de otros lugares habitados por el hombre.",
+        imgUrl: "/assets/books/riojanos/corcino/corcino.jpg",
+        qr: "/assets/books/riojanos/corcino/corcino_qr.png"
+    },
+    {
+        id: 117,
+        titulo: "Calibár en pos de la Utopía",
+        autor: "Luis Orecchia",
+        year_release: "2009",
+        category: "Riojanos",
+        desc: "La Rioja Argentina, que siempre ha vivido un poco a contrapelo del país, indiferente u oponiéndose a las constantes dictadas por Buenos Aires, ha sido, por su historia, su situación geográfica y su etnia, una franja latinoamericana con todas sus peculiaridades culturales inherentes.Héctor David Gatica ha sido testigo y cronista de ese destino latinoamericano de La Rioja. Los trabajos reunidos en Los fundadores del Olvido responden plenamente a esa premisa. Las particulares de su «crónica» son ese ojo que escudriña poéticamente en los hechos, esto es, que los ve en profundidad, y un lenguaje que se adapta a esa visión utilizando ese castellano singular que ha quedado en nuestros campos.",
+        imgUrl: "/assets/books/riojanos/calibar/calibar.png",
+        qr: "/assets/books/riojanos/calibar/calibar_qr.png"
+    },
+    {
+        id: 118,
+        titulo: "Cancionero Popular de La Rioja",
+        autor: "Juan Alfonso Carrizo",
+        year_release: "1937",
+        category: "Riojanos",
+        desc: "Es una obra recopilada por Juan Alfonso Carrizo, un destacado folclorista argentino. Publicado por primera vez en 1937, este cancionero es una colección de canciones, coplas, romances y décimas que forman parte del acervo cultural y musical de la provincia de La Rioja en Argentina.",
+        imgUrl: "/assets/books/riojanos/cancionero/cancionero.jpg",
+        qr: "/assets/books/riojanos/cancionero/cancionero_qr.png"
+    },
+    {
+        id: 119,
+        titulo: "El Libro de la Feria",
+        autor: "Roberto Rojo",
+        year_release: "2012",
+        category: "Riojanos",
+        desc: "El Libro de la Feria de Roberto Rojo es una obra que se centra en la historia, las tradiciones y las vivencias de las ferias populares, con un enfoque particular en las que se celebran en la región de América Latina. La obra ofrece un recorrido por las distintas manifestaciones culturales, sociales y económicas que convergen en estas ferias, que son eventos fundamentales para las comunidades.",
+        imgUrl: "/assets/books/riojanos/angelelli/angelelli.webp",
+        qr: "/assets/books/riojanos/angelelli/angelelli_qr.jpg"
+    },
+    {
+        id: 120,
+        titulo: "Cuentos Completos I",
+        autor: "Guy de Maupassant",
+        year_release: "1990",
+        category: "Cuentos",
+        desc: "La colección Cuentos completos de Guy de Maupassant reúne una gran variedad de relatos cortos escritos por el autor francés durante su carrera literaria. Maupassant es conocido por su estilo conciso y su capacidad para captar la naturaleza humana con agudeza y precisión.",
+        imgUrl: "/assets/books/cuentos/completos/cuentos_completos.jpg",
+        qr: "/assets/books/cuentos/completos/cuentos_completos_qr.png"
+    },
+    {
+        id: 121,
+        titulo: "Bartleby, el Escribiente",
+        autor: "Herman Melville",
+        year_release: "1853",
+        category: "Cuentos",
+        desc: "Es una obra recopilada por Juan Alfonso Carrizo, un destacado folclorista argentino. Publicado por primera vez en 1937, este cancionero es una colección de canciones, coplas, romances y décimas que forman parte del acervo cultural y musical de la provincia de La Rioja en Argentina.",
+        imgUrl: "/assets/books/cuentos/bartleby/bartleby.jpeg",
+        qr: "/assets/books/cuentos/bartleby/bartleby_qr.png"
+    },
+    {
+        id: 122,
+        titulo: "La Dama del Perrito y otros cuentos",
+        autor: "Anton Chéjov",
+        year_release: "1899",
+        category: "Cuentos",
+        desc: "'La Señora del Perrito y otros cuentos' es una colección de cuentos escrita por el autor ruso Anton Chejov. Este libro incluye una selección de algunos de los cuentos más destacados de Chejov, conocido por su habilidad para captar la complejidad de las relaciones humanas y la vida cotidiana.",
+        imgUrl: "/assets/books/cuentos/perrito/perrito.webp",
+        qr: "/assets/books/cuentos/perrito/perrito_qr.jpg"
+    },
+    {
+        id: 123,
+        titulo: "Relatos del difunto Iván Petróvich Belkin",
+        autor: "Aleksandr Pushkin",
+        year_release: "1831",
+        category: "Cuentos",
+        desc: "Es una colección variada que muestra la versatilidad literaria de Pushkin, desde relatos de amor y aventura hasta comentarios sociales y culturales, todos ellos escritos con su característico estilo lírico y profundo conocimiento de la psicología humana y la sociedad.",
+        imgUrl: "/assets/books/cuentos/ivan/ivan.jpg",
+        qr: "/assets/books/cuentos/ivan/ivan_qr.png"
+    },
+    {
+        id: 124,
+        titulo: "Relatos",
+        autor: "Stendhal",
+        year_release: "1837",
+        category: "Cuentos",
+        desc: "Stendhal, cuyo nombre real era Marie-Henri Beyle, es conocido principalmente por sus novelas, pero también escribió algunos relatos y cuentos a lo largo de su carrera. Uno de los conjuntos más destacados de relatos es Chroniques italiennes (Crónicas italianas), publicado en 1837. Esta colección incluye una serie de relatos cortos que exploran la vida, las costumbres y las peculiaridades de la sociedad italiana, basados en las experiencias de Stendhal durante sus viajes y estadías en Italia.",
+        imgUrl: "/assets/books/cuentos/stendhal/stendhal.jpg",
+        qr: "/assets/books/cuentos/stendhal/stendhal_qr.png"
+    },
+    {
+        id: 125,
+        titulo: "El Arte de Morir",
+        autor: "Émile Zola",
+        year_release: "1889",
+        category: "Cuentos",
+        desc: "En 'El arte de morir', Zola aborda la cuestión de la muerte y la religión, situando la trama en torno a un joven médico ateo, François Mouret, quien experimenta una transformación espiritual después de presenciar una serie de eventos dramáticos y enfrentar una crisis personal. La novela examina cómo Mouret, inicialmente escéptico y racionalista, se ve confrontado con cuestiones existenciales profundas y encuentra consuelo y redención a través de la fe religiosa.",
+        imgUrl: "/assets/books/cuentos/arte_morir/arte_morir.webp",
+        qr: "/assets/books/cuentos/arte_morir/arte_morir_qr.png"
+    },
+    {
+        id: 126,
+        titulo: "El Matadero",
+        autor: "Esteban Echeverría",
+        year_release: "1871",
+        category: "Cuentos",
+        desc: "En este contexto, surge el relato El Matadero, uno de los primeros cuentos que presenta la lucha contra la tiranía y el anticlericalismo en Hispanoamérica. El relato está enmarcado en la situación sociopolítica que atraviesa el país en ese momento histórico. por la dictadura de los federales rosistas.",
+        imgUrl: "/assets/books/cuentos/matadero/matedero.jpg",
+        qr: "/assets/books/cuentos/matadero/matadero_qr.png"
+    },
+    {
+        id: 127,
+        titulo: "Cuentos de amor de locura y de muerte",
+        autor: "Horacio Quiroga",
+        year_release: "1917",
+        category: "Cuentos",
+        desc: "Cuentos de amor, de locura y de muerte es una colección que muestra la maestría de Horacio Quiroga para explorar lo más profundo y oscuro de la experiencia humana, con historias que impactan por su intensidad emocional, su ambientación evocadora y su capacidad para explorar los aspectos más perturbadores de la condición humana.",
+        imgUrl: "/assets/books/cuentos/amor_locura_muerte/amor_locura_muerte.jpeg",
+        qr: "/assets/books/cuentos/amor_locura_muerte/amor_locura_muerte_qr.png"
+    },
+    {
+        id: 128,
+        titulo: "Tres Cuentos",
+        autor: "Miguel de Unamuno",
+        year_release: "1907",
+        category: "Cuentos",
+        desc: "Unamuno explora temas existenciales y filosóficos a través de historias breves y profundas. Aunque la recopilación específica titulada Tres cuentos no es ampliamente conocida, Unamuno escribió numerosos cuentos a lo largo de su carrera que exploran temas como la identidad, la fe, el destino y la condición humana.",
+        imgUrl: "/assets/books/cuentos/3_cuentos/3_cuentos.png",
+        qr: "/assets/books/cuentos/3_cuentos/3_cuentos_qr.png"
+    },
+    {
+        id: 129,
+        titulo: "Recopilatorio de Cuentos",
+        autor: "Leopoldo Alas Clarín",
+        year_release: "2021",
+        category: "Cuentos",
+        desc: "Texto que aúna toda la obra breve de Leopoldo Alas, Clarín. Se articula en torno a sus cuentos breves, casi siempre con trasfondo costumbrista, político o social, muy arraigado tanto a la tierra asturiana como teñido de una profunda amargura cubierta de velo irónico con la que contempla la sociedad de su época, sobre todo en cuanto a la política. Destaca asimismo su cuidado por la prosa y el estilo cercano al lirismo de algunos cuentos.",
+        imgUrl: "/assets/books/cuentos/cuentos_leopoldo/cuentos_leopoldo.jpeg",
+        qr: "/assets/books/cuentos/cuentos_leopoldo/cuentos_leopoldo_qr.png"
+    },
+    {
+        id: 130,
+        titulo: "Cuentos Completos",
+        autor: "Roberto Arlt",
+        year_release: "2016",
+        category: "Cuentos",
+        desc: "Las narraciones de Roberto Arlt contenidas en este volumen constituyen un capítulo fundamental de sus trabajos de escritor y una especie de antropología. En su mayor parte, son relatos en los que el ardor y la furia tan próximos, como vemos en los animales, y tan dispares, como se parecen por sus consecuencias en los seres humanos, se presentan emparentados, magistralmente unidos en destinos tortuosos, que se deslizan por toboganes a veces de irrisión, a veces de pureza. Los personajes de estos cuentos alcanzan la categoría de verdaderos héroes del subsuelo, individuos de una vida desfigurada, cuya desgracia consiste en poseer una suerte de lucidez producto de una profunda capacidad introspectiva, la cual los coloca permanentemente ante el espectáculo del magma bullente que es toda alma humana. Arlt fue diseñando sus historias, aparecidas en periódicos argentinos, al lado de su labor como cronista de sucesos, con una escritura que debe al cine norteamericano de la época su capacidad de adaptarse a la excavación profunda tanto como la broma de altura. En el sube y baja de su personalidad, Arlt se muestra conmiserativo con sus criaturas, con su naturaleza de seres perdidos, arrumbados en las orillas sucias de la sociedad, desgajados de la vida.",
+        imgUrl: "/assets/books/cuentos/completos_arlt/completos_arlt.jpg",
+        qr: "/assets/books/cuentos/completos_arlt/completos_arlt_qr.png"
+    },
+    {
+        id: 131,
+        titulo: "Cuentos Fatales",
+        autor: "Roberto Arlt",
+        year_release: "1924",
+        category: "Cuentos",
+        desc: "Cuentos fatales es una recopilación de cuentos del escritor argentino Leopoldo Lugones. Publicado en 1924, este libro reúne cinco relatos que aparecieron en el diario La Nación entre los años 1923 y 1924.",
+        imgUrl: "/assets/books/cuentos/fatales/fatales.jpg",
+        qr: "/assets/books/cuentos/fatales/fatales_qr.png"
+    },
+    {
+        id: 132,
+        titulo: "El Alienista",
+        autor: "Machado de Assis",
+        year_release: "1882",
+        category: "Cuentos",
+        desc: "Se trata de una novela que narra el viaje del protagonista a través de la ciencia y de su poder. Esta es la historia de un psiquiatra, científico y médico: el doctor Simón Bacamarte, quien emprende la aventura quijotesca de descubrir el límite exacto entre la razón y la locura.",
+        imgUrl: "/assets/books/cuentos/alienistas/alienista.jpg",
+        qr: "/assets/books/cuentos/alienistas/alienistas_qr.png"
+    },
+    {
+        id: 133,
+        titulo: "Borderland",
+        autor: "Atilio Chiappori",
+        year_release: "1996",
+        category: "Cuentos",
+        desc: "La trama de Borderland gira en torno a una familia que vive en la región fronteriza entre Argentina y Uruguay. A través de la historia de los personajes principales, Chiappori explora las tensiones culturales y las dinámicas familiares, así como las influencias de la geografía y la historia en la vida de las personas que habitan en esta zona limítrofe.",
+        imgUrl: "/assets/books/cuentos/borderland/borderland.png",
+        qr: "/assets/books/cuentos/borderland/borderland_qr.png"
+    },
+    
+    // ------------------------------------------------------
+    {
+        id: 119,
+        titulo: "El avaro",
+        autor: "Molière",
+        year_release: "1668",
+        category: "Teatro",
+        desc: "Narra la historia de Harpagón, un hombre extremadamente tacaño, y sus complicaciones familiares y amorosas debido a su obsesión por el dinero.",
+        imgUrl: "/assets/books/Teatro/El_avaro/El_avaro.jpg",
+        qr: "/assets/books/Teatro/El_avaro/El_avaro_qr.jpg"
+    },
+    {
+        id: 119,
+        titulo: "¡Jettatore!",
+        autor: "Gregorio de Laferrère",
+        year_release: "1904",
+        category: "Teatro",
+        desc: "La obra aborda la superstición y el miedo en la sociedad argentina de principios del siglo XX, centrada en un hombre al que se atribuyen poderes maléficos.",
+        imgUrl: "/assets/books/Teatro/Jettatore/Jettatore.webp",
+        qr: "/assets/books/Teatro/Jettatore/Jettatore_qr.jpg"
+    },
+    {
+        id: 119,
+        titulo: "La casa de Bernarda Alba",
+        autor: "Federico García Lorca",
+        year_release: "1945",
+        category: "Teatro",
+        desc: "Ambientada en una casa de luto en una aldea española, la obra explora temas de represión, celos y deseo a través de la vida de Bernarda Alba y sus cinco hijas.",
+        imgUrl: "/assets/books/Teatro/La_casa_de_bernarda_alba/La_casa_de_bernarda_alba.jpg",
+        qr: "/assets/books/Teatro/La_casa_de_bernarda_alba/La_casa_de_bernarda_alba_qr.jpg"
+    },
+    {
+        id: 29,
+        titulo: "El color que cayó del cielo",
+        autor: "Howard Phillips Lovecraft",
+        year_release: "1927",
+        category: "Fantástico",
+        desc: "El relato cuenta la historia de un extraño meteorito que cae en una zona rural cerca de Arkham, Massachusetts. La piedra emite un color indescriptible y provoca cambios inquietantes en la vegetación, los animales y las personas que viven cerca de donde cayó. A medida que pasan los meses, la tierra se vuelve estéril y los efectos sobre los seres vivos se vuelven más siniestros y devastadores, llevando a una exploración del impacto de lo desconocido en lo cotidiano.",
+        imgUrl: "/assets/books/Fantástico/El_color_que_cayo_del_cielo/El_color_que_cayo_del_cielo.jpg",
+        qr: "/assets/books/Fantástico/El_color_que_cayo_del_cielo/El_color_que_cayo_del_cielo_qr.jpg",
+    },
+    {
+        id: 29,
+        titulo: "El extraño caso del doctor Jekyll y el señor Hyde",
+        autor: "Robert Louis Stevenson",
+        year_release: "1886",
+        category: "Fantástico",
+        desc: "La historia sigue a Gabriel John Utterson, un abogado de Londres, que investiga las extrañas acciones de su amigo, el Dr. Henry Jekyll, y la relación de Jekyll con el siniestro Edward Hyde. A medida que Utterson profundiza en el misterio, descubre una verdad perturbadora sobre la dualidad de la naturaleza humana y los límites entre el bien y el mal.",
+        imgUrl: "/assets/books/Fantástico/El_misterioso_caso_del_dr_jekyll_y_mr_hyde/El_misterioso_caso_del_dr_jekyll_y_mr_hyde.jpeg",
+        qr: "/assets/books/Fantástico/El_misterioso_caso_del_dr_jekyll_y_mr_hyde/El_misterioso_caso_del_dr_jekyll_y_mr_hyde_qr.jpg",
+    },
+    {
+        id: 29,
+        titulo: "El fantasma de Canterville",
+        autor: "Oscar Wilde",
+        year_release: "1887",
+        category: "Fantástico",
+        desc: "La historia trata sobre una familia estadounidense, los Otis, que se muda a un castillo inglés embrujado por el fantasma de Sir Simon. A diferencia de los anteriores inquilinos, los Otis no se asustan del fantasma, sino que lo enfrentan con humor y pragmatismo, lo que lleva a situaciones cómicas y a una reflexión sobre el perdón y la redención.",
+        imgUrl: "/assets/books/Fantástico/El_fantasma_de_canterville/El_fantasma_de_canterville.jpeg",
+        qr: "/assets/books/Fantástico/El_fantasma_de_canterville/El_fantasma_de_canterville_qr.jpg",
+    },
+    {
+        id: 29,
+        titulo: "Historias de fantasmas",
+        autor: "Charles Dickens",
+        year_release: "1866",
+        category: "Fantástico",
+        desc: "Este libro es una colección de tres cuentos de fantasmas escritos por Charles Dickens, incluyendo 'The Signal-Man', 'The Haunted House' y 'The Trial for Murder'. Cada historia presenta eventos sobrenaturales y atmósferas inquietantes, explorando temas como el miedo, la culpa y el misterio.",
+        imgUrl: "/assets/books/Fantástico/Historias_de _fantasmas/Historias_de _fantasmas.jpg",
+        qr: "/assets/books/Fantástico/Historias_de _fantasmas/Historias_de _fantasmas_qr.jpg",
+    },
+    {
+        id: 29,
+        titulo: "Los viajes de Gulliver",
+        autor: "Jonathan Swift",
+        year_release: "1726",
+        category: "Fantástico",
+        desc: "La novela narra las aventuras del cirujano Lemuel Gulliver, quien viaja a varias tierras extrañas, incluyendo Liliput, donde los habitantes son diminutos, y Brobdingnag, donde son gigantes. A través de sus encuentros con diferentes sociedades y culturas, Swift ofrece una sátira mordaz de la política, la religión y la naturaleza humana.",
+        imgUrl: "/assets/books/Fantástico/Los_viajes_de_gulliver/Los_viajes_de_gulliver.jpeg",
+        qr: "/assets/books/Fantástico/Los_viajes_de_gulliver/Los_viajes_de_gulliver_qr.jpg",
+    },
+    {
+        id: 29,
+        titulo: "Robinson Crusoe",
+        autor: "Daniel Defoe",
+        year_release: "1719",
+        category: "Fantástico",
+        desc: "La novela cuenta la historia de Robinson Crusoe, un marinero que naufraga en una isla desierta. A lo largo de 28 años, Crusoe lucha por sobrevivir, construye una vida en la isla y enfrenta desafíos tanto físicos como espirituales. La obra explora temas de soledad, ingenio humano y la relación entre el hombre y la naturaleza.",
+        imgUrl: "/assets/books/Fantástico/Las_aventuras_de_robinson_crusoe/Las_aventuras_de_robinson_crusoe.jpg",
+        qr: "/assets/books/Fantástico/7Las_aventuras_de_robinson_crusoeLas_aventuras_de_robinson_crusoe_qr.jpg",
     },
 ]
 
