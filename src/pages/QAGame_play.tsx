@@ -18,7 +18,8 @@ export default function QAGamePlay() {
     const [phrase, setPhrase] = useState({ title: '', desc: '' });
     const [timeLeft, setTimeLeft] = useState(10);
     const navigate = useNavigate()
-
+    console.log(timeLeft);
+    
     const blocks = [1, 2, 3];
     const blockIndex = blocks[Math.floor(Math.random() * blocks.length)];
     const qaBlock = Questiones.filter(question => question.block === blockIndex);
