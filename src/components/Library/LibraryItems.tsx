@@ -1,7 +1,8 @@
 import BookCard from './BookCard'
 import Books from '../../config/Books'
-import { useEffect, useState } from 'react'
+import { Suspense, useEffect, useState } from 'react'
 import { BookCardProps } from '../../config/types/BookCardProps'
+import LoadingTimer from '../../config/LoadingTimer'
 type LibraryProps = {
     categorySelected: string
     onBookClick: (book: BookCardProps) => void;
@@ -16,16 +17,19 @@ export default function Library({ categorySelected, onBookClick }: LibraryProps)
         console.log(count);
     }, [filteredBooks])
     return (
-        <>
-            <div id='book-section'>
-                {filteredBooks.length > 0 ? (
-                    filteredBooks.map((book, index) => (
-                        <BookCard key={index} {...book} onBookClick={onBookClick} />
-                    ))
-                ) : (
-                    <h2>No se encontraron libros para esta categoria</h2>
-                )}
-            </div>
+        <>  
+            <Suspense fallback={<LoadingTimer />}>
+            
+                <div id='book-section'>
+                    {filteredBooks.length > 0 ? (
+                        filteredBooks.map((book, index) => (
+                            <BookCard key={index} {...book} onBookClick={onBookClick} />
+                        ))
+                    ) : (
+                        <h2>No se encontraron libros para esta categoria</h2>
+                    )}
+                </div>
+            </Suspense>
         </>
     )
 }

@@ -1104,12 +1104,12 @@ const Books: BookCardProps[] = [
     {
         id: 112,
         titulo: "Los Fundadores del Olvido",
-        autor: "Héctor David Garcia",
+        autor: "Héctor David Gática",
         year_release: "1993",
         category: "Riojanos",
         desc: "La Rioja Argentina, que siempre ha vivido un poco a contrapelo del país, indiferente u oponiéndose a las constantes dictadas por Buenos Aires, ha sido, por su historia, su situación geográfica y su etnia, una franja latinoamericana con todas sus peculiaridades culturales inherentes.Héctor David Gatica ha sido testigo y cronista de ese destino latinoamericano de La Rioja. Los trabajos reunidos en Los fundadores del Olvido responden plenamente a esa premisa. Las particulares de su «crónica» son ese ojo que escudriña poéticamente en los hechos, esto es, que los ve en profundidad, y un lenguaje que se adapta a esa visión utilizando ese castellano singular que ha quedado en nuestros campos.",
-        imgUrl: "/assets/books/riojanos/estudio_comp/estudio_comp.png",
-        qr: "/assets/books/riojanos/estudio_comp/estudio_comp_qr.png"
+        imgUrl: "/assets/books/riojanos/fundadores_olvido/fundadores_olvido.jpg",
+        qr: "/assets/books/riojanos/fundadores_olvido/fundadores_olvido_qr.png"
     },
     {
         id: 113,

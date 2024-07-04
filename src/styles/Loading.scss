@@ -1,0 +1,19 @@
+body:has(.loading){
+    width: 100%;
+    min-width: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.load{
+    animation: load 10s linear;
+}
+
+@keyframes load {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(4080deg);
+    }
+  }

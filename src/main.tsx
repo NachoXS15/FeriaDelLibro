@@ -10,6 +10,7 @@ import Biblioteca from './pages/Bibiloteca'
 import Ruleta from './pages/Ruleta';
 import Game from './pages/QAGame';
 import QAGamePlay from './pages/QAGame_play';
+import LoadingTimer from './config/LoadingTimer';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: '/qagame/play',
     element: <QAGamePlay />
+  },
+  {
+    path: '/testload',
+    element: <LoadingTimer />
   }
 ]) 
 

@@ -6,8 +6,6 @@ Interactive WebApp developed to be displayed and used by attendees at the La Rio
 
 ![image](https://github.com/NachoXS15/FeriaDelLibro/assets/86374911/746406ff-cfa9-4abf-a9d4-cf13e0609a40)
 
-
-
 # Features
 
 ## Biblioteca Digital | Digital Library
@@ -18,8 +16,6 @@ A digital library where books and their respective categories are shown, each wi
 
 ![image](https://github.com/NachoXS15/FeriaDelLibro/assets/86374911/6dee7fcb-fd89-4fba-aa2f-6709ff8b6388)
 
-
-
 ## Ruleta Literaria | Literary Wheel
 
 Una ruleta la cual te entrega una frase de una colección de libros pertenecientes a una cierta categoria.
@@ -28,13 +24,9 @@ A wheel which gives you a phrase from a book collection that belongs to a certai
 
 ![image](https://github.com/NachoXS15/FeriaDelLibro/assets/86374911/0b7bdb27-cdcc-4bf6-a9a6-7e84afd4f20d)
 
-
 ![image](https://github.com/NachoXS15/FeriaDelLibro/assets/86374911/ef9f78c3-37c5-49a4-adec-ce65f322ee66)
 
-
-
-
-## Trivia Literaria
+## Trivia Literaria | Literary Quiz
 
 Un juego de Preguntas y Respuestas sobre datos o hechos pertenecientes a libros o al contexto de ellos. Al finalizar, te da una frase de felicitaciones, o de ánimos en base a tu puntaje, para luego poder ver los resultados de tus respuestas.
 
@@ -42,19 +34,15 @@ A Q&A Game about facts o information about books or their context. Once finished
 
 ![image](https://github.com/NachoXS15/FeriaDelLibro/assets/86374911/e7a17f0b-931f-4c2f-acdb-7ed7b84a3f98)
 
-
 ![image](https://github.com/NachoXS15/FeriaDelLibro/assets/86374911/79afa593-0edc-47f5-a91d-848edf6d7ea4)
 
-
-
-
-## Stack:
+## Stack
 
 - Framework: React (with Vite)
 - Lenguage: TypeScript
 - Stylized with/Estilizado con: SCSS
 
-## Team:
+## Team
 
-- Desarrollado por - Developed by: Ignacio Joaquín Pantoja
+- Desarrollado por - Developed by: [Ignacio Joaquín Pantoja](www.linkedin.com/in/nachoxs15)
 - Diseñado por - Designed by: Marco Villafañe Barbosa
