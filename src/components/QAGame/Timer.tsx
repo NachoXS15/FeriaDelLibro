@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 const TimerBar = () => {
   const [progress, setProgress] = useState(100);
-  const duration = 10000; // 10 seconds
+  const duration = 15000;
 
   useEffect(() => {
     const interval = setInterval(() => {

@@ -16,7 +16,7 @@ export default function QAGamePlay() {
     const [showAnswers, setShowAnswers] = useState(false);
     const [isFinished, setIsFinished] = useState(false);
     const [phrase, setPhrase] = useState({ title: '', desc: '' });
-    const [timeLeft, setTimeLeft] = useState(10);
+    const [timeLeft, setTimeLeft] = useState(15);
     const navigate = useNavigate()
     console.log(timeLeft);
     
@@ -24,11 +24,11 @@ export default function QAGamePlay() {
     const blockIndex = blocks[Math.floor(Math.random() * blocks.length)];
     const qaBlock = Questiones.filter(question => question.block === blockIndex);
     useEffect(() => {
-        setTimeLeft(10);
+        setTimeLeft(15);
         if (!isFinished) {
             const timer = setTimeout(() => {
                 handleAnswer(false, null)
-            }, 10000);
+            }, 15000);
             return () => clearTimeout(timer)
         }
     }, [currentQuestion, isFinished])
